@@ -1,0 +1,13 @@
+{
+  "id": "MSB",
+  "label": "Majority Standard Bible",
+  "abbreviation": "MSB",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2023,
+  "canon": "protestant",
+  "philosophy": "dynamic",
+  "manuscriptTradition": ["Masoretic Text", "Byzantine Majority Text"],
+  "textualBasis": "OT translated from the Masoretic Text. NT translated from the Byzantine Majority Text, representing the manuscript tradition preserved in the majority of surviving Greek NT manuscripts. Combines the Berean Standard Bible base with NT revisions to reflect the Majority Text tradition.",
+  "copyright": "The Holy Bible, Majority Standard Bible, MSB is produced in cooperation with Bible Hub, Discovery Bible, unfoldingWord, Bible Aquifer, OpenBible.com, and the Berean Bible Translation Committee. This text of God's Word has been dedicated to the public domain."
+}

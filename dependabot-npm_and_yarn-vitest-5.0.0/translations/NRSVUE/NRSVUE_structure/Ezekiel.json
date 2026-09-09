@@ -1,0 +1,3379 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Chariot"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Scroll"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "heading",
+    "text": "Ezekiel at the River Chebar"
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 22,
+    "type": "heading",
+    "text": "Ezekiel Isolated and Silenced"
+  },
+  {
+    "ch": 3,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Siege of Jerusalem Portrayed"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "A Sword against Jerusalem"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Judgment on Idolatrous Israel"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "Impending Disaster"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 21,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Abominations in the Temple"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Slaughter of the Idolaters"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Glory Leaves Jerusalem"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Judgment on Wicked Counselors"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 14,
+    "type": "heading",
+    "text": "God Will Restore Israel"
+  },
+  {
+    "ch": 11,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "Judah’s Captivity Portrayed"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 17,
+    "type": "heading",
+    "text": "Judgment Not Postponed"
+  },
+  {
+    "ch": 12,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "False Prophets Condemned"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Judgments Justified"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "The Useless Vine"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 2,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 2,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Faithless Bride"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 59,
+    "type": "heading",
+    "text": "An Everlasting Covenant"
+  },
+  {
+    "ch": 16,
+    "v": 59,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "heading",
+    "text": "The Two Eagles and the Vine"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 17,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 17,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 22,
+    "type": "heading",
+    "text": "Israel Exalted at Last"
+  },
+  {
+    "ch": 17,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 23,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 17,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 17,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 17,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "heading",
+    "text": "Individual Retribution"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel Degraded"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 19,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 19,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 19,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel’s Continuing Rebellion"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 33,
+    "type": "heading",
+    "text": "God Will Restore Israel"
+  },
+  {
+    "ch": 20,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 45,
+    "type": "heading",
+    "text": "A Prophecy against the Negeb"
+  },
+  {
+    "ch": 20,
+    "v": 45,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "heading",
+    "text": "The Drawn Sword of God"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 14,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 25,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 29,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 29,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 29,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 30,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 30,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 31,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 31,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 32,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 32,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "heading",
+    "text": "The Bloody City"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "heading",
+    "text": "Oholah and Oholibah"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 33,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 23,
+    "v": 33,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 33,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 34,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 34,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 35,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "heading",
+    "text": "The Boiling Pot"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "heading",
+    "text": "Ezekiel’s Bereavement"
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "heading",
+    "text": "Proclamation against Ammon"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 8,
+    "type": "heading",
+    "text": "Proclamation against Moab"
+  },
+  {
+    "ch": 25,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 12,
+    "type": "heading",
+    "text": "Proclamation against Edom"
+  },
+  {
+    "ch": 25,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 15,
+    "type": "heading",
+    "text": "Proclamation against Philistia"
+  },
+  {
+    "ch": 25,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "heading",
+    "text": "Proclamation against Tyre"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 26,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 26,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 8,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 26,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 18,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 26,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 26,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 26,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "heading",
+    "text": "Lamentation over Tyre"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 27,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 26,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 27,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 29,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 29,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 30,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 30,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 31,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 31,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 32,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 32,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 33,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 33,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 34,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 34,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 35,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 35,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 27,
+    "v": 36,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 27,
+    "v": 36,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "heading",
+    "text": "Proclamation against the King of Tyre"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 28,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 11,
+    "type": "heading",
+    "text": "Lamentation over the King of Tyre"
+  },
+  {
+    "ch": 28,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 13,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 28,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 20,
+    "type": "heading",
+    "text": "Proclamation against Sidon"
+  },
+  {
+    "ch": 28,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 23,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 28,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 28,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 28,
+    "v": 25,
+    "type": "heading",
+    "text": "Future Blessing for Israel"
+  },
+  {
+    "ch": 28,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "heading",
+    "text": "Proclamation against Egypt"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 29,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 29,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 29,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 29,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 29,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 17,
+    "type": "heading",
+    "text": "Babylonia Will Plunder Egypt"
+  },
+  {
+    "ch": 29,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "heading",
+    "text": "Lamentation for Egypt"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 30,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 30,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 10,
+    "type": "blockquote"
+  },
+  {
+    "ch": 30,
+    "v": 11,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 30,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 14,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 30,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 30,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 20,
+    "type": "heading",
+    "text": "Proclamation against Pharaoh"
+  },
+  {
+    "ch": 30,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "heading",
+    "text": "The Lofty Cedar"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 31,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 13,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 31,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 31,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 15,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 31,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 31,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "heading",
+    "text": "Lamentation over Pharaoh and Egypt"
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 32,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 9,
+    "type": "poetry",
+    "indent": 4
+  },
+  {
+    "ch": 32,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 17,
+    "type": "heading",
+    "text": "Dirge over Egypt"
+  },
+  {
+    "ch": 32,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 18,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 32,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 32,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 32,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "heading",
+    "text": "Ezekiel, Israel’s Sentry"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 10,
+    "type": "heading",
+    "text": "God’s Justice and Mercy"
+  },
+  {
+    "ch": 33,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 21,
+    "type": "heading",
+    "text": "The Fall of Jerusalem"
+  },
+  {
+    "ch": 33,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 23,
+    "type": "heading",
+    "text": "The Survivors in Judah"
+  },
+  {
+    "ch": 33,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel’s False Shepherds"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 11,
+    "type": "heading",
+    "text": "God, the True Shepherd"
+  },
+  {
+    "ch": 34,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "heading",
+    "text": "Judgment on Mount Seir"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 35,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 35,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 35,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 35,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "heading",
+    "text": "Blessing on Israel"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 16,
+    "type": "heading",
+    "text": "The Renewal of Israel"
+  },
+  {
+    "ch": 36,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 1,
+    "type": "heading",
+    "text": "The Valley of Dry Bones"
+  },
+  {
+    "ch": 37,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 15,
+    "type": "heading",
+    "text": "The Two Sticks"
+  },
+  {
+    "ch": 37,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 1,
+    "type": "heading",
+    "text": "Invasion by Gog"
+  },
+  {
+    "ch": 38,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 17,
+    "type": "heading",
+    "text": "Judgment on Gog"
+  },
+  {
+    "ch": 38,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 1,
+    "type": "heading",
+    "text": "Gog’s Armies Destroyed"
+  },
+  {
+    "ch": 39,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 11,
+    "type": "heading",
+    "text": "The Burial of Gog"
+  },
+  {
+    "ch": 39,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 21,
+    "type": "heading",
+    "text": "Israel Restored to the Land"
+  },
+  {
+    "ch": 39,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the New Temple"
+  },
+  {
+    "ch": 40,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 48,
+    "type": "heading",
+    "text": "The Temple"
+  },
+  {
+    "ch": 40,
+    "v": 48,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 1,
+    "type": "heading",
+    "text": "The Holy Chambers and the Outer Wall"
+  },
+  {
+    "ch": 42,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 1,
+    "type": "heading",
+    "text": "The Divine Glory Returns to the Temple"
+  },
+  {
+    "ch": 43,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 13,
+    "type": "heading",
+    "text": "The Altar"
+  },
+  {
+    "ch": 43,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 1,
+    "type": "heading",
+    "text": "The Closed Gate"
+  },
+  {
+    "ch": 44,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 4,
+    "type": "heading",
+    "text": "Admission to the Temple"
+  },
+  {
+    "ch": 44,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 15,
+    "type": "heading",
+    "text": "The Levitical Priests"
+  },
+  {
+    "ch": 44,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 1,
+    "type": "heading",
+    "text": "The Holy District"
+  },
+  {
+    "ch": 45,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 10,
+    "type": "heading",
+    "text": "Weights and Measures"
+  },
+  {
+    "ch": 45,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 13,
+    "type": "heading",
+    "text": "Offerings"
+  },
+  {
+    "ch": 45,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 18,
+    "type": "heading",
+    "text": "Festivals"
+  },
+  {
+    "ch": 45,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 1,
+    "type": "heading",
+    "text": "Miscellaneous Regulations"
+  },
+  {
+    "ch": 46,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 1,
+    "type": "heading",
+    "text": "Water Flowing from the Temple"
+  },
+  {
+    "ch": 47,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 13,
+    "type": "heading",
+    "text": "The New Boundaries of the Land"
+  },
+  {
+    "ch": 47,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 1,
+    "type": "heading",
+    "text": "The Tribal Portions"
+  },
+  {
+    "ch": 48,
+    "v": 1,
+    "type": "para_break"
+  }
+]

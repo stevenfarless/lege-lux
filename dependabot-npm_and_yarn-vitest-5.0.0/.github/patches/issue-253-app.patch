@@ -1,0 +1,469 @@
+diff --git a/app.js b/app.js
+--- a/app.js
++++ b/app.js
+@@ -332,8 +332,16 @@ function buildDebugReport(app) {
+         `  passageFetchEnd:      ${ts(dbg.t_passage_fetch_end)}  (${dbg.passageFetchMs != null ? dbg.passageFetchMs + 'ms' : 'n/a'})`,
+         `  revealApp (2nd):      ${ts(dbg.t_reveal_second)}`,
++        `  authRestoreScheduled: ${ts(dbg.t_auth_restore_scheduled)}`,
++        `  authRestoreStart:     ${ts(dbg.t_auth_restore_start)}`,
++        `  firebaseModuleStart:  ${ts(dbg.t_firebase_module_start)}`,
++        `  firebaseModuleEnd:    ${ts(dbg.t_firebase_module_end)}`,
++        `  authInitStart:        ${ts(dbg.t_auth_init_start)}`,
++        `  authInitEnd:          ${ts(dbg.t_auth_init_end)}`,
++        `  databaseInitStart:    ${ts(dbg.t_database_init_start)}`,
++        `  databaseInitEnd:      ${ts(dbg.t_database_init_end)}`,
+         `  authStateChanged:     ${ts(dbg.t_auth_state)} (${dbg.authStateUser ?? 'n/a'})`,
+         `  userDataLoaded:       ${ts(dbg.t_user_data_loaded)}`,
+         `  firebasePositionEnd:  ${ts(dbg.t_firebase_position_end)} (${dbg.firebasePositionChanged ? 'changed passage' : 'no change'})`,
+@@ -648,10 +656,19 @@ class BibleApp {
+     constructor() {
+-        this.auth     = window.firebaseAuth;
+-        this.database = window.firebaseDatabase;
++        this.auth = null;
++        this.database = null;
+         this.currentUser = null;
+-        this.authStateResolved = !this.auth || !this.database;
++        this.authAvailable = null;
++        this.authStateResolved = false;
++        this._firebaseModulePromise = null;
++        this._authInitializationPromise = null;
++        this._databaseInitializationPromise = null;
++        this._authRestorationPromise = null;
++        this._authObserverAttached = false;
++        this._authRestorationScheduled = false;
++        this._firebaseConnectedUnsubscribe = null;
++        this._syncWritesEnabled = false;
+         this.preferredTranslation = 'KJV';
+         this.pendingPreferredTranslation = null;
+         this.syncedTranslationLibrary = new Set();
+@@ -757,6 +774,257 @@ class BibleApp {
+     _dbgUserAction(msg) {
+         _logUserAction(msg);
+     }
++
++    _firebaseModuleUrl() {
++        const buildId =
++            document.querySelector('meta[name="build-id"]')?.content || '';
++
++        if (buildId && !buildId.startsWith('__BUILD_')) {
++            return (
++                './config/firebase-config.bundle.js?v=' +
++                encodeURIComponent(buildId)
++            );
++        }
++
++        return './config/firebase-config.bundle.js';
++    }
++
++    async _loadFirebaseModule(reason) {
++        if (!this._firebaseModulePromise) {
++            this._dbg.t_firebase_module_start = ms();
++            this._dbgEvent(`firebase module: loading (${reason})`);
++
++            this._firebaseModulePromise = import(this._firebaseModuleUrl())
++                .then((module) => {
++                    this._dbg.t_firebase_module_end = ms();
++                    this._dbgEvent(`firebase module: loaded (${reason})`);
++                    return module;
++                })
++                .catch((error) => {
++                    this._dbg.t_firebase_module_end = ms();
++                    this._dbgEvent(
++                        `firebase module: failed (${reason}) — ${error.message}`
++                    );
++                    throw error;
++                });
++        }
++
++        return this._firebaseModulePromise;
++    }
++
++    async _ensureFirebaseAuth(reason) {
++        if (!this._authInitializationPromise) {
++            this._dbg.t_auth_init_start = ms();
++            this._dbgEvent(`Firebase Auth: initializing (${reason})`);
++
++            this._authInitializationPromise = this
++                ._loadFirebaseModule(reason)
++                .then((module) => module.initializeFirebaseAuth())
++                .then((auth) => {
++                    this.auth = auth;
++                    this.authAvailable = true;
++                    this._dbg.t_auth_init_end = ms();
++                    this._dbgEvent(`Firebase Auth: ready (${reason})`);
++                    return auth;
++                })
++                .catch((error) => {
++                    this.authAvailable = false;
++                    this._dbg.t_auth_init_end = ms();
++                    throw error;
++                });
++        }
++
++        return this._authInitializationPromise;
++    }
++
++    async _ensureFirebaseDatabase(reason) {
++        if (!this._databaseInitializationPromise) {
++            this._dbg.t_database_init_start = ms();
++            this._dbgEvent(
++                `Firebase Database/App Check: initializing (${reason})`
++            );
++
++            this._databaseInitializationPromise = this
++                ._loadFirebaseModule(reason)
++                .then((module) => module.initializeFirebaseDatabase())
++                .then((database) => {
++                    this.database = database;
++                    this._dbg.t_database_init_end = ms();
++
++                    if (
++                        !this._firebaseConnectedUnsubscribe &&
++                        database.onConnected
++                    ) {
++                        this._firebaseConnectedUnsubscribe =
++                            database.onConnected((connected) => {
++                                this._dbg.firebaseConnected = connected;
++                                this._dbgEvent(
++                                    `firebase: ${
++                                        connected
++                                            ? 'connected'
++                                            : 'disconnected'
++                                    }`
++                                );
++                            });
++                    }
++
++                    return database;
++                });
++        }
++
++        return this._databaseInitializationPromise;
++    }
++
++    _attachAuthObserver(auth) {
++        if (this._authObserverAttached) return;
++
++        this._authObserverAttached = true;
++        auth.onAuthStateChanged((user) => {
++            void this._handleAuthStateChanged(user);
++        });
++    }
++
++    async _handleAuthStateChanged(user) {
++        this._dbg.t_auth_state = ms();
++        this.authStateResolved = true;
++
++        if (!user) {
++            this.currentUser = null;
++            this._syncWritesEnabled = false;
++            this._dbg.authStateUser = 'signed out';
++            this._dbgEvent('auth restoration: signed out');
++            this._dbgEvent(
++                'database/App Check skipped for signed-out session'
++            );
++
++            this.hideSyncPrompt();
++            await this.loadSyncedTranslationLibrary();
++            this.maybeShowTranslationSyncModal();
++            return;
++        }
++
++        this.currentUser = user;
++        this._syncWritesEnabled = false;
++        this._dbg.authStateUser = user.email;
++        this._dbgEvent(`auth restoration: signed in as ${user.email}`);
++        this.completeSyncPrompt();
++
++        try {
++            await this._ensureFirebaseDatabase(
++                'authenticated session restoration'
++            );
++
++            const translationBefore = this.state.translation;
++            await withTimeout(this.loadUserData(), 5000);
++            const translationSyncResult =
++                await this.loadSyncedTranslationLibrary();
++
++            this._dbg.t_user_data_loaded = ms();
++            this.applySettings();
++
++            const bookBefore = this.state.currentBook;
++            const chapterBefore = this.state.currentChapter;
++            await this._loadSavedPositionIfChanged();
++
++            const positionChanged =
++                this.state.currentBook !== bookBefore ||
++                this.state.currentChapter !== chapterBefore;
++
++            if (
++                translationSyncResult.activeTranslationChanged &&
++                !positionChanged &&
++                this.state.translation !== translationBefore
++            ) {
++                await this.loadPassage(
++                    this.state.currentBook,
++                    this.state.currentChapter,
++                    Boolean(this.lastScrollPosition)
++                );
++            }
++
++            this._syncWritesEnabled = true;
++            this.maybeShowTranslationSyncModal();
++            this._dbg.t_firebase_position_end = ms();
++            this._dbg.firebasePositionChanged = positionChanged;
++        } catch (error) {
++            this._syncWritesEnabled = false;
++            console.error('Authenticated restoration failed', error);
++            this._dbgEvent(
++                `auth restoration: synchronization failed — ${error.message}`
++            );
++        }
++    }
++
++    async _restoreAuthSession() {
++        if (this._authRestorationPromise) {
++            return this._authRestorationPromise;
++        }
++
++        this._dbg.t_auth_restore_start = ms();
++        this._dbgEvent('auth restoration: started');
++
++        this._authRestorationPromise = (async () => {
++            try {
++                const auth = await this._ensureFirebaseAuth(
++                    'background restoration'
++                );
++
++                await auth.ready;
++                this._attachAuthObserver(auth);
++            } catch (error) {
++                this.authAvailable = false;
++                this.authStateResolved = true;
++                this.currentUser = null;
++                console.warn(
++                    'Background authentication unavailable:',
++                    error
++                );
++                this._dbgEvent(
++                    `auth restoration: unavailable — ${error.message}`
++                );
++            }
++        })();
++
++        return this._authRestorationPromise;
++    }
++
++    _startBackgroundAuthRestoration() {
++        if (this._authRestorationScheduled) return;
++
++        this._authRestorationScheduled = true;
++        this._dbg.t_auth_restore_scheduled = ms();
++        this._dbgEvent('auth restoration: scheduled after reader reveal');
++
++        requestAnimationFrame(() => {
++            requestAnimationFrame(() => {
++                setTimeout(() => {
++                    void this._restoreAuthSession();
++                }, 0);
++            });
++        });
++    }
++
++    async ensureInteractiveAuth() {
++        try {
++            const auth = await this._ensureFirebaseAuth(
++                'interactive account action'
++            );
++            this._attachAuthObserver(auth);
++            return auth;
++        } catch (error) {
++            throw new Error(
++                'Account services could not be loaded. Check your connection and reload the app.',
++                { cause: error }
++            );
++        }
++    }
++
++    async ensureInteractiveDatabase() {
++        try {
++            return await this._ensureFirebaseDatabase(
++                'interactive account action'
++            );
++        } catch (error) {
++            throw new Error(
++                'Synchronization services could not be loaded. Check your connection and try again.',
++                { cause: error }
++            );
++        }
++    }
++
++    async ensureInteractiveFirebase() {
++        await this.ensureInteractiveAuth();
++        await this.ensureInteractiveDatabase();
++    }
++
++    canWriteRemoteState() {
++        return Boolean(
++            this.currentUser &&
++            this.database &&
++            this._syncWritesEnabled
++        );
++    }
+ 
+     getAllBooks()          { return getAllBooks(this); }
+     getChapterCount(book) { return getChapterCount(this, book); }
+@@ -937,25 +1205,6 @@ class BibleApp {
+                 scrollY:             window.scrollY,
+             };
+ 
+-            if (!this.auth || !this.database) {
+-                console.warn('Firebase not available — sign-in disabled.');
+-                this._dbgEvent('Firebase unavailable');
+-                this._dbg.firebaseConnected = false;
+-            }
+-
+-            // ── Firebase connectivity listener ─────────────────────────────
+-            if (this.database) {
+-                try {
+-                    const { ref: fbRef, onValue } = await import('https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js');
+-                    onValue(fbRef(this.database, '.info/connected'), (snap) => {
+-                        const connected = !!snap.val();
+-                        this._dbg.firebaseConnected = connected;
+-                        this._dbgEvent(`firebase: ${connected ? 'connected' : 'disconnected'}`);
+-                    });
+-                } catch (_) {
+-                    // Firebase SDK not available via dynamic import — connectivity stays 'unknown'.
+-                }
+-            }
+-
+             const cacheHit = this._restorePassageCache();
+             this._dbg.t_cache_restore = ms();
+             this._dbg.cacheRestoreResult = cacheHit ? 'HIT' : 'MISS';
+@@ -974,6 +1223,7 @@ class BibleApp {
+                 this._dbg.passageFetchMs         = null;
+                 revealApp();
++                this._startBackgroundAuthRestoration();
+                 this._dbgEvent('init: cache hit + position match — skipping fetch');
+                 this._loadTranslationRegistry();
+                 this._prefetchCurrentBook();
+@@ -984,6 +1234,7 @@ class BibleApp {
+             } else if (cacheHit && !posMatchesCache) {
+                 this._dbg.t_reveal_first = ms();
+                 revealApp();
++                this._startBackgroundAuthRestoration();
+                 this._dbgEvent(`init: cache hit but position mismatch — loading ${savedPos.book} ${savedPos.chapter}`);
+                 this._dbg.t_passage_fetch_start = ms();
+                 await Promise.all([
+@@ -999,6 +1250,7 @@ class BibleApp {
+                 this._dbg.t_reveal_second = ms();
+                 revealApp();
++                this._startBackgroundAuthRestoration();
+                 this._dbgEvent('init: cache miss — revealing with loading spinner');
+                 await Promise.all([
+                     this._loadTranslationRegistry(),
+@@ -1010,78 +1262,8 @@ class BibleApp {
+                 this._prefetchAdjacentBooks();
+             }
+ 
+-            if (!this.auth || !this.database) {
+-                await this.loadSyncedTranslationLibrary();
+-                this.maybeShowTranslationSyncModal();
+-            }
+-
+-            if (this.auth && this.database) {
+-                await this.auth.ready;
+-                this.auth.onAuthStateChanged(async (user) => {
+-                    this._dbg.t_auth_state = ms();
+-                    this.authStateResolved = true;
+-
+-                    if (user) {
+-                        this._dbg.authStateUser = user.email;
+-                        this._dbgEvent(`auth: signed in as ${user.email}`);
+-                        this.currentUser = user;
+-                        this.completeSyncPrompt();
+-
+-                        const translationBefore = this.state.translation;
+-                        await withTimeout(this.loadUserData(), 5000);
+-                        const translationSyncResult =
+-                            await this.loadSyncedTranslationLibrary();
+-
+-                        this._dbg.t_user_data_loaded = ms();
+-                        this.applySettings();
+-                        const bookBefore = this.state.currentBook;
+-                        const chBefore   = this.state.currentChapter;
+-                        await this._loadSavedPositionIfChanged();
+-
+-                        const positionChanged =
+-                            this.state.currentBook !== bookBefore ||
+-                            this.state.currentChapter !== chBefore;
+-
+-                        if (
+-                            translationSyncResult.activeTranslationChanged &&
+-                            !positionChanged &&
+-                            this.state.translation !== translationBefore
+-                        ) {
+-                            await this.loadPassage(
+-                                this.state.currentBook,
+-                                this.state.currentChapter,
+-                                Boolean(this.lastScrollPosition)
+-                            );
+-                        }
+-
+-                        this.maybeShowTranslationSyncModal();
+-                        this._dbg.t_firebase_position_end = ms();
+-                        this._dbg.firebasePositionChanged =
+-                            this.state.currentBook !== bookBefore || this.state.currentChapter !== chBefore;
+-                        if (this._dbg.firebasePositionChanged) {
+-                            this._dbgEvent(`Firebase position changed: ${bookBefore} → ${this.state.currentBook} ${this.state.currentChapter}`);
+-                        }
+-                    } else {
+-                        this._dbg.authStateUser = 'signed out';
+-                        this._dbgEvent('auth: signed out');
+-                        this.currentUser = null;
+-                        this.hideSyncPrompt();
+-
+-                        if (this.settingsModal?.classList.contains('active')) {
+-                            const promptShown = this.maybeShowSyncPrompt();
+-
+-                            if (promptShown) {
+-                                const settingsBody =
+-                                    this.settingsModal.querySelector('.modal-body');
+-
+-                                if (settingsBody) settingsBody.scrollTop = 0;
+-                            }
+-                        }
+-
+-                        await this.loadSyncedTranslationLibrary();
+-                        this.maybeShowTranslationSyncModal();
+-                    }
+-                });
+-            }
++            await this.loadSyncedTranslationLibrary();
++            this.maybeShowTranslationSyncModal();
+         } catch (err) {
+             console.error('BibleApp init error:', err);
+             this._dbgEvent(`init error: ${err.message}`);
+@@ -1573,12 +1755,16 @@ function showUpdateToast(appInstance) {
+ }
+ 
+ (async () => {
+-    await new Promise(resolve => {
+-        if (document.readyState !== 'loading') return resolve();
+-        document.addEventListener('DOMContentLoaded', resolve, { once: true });
++    await new Promise((resolve) => {
++        if (document.readyState !== 'loading') {
++            resolve();
++            return;
++        }
++
++        document.addEventListener('DOMContentLoaded', resolve, {
++            once: true,
++        });
+     });
+-    await import('./config/firebase-config.bundle.js').catch(
+-        (err) => console.warn('Firebase bundle failed to load — sign-in unavailable:', err)
+-    );
++
+     new BibleApp();
+ })();

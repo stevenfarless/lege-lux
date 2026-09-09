@@ -1,0 +1,57 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 18,
+    "type": "para_break"
+  }
+]

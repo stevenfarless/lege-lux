@@ -1,0 +1,793 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Four Young Israelites at the Babylonian Court"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Nebuchadnezzar’s Dream"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 17,
+    "type": "heading",
+    "text": "God Reveals Nebuchadnezzar’s Dream"
+  },
+  {
+    "ch": 2,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 20,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 21,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 24,
+    "type": "heading",
+    "text": "Daniel Interprets the Dream"
+  },
+  {
+    "ch": 2,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 46,
+    "type": "heading",
+    "text": "Daniel and His Friends Promoted"
+  },
+  {
+    "ch": 2,
+    "v": 46,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Golden Image"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 19,
+    "type": "heading",
+    "text": "The Fiery Furnace"
+  },
+  {
+    "ch": 3,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Nebuchadnezzar’s Second Dream"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 15,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "heading",
+    "text": "Daniel Interprets the Second Dream"
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 28,
+    "type": "heading",
+    "text": "Nebuchadnezzar’s Humiliation"
+  },
+  {
+    "ch": 4,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 34,
+    "type": "heading",
+    "text": "Nebuchadnezzar Praises God"
+  },
+  {
+    "ch": 4,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 35,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 35,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 35,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 36,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 36,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Belshazzar’s Feast"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "heading",
+    "text": "The Writing on the Wall"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "heading",
+    "text": "The Writing on the Wall Interpreted"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 26,
+    "type": "inscription",
+    "text": "MENE"
+  },
+  {
+    "ch": 5,
+    "v": 26,
+    "type": "inscription",
+    "text": "TEKEL"
+  },
+  {
+    "ch": 5,
+    "v": 26,
+    "type": "inscription",
+    "text": "PARSIN"
+  },
+  {
+    "ch": 5,
+    "v": 27,
+    "type": "inscription",
+    "text": "MENE"
+  },
+  {
+    "ch": 5,
+    "v": 28,
+    "type": "inscription",
+    "text": "TEKEL"
+  },
+  {
+    "ch": 5,
+    "v": 29,
+    "type": "inscription",
+    "text": "PERES"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "The Plot against Daniel"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 10,
+    "type": "heading",
+    "text": "Daniel in the Lions’ Den"
+  },
+  {
+    "ch": 6,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 19,
+    "type": "heading",
+    "text": "Daniel Saved from the Lions"
+  },
+  {
+    "ch": 6,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 6,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 6,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "Visions of the Four Beasts"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "heading",
+    "text": "Judgment before the Ancient One"
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "heading",
+    "text": "Daniel’s Visions Interpreted"
+  },
+  {
+    "ch": 7,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Vision of a Ram and a Goat"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 15,
+    "type": "heading",
+    "text": "Gabriel Interprets the Vision"
+  },
+  {
+    "ch": 8,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 23,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 8,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "Daniel’s Prayer for the People"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 20,
+    "type": "heading",
+    "text": "The Seventy Weeks"
+  },
+  {
+    "ch": 9,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "Conflict of Nations and Heavenly Powers"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 40,
+    "type": "heading",
+    "text": "The Time of the End"
+  },
+  {
+    "ch": 11,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The Resurrection of the Dead"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Paul’s Greeting to the Ephesians"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "Spiritual Blessings"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 15,
+    "type": "heading",
+    "text": "Spiritual Wisdom"
+  },
+  {
+    "ch": 1,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Alive with Christ"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "heading",
+    "text": "One in Christ"
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 19,
+    "type": "heading",
+    "text": "Christ Our Cornerstone"
+  },
+  {
+    "ch": 2,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Mystery of the Gospel"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "heading",
+    "text": "Paul’s Prayer for the Ephesians"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Unity in the Body"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "heading",
+    "text": "New Life in Christ"
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Imitators of God"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 8,
+    "type": "heading",
+    "text": "Children of Light"
+  },
+  {
+    "ch": 5,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 21,
+    "type": "heading",
+    "text": "Wives and Husbands"
+  },
+  {
+    "ch": 5,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Children and Parents"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 5,
+    "type": "heading",
+    "text": "Serving with Honor"
+  },
+  {
+    "ch": 6,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 10,
+    "type": "heading",
+    "text": "The Full Armor of God"
+  },
+  {
+    "ch": 6,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 21,
+    "type": "heading",
+    "text": "Final Greetings"
+  },
+  {
+    "ch": 6,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 24,
+    "type": "para_break"
+  }
+]

@@ -1,0 +1,847 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Samuel’s Birth and Dedication"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Hannah’s Prayer"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 2,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 2,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 2,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "heading",
+    "text": "Eli’s Wicked Sons"
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "heading",
+    "text": "The Child Samuel at Shiloh"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "heading",
+    "text": "Prophecy against Eli’s Household"
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Samuel’s Calling and Prophetic Activity"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 2,
+    "type": "heading",
+    "text": "The Ark of God Captured"
+  },
+  {
+    "ch": 4,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "heading",
+    "text": "Death of Eli"
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "The Philistines and the Ark"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "The Ark Returned to Israel"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 19,
+    "type": "heading",
+    "text": "The Ark at Kiriath-jearim"
+  },
+  {
+    "ch": 6,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 3,
+    "type": "heading",
+    "text": "Samuel as Judge"
+  },
+  {
+    "ch": 7,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel Demands a King"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 19,
+    "type": "heading",
+    "text": "Israel’s Request for a King Granted"
+  },
+  {
+    "ch": 8,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "Saul Chosen to Be King"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 27,
+    "type": "heading",
+    "text": "Samuel Anoints Saul"
+  },
+  {
+    "ch": 9,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "heading",
+    "text": "Saul Prophesies"
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 17,
+    "type": "heading",
+    "text": "Saul Proclaimed King"
+  },
+  {
+    "ch": 10,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Saul Defeats the Ammonites"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "Samuel’s Farewell Address"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "Saul’s Unlawful Sacrifice"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 16,
+    "type": "heading",
+    "text": "Preparations for Battle"
+  },
+  {
+    "ch": 13,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 23,
+    "type": "heading",
+    "text": "Jonathan Surprises and Routs the Philistines"
+  },
+  {
+    "ch": 13,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 24,
+    "type": "heading",
+    "text": "Saul’s Rash Oath"
+  },
+  {
+    "ch": 14,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 36,
+    "type": "heading",
+    "text": "Jonathan in Danger of Death"
+  },
+  {
+    "ch": 14,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 47,
+    "type": "heading",
+    "text": "Saul’s Continuing Wars"
+  },
+  {
+    "ch": 14,
+    "v": 47,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "Saul Defeats the Amalekites but Spares Their King"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "heading",
+    "text": "Saul Rejected as King"
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 23,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "David Anointed as King"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 14,
+    "type": "heading",
+    "text": "David Plays the Lyre for Saul"
+  },
+  {
+    "ch": 16,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "heading",
+    "text": "David and Goliath"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "heading",
+    "text": "Jonathan’s Covenant with David"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 10,
+    "type": "heading",
+    "text": "Saul Tries to Kill David"
+  },
+  {
+    "ch": 18,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 17,
+    "type": "heading",
+    "text": "David Marries Michal"
+  },
+  {
+    "ch": 18,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "heading",
+    "text": "Jonathan Intercedes for David"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 8,
+    "type": "heading",
+    "text": "Michal Helps David Escape from Saul"
+  },
+  {
+    "ch": 19,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 18,
+    "type": "heading",
+    "text": "David Joins Samuel in Ramah"
+  },
+  {
+    "ch": 19,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "heading",
+    "text": "The Friendship of David and Jonathan"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "heading",
+    "text": "David and the Holy Bread"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "heading",
+    "text": "David Flees to Gath"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "heading",
+    "text": "David and His Followers at Adullam"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 6,
+    "type": "heading",
+    "text": "Saul Slaughters the Priests at Nob"
+  },
+  {
+    "ch": 22,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "heading",
+    "text": "David Saves the City of Keilah"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 15,
+    "type": "heading",
+    "text": "David Eludes Saul in the Wilderness"
+  },
+  {
+    "ch": 23,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "heading",
+    "text": "David Spares Saul’s Life"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "heading",
+    "text": "Death of Samuel"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 2,
+    "type": "heading",
+    "text": "David and Abigail"
+  },
+  {
+    "ch": 25,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "heading",
+    "text": "David Spares Saul’s Life a Second Time"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "heading",
+    "text": "David Serves King Achish of Gath"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 3,
+    "type": "heading",
+    "text": "Saul Consults a Medium"
+  },
+  {
+    "ch": 28,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "heading",
+    "text": "The Philistines Reject David"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "heading",
+    "text": "David Avenges the Destruction of Ziklag"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "heading",
+    "text": "The Death of Saul and His Sons"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "para_break"
+  }
+]

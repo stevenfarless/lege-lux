@@ -1,0 +1,1455 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "The First Census of Israel"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 6,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 7,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 8,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 11,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 15,
+    "type": "list_item"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Order of Encampment and Marching"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Sons of Aaron"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "heading",
+    "text": "The Duties of the Levites"
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "heading",
+    "text": "A Census of the Levites"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 40,
+    "type": "heading",
+    "text": "The Redemption of the Firstborn"
+  },
+  {
+    "ch": 3,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Kohathites"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 21,
+    "type": "heading",
+    "text": "The Gershonites and Merarites"
+  },
+  {
+    "ch": 4,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 34,
+    "type": "heading",
+    "text": "Census of the Levites"
+  },
+  {
+    "ch": 4,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Unclean Persons"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "heading",
+    "text": "Confession and Restitution"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "heading",
+    "text": "Concerning an Unfaithful Wife"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "The Nazirites"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 22,
+    "type": "heading",
+    "text": "The Priestly Benediction"
+  },
+  {
+    "ch": 6,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 24,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 6,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "Offerings of the Leaders"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "The Seven Lamps"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 5,
+    "type": "heading",
+    "text": "Consecration and Service of the Levites"
+  },
+  {
+    "ch": 8,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Passover at Sinai"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 15,
+    "type": "heading",
+    "text": "The Cloud and the Fire"
+  },
+  {
+    "ch": 9,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "The Silver Trumpets"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 11,
+    "type": "heading",
+    "text": "Departure from Sinai"
+  },
+  {
+    "ch": 10,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 36,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 36,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 36,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Complaining in the Desert"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "heading",
+    "text": "The Seventy Elders"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 31,
+    "type": "heading",
+    "text": "The Quails"
+  },
+  {
+    "ch": 11,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "Aaron and Miriam Jealous of Moses"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "Spies Sent into Canaan"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 25,
+    "type": "heading",
+    "text": "The Report of the Spies"
+  },
+  {
+    "ch": 13,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "The People Rebel"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "heading",
+    "text": "Moses Intercedes for the People"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 18,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 14,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "heading",
+    "text": "An Attempted Invasion Is Repulsed"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "Various Offerings"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 32,
+    "type": "heading",
+    "text": "Penalty for Violating the Sabbath"
+  },
+  {
+    "ch": 15,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 37,
+    "type": "heading",
+    "text": "Fringes on Garments"
+  },
+  {
+    "ch": 15,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "Revolt of Korah, Dathan, and Abiram"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "heading",
+    "text": "The Budding of Aaron’s Rod"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "heading",
+    "text": "Responsibility of Priests and Levites"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "heading",
+    "text": "The Priests’ Portion"
+  },
+  {
+    "ch": 18,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "heading",
+    "text": "Ceremony of the Red Heifer"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "heading",
+    "text": "The Waters of Meribah"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 14,
+    "type": "heading",
+    "text": "Passage through Edom Refused"
+  },
+  {
+    "ch": 20,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 22,
+    "type": "heading",
+    "text": "The Death of Aaron"
+  },
+  {
+    "ch": 20,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "heading",
+    "text": "The Bronze Serpent"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "heading",
+    "text": "The Journey to Moab"
+  },
+  {
+    "ch": 21,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 15,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 18,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 21,
+    "type": "heading",
+    "text": "King Sihon Defeated"
+  },
+  {
+    "ch": 21,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 28,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 21,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 29,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 29,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 30,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 30,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 21,
+    "v": 31,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 21,
+    "v": 33,
+    "type": "heading",
+    "text": "King Og Defeated"
+  },
+  {
+    "ch": 21,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "heading",
+    "text": "Balak Summons Balaam to Curse Israel"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 22,
+    "type": "heading",
+    "text": "Balaam, the Donkey, and the Angel"
+  },
+  {
+    "ch": 22,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 41,
+    "type": "heading",
+    "text": "Balaam’s First Oracle"
+  },
+  {
+    "ch": 22,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 8,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 23,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 13,
+    "type": "heading",
+    "text": "Balaam’s Second Oracle"
+  },
+  {
+    "ch": 23,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 19,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 23,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 21,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 23,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 23,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 23,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "heading",
+    "text": "Balaam’s Third Oracle"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "heading",
+    "text": "Balaam’s Fourth Oracle"
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 16,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 21,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 22,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 24,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 24,
+    "v": 24,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 24,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 24,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 24,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "heading",
+    "text": "Worship of Baal of Peor"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "heading",
+    "text": "A Census of the New Generation"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "heading",
+    "text": "The Daughters of Zelophehad"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 12,
+    "type": "heading",
+    "text": "Joshua Appointed Moses’s Successor"
+  },
+  {
+    "ch": 27,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "heading",
+    "text": "Daily Offerings"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 9,
+    "type": "heading",
+    "text": "Sabbath Offerings"
+  },
+  {
+    "ch": 28,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 11,
+    "type": "heading",
+    "text": "Monthly Offerings"
+  },
+  {
+    "ch": 28,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 16,
+    "type": "heading",
+    "text": "Offerings at Passover"
+  },
+  {
+    "ch": 28,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 26,
+    "type": "heading",
+    "text": "Offerings at the Festival of Weeks"
+  },
+  {
+    "ch": 28,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "heading",
+    "text": "Offerings at the Festival of Trumpets"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 7,
+    "type": "heading",
+    "text": "Offerings on the Day of Atonement"
+  },
+  {
+    "ch": 29,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 12,
+    "type": "heading",
+    "text": "Offerings at the Festival of Booths"
+  },
+  {
+    "ch": 29,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "heading",
+    "text": "Vows Made by Women"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "heading",
+    "text": "War against Midian"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 13,
+    "type": "heading",
+    "text": "Return from the War"
+  },
+  {
+    "ch": 31,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 25,
+    "type": "heading",
+    "text": "Disposition of Captives and Plunder"
+  },
+  {
+    "ch": 31,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "heading",
+    "text": "Conquest and Division of Transjordan"
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "heading",
+    "text": "The Stages of Israel’s Journey from Egypt"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 50,
+    "type": "heading",
+    "text": "Directions for the Conquest of Canaan"
+  },
+  {
+    "ch": 33,
+    "v": 50,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "heading",
+    "text": "The Boundaries of the Land"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 16,
+    "type": "heading",
+    "text": "Tribal Leaders"
+  },
+  {
+    "ch": 34,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "heading",
+    "text": "Cities for the Levites"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 9,
+    "type": "heading",
+    "text": "Cities of Refuge"
+  },
+  {
+    "ch": 35,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 16,
+    "type": "heading",
+    "text": "Concerning Murder and Blood Revenge"
+  },
+  {
+    "ch": 35,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "heading",
+    "text": "Marriage of Female Heirs"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "para_break"
+  }
+]

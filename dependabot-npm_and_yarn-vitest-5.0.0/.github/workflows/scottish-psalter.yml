@@ -1,0 +1,58 @@
+name: Scottish Psalter
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [exp]
+    paths:
+      - .github/workflows/scottish-psalter.yml
+      - scripts/import_scottish_psalter.py
+      - psalm-translations.js
+      - events.js
+      - sw.js
+      - special-psalms/MP1650/Psalm.json
+      - special-psalms/MP1650/source.json
+      - translations/KJV/Psalm.json
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exp
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          ref: exp
+
+      - name: Verify generated Psalter data
+        run: |
+          mkdir -p /tmp/mp1650-check
+          python3 scripts/import_scottish_psalter.py \
+            --output /tmp/mp1650-check/Psalm.json \
+            --source-metadata /tmp/mp1650-check/source.json
+          cmp special-psalms/MP1650/Psalm.json /tmp/mp1650-check/Psalm.json
+          cmp special-psalms/MP1650/source.json /tmp/mp1650-check/source.json
+
+      - name: Validate implementation
+        run: |
+          node --check psalm-translations.js
+          node --check events.js
+          node --check sw.js
+          python3 -m py_compile scripts/import_scottish_psalter.py
+          rm -rf scripts/__pycache__
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path("special-psalms/MP1650/Psalm.json").read_text(encoding="utf-8"))
+          assert set(map(int, data)) == set(range(1, 151))
+          assert data["1"]["1"].startswith("That man hath perfect blessedness,")
+          assert data["23"]["1"].startswith("The Lord's my shepherd")
+          assert "\n" in data["23"]["2"]
+          assert data["72"]["20"] == "The prayers of David the son of Jesse are ended."
+          assert data["100"]["1"].startswith("All people that on earth do dwell")
+          assert data["150"]
+          PY
+          git diff --check

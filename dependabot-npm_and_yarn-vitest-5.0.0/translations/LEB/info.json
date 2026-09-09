@@ -1,0 +1,13 @@
+{
+  "id": "LEB",
+  "label": "Lexham English Bible",
+  "abbreviation": "LEB",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2012,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "manuscriptTradition": ["Masoretic Text", "Critical Text"],
+  "textualBasis": "OT translated from the Masoretic Text (BHS). NT translated from the Society of Biblical Literature Greek New Testament (SBLGNT). Designed for transparent, literal rendering that closely mirrors the syntax and vocabulary of the original languages for study purposes.",
+  "copyright": "Scripture quotations marked LEB are from the Lexham English Bible. Copyright \u00a9 2012 Logos Bible Software. Lexham is a registered trademark of Logos Bible Software. https://lexhamenglishbible.com"
+}

@@ -1,0 +1,355 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "Paul’s Thanksgiving after Affliction"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "heading",
+    "text": "The Postponement of Paul’s Visit"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 5,
+    "type": "heading",
+    "text": "Forgiveness for the Offender"
+  },
+  {
+    "ch": 2,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 12,
+    "type": "heading",
+    "text": "Paul’s Anxiety in Troas"
+  },
+  {
+    "ch": 2,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Ministers of the New Covenant"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Treasure in Clay Jars"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 16,
+    "type": "heading",
+    "text": "Living by Faith"
+  },
+  {
+    "ch": 4,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "heading",
+    "text": "The Ministry of Reconciliation"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "heading",
+    "text": "The Temple of the Living God"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 17,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 6,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 17,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 6,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 6,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 2,
+    "type": "heading",
+    "text": "Paul’s Joy at the Church’s Repentance"
+  },
+  {
+    "ch": 7,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Encouragement to Be Generous"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 16,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 8,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 16,
+    "type": "heading",
+    "text": "Commendation of Titus"
+  },
+  {
+    "ch": 8,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Collection for Christians at Jerusalem"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 9,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 9,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "Paul Defends His Ministry"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Paul and the False Apostles"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "heading",
+    "text": "Paul’s Sufferings as an Apostle"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "Paul’s Visions and Revelations"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "heading",
+    "text": "Paul’s Concern for the Corinthian Church"
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "Further Warning"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 11,
+    "type": "heading",
+    "text": "Final Greetings and Benediction"
+  },
+  {
+    "ch": 13,
+    "v": 11,
+    "type": "para_break"
+  }
+]
