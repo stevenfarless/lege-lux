@@ -1,0 +1,5 @@
+/* This file is intentionally empty.
+ * CSS is loaded via parallel <link> tags in index.html.
+ * Kept as a placeholder so any Service Worker cache entries for styles.css
+ * resolve without a 404 until the SW cache is updated.
+ */

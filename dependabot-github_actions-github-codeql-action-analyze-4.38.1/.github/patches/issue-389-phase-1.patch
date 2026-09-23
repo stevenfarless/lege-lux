@@ -1,0 +1,143 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -209,7 +209,11 @@
+ 			</div>
+ 			<div id="passageText" class="passage-text">
+-				<div class="loading">Loading passage...</div>
++				<div class="loading passage-loading-placeholder" aria-label="Loading passage">
++					<span class="passage-loading-line"></span>
++					<span class="passage-loading-line"></span>
++					<span class="passage-loading-line passage-loading-line--short"></span>
++				</div>
+ 			</div>
+ 
+ 			<div id="footnotesSection" class="passage-extras-section hidden">
+diff --git a/css/layout.css b/css/layout.css
+--- a/css/layout.css
++++ b/css/layout.css
+@@ -71,6 +71,35 @@ body.chrome-no-transition .top-chrome {
+     padding-top: calc(var(--chrome-height) + var(--spacing-xl));
+ }
+ 
++body:not(.passage-ready) #passageText {
++    min-height: calc(100dvh - var(--chrome-height) - (2 * var(--spacing-xl)));
++}
++
++.passage-loading-placeholder {
++    display: flex;
++    flex-direction: column;
++    gap: 0.8em;
++    padding-top: 0.25em;
++}
++
++.passage-loading-line {
++    display: block;
++    width: 100%;
++    height: 1em;
++    border-radius: 0.25rem;
++    background-color: currentColor;
++    opacity: 0.08;
++}
++
++.passage-loading-line--short {
++    width: 65%;
++}
++
++body.passage-ready .passage-loading-placeholder {
++    display: none;
++}
++
+ 
+ /* Header */
+ .header {
+diff --git a/app.js b/app.js
+--- a/app.js
++++ b/app.js
+@@ -1143,6 +1143,7 @@ class BibleApp {
+                 this.originalPassageHtml   = html;
+                 this.passageText.classList.toggle('verse-by-verse', !!this.state.verseByVerse);
+             }
++            document.body.classList.add('passage-ready');
+             this.updateNavigationState();
+             return true;
+         } catch (_) {
+@@ -1406,7 +1407,10 @@ class BibleApp {
+             this.passageText.querySelector('.loading') === null &&
+             this.passageText.innerHTML.trim() !== '';
+-        if (!alreadyCached) {
++        const hasStartupPlaceholder = Boolean(
++            this.passageText?.querySelector('.passage-loading-placeholder')
++        );
++        if (!alreadyCached && !hasStartupPlaceholder) {
+             this.passageText.innerHTML = '<p class="loading">Loading passage...</p>';
+         }
+ 
+@@ -1438,6 +1442,7 @@ class BibleApp {
+                 this.passageText.innerHTML =
+                     '<p class="error">Passage not available.</p>';
+             }
++            document.body.classList.add('passage-ready');
+             this.chromeSuspend = false;
+             document.body.classList.remove('chrome-no-transition');
+             return;
+@@ -1451,6 +1456,7 @@ class BibleApp {
+         this.passageText.innerHTML = data.passages[0];
+         this.originalPassageHtml   = this.passageText.innerHTML;
+         this.passageText.classList.toggle('verse-by-verse', !!this.state.verseByVerse);
++        document.body.classList.add('passage-ready');
+ 
+         this.updateCopyright();
+         this.currentVerseSpan.textContent = '1';
+diff --git a/tests/smoke.spec.js b/tests/smoke.spec.js
+--- a/tests/smoke.spec.js
++++ b/tests/smoke.spec.js
+@@ -802,3 +802,42 @@ test('auth restoration: delayed remote position cannot overwrite local navigation', async ({ page }) => {
+                 'auth restoration: discarded remote position changed during read'
+         );
+ });
++
++test('cold startup: passage space stays reserved until the first passage renders', async ({ page }) => {
++        let releasePassage;
++        const passageGate = new Promise(resolve => { releasePassage = resolve; });
++
++        await page.addInitScript(() => {
++                localStorage.removeItem('passageCache');
++                localStorage.removeItem('readingPosition');
++                localStorage.setItem('translation', 'KJV');
++                localStorage.setItem('preferredTranslation', 'KJV');
++        });
++
++        await page.route('**/translations/KJV/Genesis.json', async route => {
++                await passageGate;
++                await route.continue();
++        });
++
++        const navigation = page.goto('/');
++        await page.waitForSelector('#passageText');
++        await page.waitForFunction(() => (
++                document.body.classList.contains('initializing') === false
++        ));
++
++        const loadingState = await page.evaluate(() => ({
++                ready: document.body.classList.contains('passage-ready'),
++                minHeight: parseFloat(getComputedStyle(
++                        document.getElementById('passageText')
++                ).minHeight),
++                placeholder: Boolean(document.querySelector(
++                        '.passage-loading-placeholder'
++                )),
++        }));
++
++        expect(loadingState.ready).toBe(false);
++        expect(loadingState.placeholder).toBe(true);
++        expect(loadingState.minHeight).toBeGreaterThan(300);
++
++        releasePassage();
++        await navigation;
++        await waitForPassage(page);
++        await expect.poll(() => page.evaluate(() => (
++                document.body.classList.contains('passage-ready')
++        ))).toBe(true);
++        await expect(page.locator('.passage-loading-placeholder')).toHaveCount(0);
++});
