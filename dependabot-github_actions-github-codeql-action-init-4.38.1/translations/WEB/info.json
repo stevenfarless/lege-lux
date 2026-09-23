@@ -1,0 +1,13 @@
+{
+  "id": "WEB",
+  "label": "World English Bible",
+  "abbreviation": "WEB",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2000,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "manuscriptTradition": ["Masoretic Text", "Byzantine Majority Text"],
+  "textualBasis": "OT translated from the Masoretic Text. NT translated from the Byzantine Majority Text (Maurice Robinson edition). A modern English revision of the American Standard Version (1901) updated to remove archaic language while maintaining accuracy. Public domain and freely distributable.",
+  "copyright": "World English Bible (WEB). Public domain."
+}

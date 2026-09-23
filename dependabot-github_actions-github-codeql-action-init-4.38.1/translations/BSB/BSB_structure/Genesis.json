@@ -1,0 +1,5155 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "The Creation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "The First Day"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 6,
+    "type": "heading",
+    "text": "The Second Day"
+  },
+  {
+    "ch": 1,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "heading",
+    "text": "The Third Day"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "heading",
+    "text": "The Fourth Day"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "heading",
+    "text": "The Fifth Day"
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 24,
+    "type": "heading",
+    "text": "The Sixth Day"
+  },
+  {
+    "ch": 1,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Seventh Day"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 4,
+    "type": "heading",
+    "text": "Man and Woman in the Garden"
+  },
+  {
+    "ch": 2,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Serpent’s Deception"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "heading",
+    "text": "God Arraigns Adam and Eve"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "heading",
+    "text": "The Fate of the Serpent"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 16,
+    "type": "heading",
+    "text": "The Punishment of Mankind"
+  },
+  {
+    "ch": 3,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "heading",
+    "text": "The Expulsion from Paradise"
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Cain and Abel"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "heading",
+    "text": "The Descendants of Cain"
+  },
+  {
+    "ch": 4,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 25,
+    "type": "heading",
+    "text": "Seth and Enosh"
+  },
+  {
+    "ch": 4,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "The Descendants of Adam"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 18,
+    "type": "heading",
+    "text": "God Takes Up Enoch"
+  },
+  {
+    "ch": 5,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 25,
+    "type": "heading",
+    "text": "From Methuselah to Noah"
+  },
+  {
+    "ch": 5,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Corruption on the Earth"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 8,
+    "type": "heading",
+    "text": "Noah’s Favor with God"
+  },
+  {
+    "ch": 6,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 13,
+    "type": "heading",
+    "text": "Preparing the Ark"
+  },
+  {
+    "ch": 6,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "The Great Flood"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "The Ark Rests on Ararat"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 6,
+    "type": "heading",
+    "text": "Noah Sends a Raven and a Dove"
+  },
+  {
+    "ch": 8,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 13,
+    "type": "heading",
+    "text": "Exiting the Ark"
+  },
+  {
+    "ch": 8,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 20,
+    "type": "heading",
+    "text": "Noah Builds an Altar"
+  },
+  {
+    "ch": 8,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Covenant of the Rainbow"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 18,
+    "type": "heading",
+    "text": "Noah’s Shame and Canaan’s Curse"
+  },
+  {
+    "ch": 9,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 26,
+    "type": "heading",
+    "text": "Shem’s Blessing and Noah’s Death"
+  },
+  {
+    "ch": 9,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "The Table of Nations"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 2,
+    "type": "heading",
+    "text": "The Japhethites"
+  },
+  {
+    "ch": 10,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 6,
+    "type": "heading",
+    "text": "The Hamites"
+  },
+  {
+    "ch": 10,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "heading",
+    "text": "The Semites"
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "The Tower of Babel"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "heading",
+    "text": "Genealogy from Shem to Abram"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "heading",
+    "text": "Terah’s Descendants"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The Call of Abram"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 10,
+    "type": "heading",
+    "text": "Abram and Sarai in Egypt"
+  },
+  {
+    "ch": 12,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "Abram and Lot Part Ways"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 10,
+    "type": "heading",
+    "text": "Lot Proceeds toward Sodom"
+  },
+  {
+    "ch": 13,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 14,
+    "type": "heading",
+    "text": "God Renews the Promise to Abram"
+  },
+  {
+    "ch": 13,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "The War of the Kings"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 10,
+    "type": "heading",
+    "text": "Abram Rescues Lot"
+  },
+  {
+    "ch": 14,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 17,
+    "type": "heading",
+    "text": "Melchizedek Blesses Abram"
+  },
+  {
+    "ch": 14,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Covenant with Abram"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 8,
+    "type": "heading",
+    "text": "God Confirms His Promise"
+  },
+  {
+    "ch": 15,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "Hagar and Ishmael"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "heading",
+    "text": "Abraham to Father Many Nations"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 9,
+    "type": "heading",
+    "text": "The Covenant of Circumcision"
+  },
+  {
+    "ch": 17,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "heading",
+    "text": "The Three Visitors"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 9,
+    "type": "heading",
+    "text": "Sarah Laughs at the Promise"
+  },
+  {
+    "ch": 18,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 16,
+    "type": "heading",
+    "text": "Abraham Intercedes for Sodom"
+  },
+  {
+    "ch": 18,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "heading",
+    "text": "Lot Welcomes the Angels"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 12,
+    "type": "heading",
+    "text": "Lot Flees to Zoar"
+  },
+  {
+    "ch": 19,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 24,
+    "type": "heading",
+    "text": "The Destruction of Sodom and Gomorrah"
+  },
+  {
+    "ch": 19,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 30,
+    "type": "heading",
+    "text": "Lot and His Daughters"
+  },
+  {
+    "ch": 19,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "heading",
+    "text": "Abraham, Sarah, and Abimelech"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "heading",
+    "text": "The Birth of Isaac"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 9,
+    "type": "heading",
+    "text": "Sarah Turns against Hagar"
+  },
+  {
+    "ch": 21,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 22,
+    "type": "heading",
+    "text": "The Covenant at Beersheba"
+  },
+  {
+    "ch": 21,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "heading",
+    "text": "The Offering of Isaac"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 11,
+    "type": "heading",
+    "text": "The LORD Provides the Sacrifice"
+  },
+  {
+    "ch": 22,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 20,
+    "type": "heading",
+    "text": "The Sons of Nahor"
+  },
+  {
+    "ch": 22,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "heading",
+    "text": "The Death and Burial of Sarah"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "heading",
+    "text": "A Wife for Isaac"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "heading",
+    "text": "Rebekah Is Chosen"
+  },
+  {
+    "ch": 24,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 39,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 42,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 45,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 46,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 47,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 48,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 49,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 50,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 52,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 55,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 56,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 57,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 58,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 59,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 61,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 62,
+    "type": "heading",
+    "text": "Isaac Marries Rebekah"
+  },
+  {
+    "ch": 24,
+    "v": 62,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 64,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 66,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 67,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "heading",
+    "text": "Abraham and Keturah"
+  },
+  {
+    "ch": 25,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 7,
+    "type": "heading",
+    "text": "The Death of Abraham"
+  },
+  {
+    "ch": 25,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 12,
+    "type": "heading",
+    "text": "The Descendants of Ishmael"
+  },
+  {
+    "ch": 25,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 19,
+    "type": "heading",
+    "text": "Jacob and Esau"
+  },
+  {
+    "ch": 25,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 29,
+    "type": "heading",
+    "text": "Esau Sells His Birthright"
+  },
+  {
+    "ch": 25,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 25,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Promise to Isaac"
+  },
+  {
+    "ch": 26,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "heading",
+    "text": "Isaac Deceives Abimelech"
+  },
+  {
+    "ch": 26,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 12,
+    "type": "heading",
+    "text": "Isaac’s Prosperity"
+  },
+  {
+    "ch": 26,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 26,
+    "type": "heading",
+    "text": "Isaac’s Covenant with Abimelech"
+  },
+  {
+    "ch": 26,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 26,
+    "v": 34,
+    "type": "heading",
+    "text": "Esau’s Wives"
+  },
+  {
+    "ch": 26,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "heading",
+    "text": "Isaac Blesses Jacob"
+  },
+  {
+    "ch": 27,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 30,
+    "type": "heading",
+    "text": "Esau’s Lost Hope"
+  },
+  {
+    "ch": 27,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 39,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 42,
+    "type": "para_break"
+  },
+  {
+    "ch": 27,
+    "v": 46,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob’s Departure"
+  },
+  {
+    "ch": 28,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 6,
+    "type": "heading",
+    "text": "Esau Marries Mahalath"
+  },
+  {
+    "ch": 28,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 10,
+    "type": "heading",
+    "text": "Jacob’s Ladder"
+  },
+  {
+    "ch": 28,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 18,
+    "type": "heading",
+    "text": "The Stone of Bethel"
+  },
+  {
+    "ch": 28,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 28,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Meets Rachel"
+  },
+  {
+    "ch": 29,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 14,
+    "type": "heading",
+    "text": "Jacob Marries Leah and Rachel"
+  },
+  {
+    "ch": 29,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 31,
+    "type": "heading",
+    "text": "Reuben, Simeon, Levi, and Judah"
+  },
+  {
+    "ch": 29,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 29,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "heading",
+    "text": "Dan and Naphtali"
+  },
+  {
+    "ch": 30,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 9,
+    "type": "heading",
+    "text": "Gad and Asher"
+  },
+  {
+    "ch": 30,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 17,
+    "type": "heading",
+    "text": "Issachar, Zebulun, and Dinah"
+  },
+  {
+    "ch": 30,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 22,
+    "type": "heading",
+    "text": "Joseph"
+  },
+  {
+    "ch": 30,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 25,
+    "type": "heading",
+    "text": "Jacob Prospers"
+  },
+  {
+    "ch": 30,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 30,
+    "v": 43,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Flees from Laban"
+  },
+  {
+    "ch": 31,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 22,
+    "type": "heading",
+    "text": "Laban Pursues Jacob"
+  },
+  {
+    "ch": 31,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 43,
+    "type": "heading",
+    "text": "Jacob’s Covenant with Laban"
+  },
+  {
+    "ch": 31,
+    "v": 43,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 45,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 48,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 49,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 51,
+    "type": "para_break"
+  },
+  {
+    "ch": 31,
+    "v": 54,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Prepares to Meet Esau"
+  },
+  {
+    "ch": 32,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 22,
+    "type": "heading",
+    "text": "Jacob Wrestles with God"
+  },
+  {
+    "ch": 32,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 32,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Meets Esau"
+  },
+  {
+    "ch": 33,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 33,
+    "v": 18,
+    "type": "heading",
+    "text": "Jacob Settles in Shechem"
+  },
+  {
+    "ch": 33,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "heading",
+    "text": "The Defiling of Dinah"
+  },
+  {
+    "ch": 34,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 13,
+    "type": "heading",
+    "text": "The Revenge of Dinah’s Brothers"
+  },
+  {
+    "ch": 34,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 34,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Returns to Bethel"
+  },
+  {
+    "ch": 35,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 16,
+    "type": "heading",
+    "text": "Benjamin Born, Rachel Dies"
+  },
+  {
+    "ch": 35,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 21,
+    "type": "heading",
+    "text": "The Sons of Jacob"
+  },
+  {
+    "ch": 35,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 27,
+    "type": "heading",
+    "text": "The Death of Isaac"
+  },
+  {
+    "ch": 35,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 35,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "heading",
+    "text": "The Descendants of Esau"
+  },
+  {
+    "ch": 36,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 20,
+    "type": "heading",
+    "text": "The Descendants of Seir"
+  },
+  {
+    "ch": 36,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 31,
+    "type": "heading",
+    "text": "The Kings of Edom"
+  },
+  {
+    "ch": 36,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 39,
+    "type": "para_break"
+  },
+  {
+    "ch": 36,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 1,
+    "type": "heading",
+    "text": "Joseph’s Dreams"
+  },
+  {
+    "ch": 37,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 12,
+    "type": "heading",
+    "text": "Joseph Sold into Egypt"
+  },
+  {
+    "ch": 37,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 31,
+    "type": "heading",
+    "text": "Jacob Mourns Joseph"
+  },
+  {
+    "ch": 37,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 37,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 1,
+    "type": "heading",
+    "text": "Judah and Tamar"
+  },
+  {
+    "ch": 38,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 38,
+    "v": 27,
+    "type": "heading",
+    "text": "The Birth of Perez and Zerah"
+  },
+  {
+    "ch": 38,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 1,
+    "type": "heading",
+    "text": "Joseph and Potiphar’s Wife"
+  },
+  {
+    "ch": 39,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 13,
+    "type": "heading",
+    "text": "Joseph Falsely Imprisoned"
+  },
+  {
+    "ch": 39,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 39,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 1,
+    "type": "heading",
+    "text": "The Cupbearer and the Baker"
+  },
+  {
+    "ch": 40,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 40,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 1,
+    "type": "heading",
+    "text": "The Dreams of Pharaoh"
+  },
+  {
+    "ch": 41,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 14,
+    "type": "heading",
+    "text": "Joseph Interprets Pharaoh’s Dreams"
+  },
+  {
+    "ch": 41,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 37,
+    "type": "heading",
+    "text": "Joseph Given Charge of Egypt"
+  },
+  {
+    "ch": 41,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 39,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 44,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 45,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 46,
+    "type": "heading",
+    "text": "The Seven Years of Plenty"
+  },
+  {
+    "ch": 41,
+    "v": 46,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 47,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 50,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 53,
+    "type": "heading",
+    "text": "The Famine Begins"
+  },
+  {
+    "ch": 41,
+    "v": 53,
+    "type": "para_break"
+  },
+  {
+    "ch": 41,
+    "v": 56,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 1,
+    "type": "heading",
+    "text": "Joseph’s Brothers Sent to Egypt"
+  },
+  {
+    "ch": 42,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 25,
+    "type": "heading",
+    "text": "Joseph’s Brothers Return to Canaan"
+  },
+  {
+    "ch": 42,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 42,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 1,
+    "type": "heading",
+    "text": "The Return to Egypt with Benjamin"
+  },
+  {
+    "ch": 43,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 16,
+    "type": "heading",
+    "text": "Joseph’s Hospitality to His Brothers"
+  },
+  {
+    "ch": 43,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 43,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 1,
+    "type": "heading",
+    "text": "Benjamin and the Silver Cup"
+  },
+  {
+    "ch": 44,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 18,
+    "type": "heading",
+    "text": "Judah Pleads for Benjamin"
+  },
+  {
+    "ch": 44,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 44,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 1,
+    "type": "heading",
+    "text": "Joseph Reveals His Identity"
+  },
+  {
+    "ch": 45,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 9,
+    "type": "heading",
+    "text": "Joseph Sends for His Father"
+  },
+  {
+    "ch": 45,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 16,
+    "type": "heading",
+    "text": "Pharaoh Invites Jacob to Egypt"
+  },
+  {
+    "ch": 45,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 25,
+    "type": "heading",
+    "text": "The Revival of Jacob"
+  },
+  {
+    "ch": 45,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 45,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob’s Journey to Egypt"
+  },
+  {
+    "ch": 46,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 7,
+    "type": "heading",
+    "text": "Those Who Went to Egypt"
+  },
+  {
+    "ch": 46,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 8,
+    "type": "heading",
+    "text": "The Children of Leah"
+  },
+  {
+    "ch": 46,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 16,
+    "type": "heading",
+    "text": "The Children of Zilpah"
+  },
+  {
+    "ch": 46,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 19,
+    "type": "heading",
+    "text": "The Children of Rachel"
+  },
+  {
+    "ch": 46,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 23,
+    "type": "heading",
+    "text": "The Children of Bilhah"
+  },
+  {
+    "ch": 46,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 28,
+    "type": "heading",
+    "text": "Jacob Arrives in Egypt"
+  },
+  {
+    "ch": 46,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 46,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Settles in Goshen"
+  },
+  {
+    "ch": 47,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 13,
+    "type": "heading",
+    "text": "The Famine Continues"
+  },
+  {
+    "ch": 47,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 27,
+    "type": "heading",
+    "text": "The Israelites Prosper in Goshen"
+  },
+  {
+    "ch": 47,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 47,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Blesses Ephraim and Manasseh"
+  },
+  {
+    "ch": 48,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 48,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 1,
+    "type": "heading",
+    "text": "Jacob Blesses His Sons"
+  },
+  {
+    "ch": 49,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 29,
+    "type": "heading",
+    "text": "The Death of Jacob"
+  },
+  {
+    "ch": 49,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 49,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 1,
+    "type": "heading",
+    "text": "Mourning and Burial for Jacob"
+  },
+  {
+    "ch": 50,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 15,
+    "type": "heading",
+    "text": "Joseph Comforts His Brothers"
+  },
+  {
+    "ch": 50,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 22,
+    "type": "heading",
+    "text": "The Death of Joseph"
+  },
+  {
+    "ch": 50,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 50,
+    "v": 26,
+    "type": "para_break"
+  }
+]

@@ -1,0 +1,1282 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "The Proclamation of John the Baptist"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 1,
+    "v": 4,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 1,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "heading",
+    "text": "The Baptism of Jesus"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "heading",
+    "text": "The Testing of Jesus"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "heading",
+    "text": "The Beginning of the Galilean Ministry"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "heading",
+    "text": "Jesus Calls the First Disciples"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 21,
+    "type": "heading",
+    "text": "The Man with an Unclean Spirit"
+  },
+  {
+    "ch": 1,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 29,
+    "type": "heading",
+    "text": "Jesus Heals Many at Simon’s House"
+  },
+  {
+    "ch": 1,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 35,
+    "type": "heading",
+    "text": "A Preaching Tour in Galilee"
+  },
+  {
+    "ch": 1,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 40,
+    "type": "heading",
+    "text": "Jesus Cleanses a Man with a Skin Disease"
+  },
+  {
+    "ch": 1,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Jesus Heals a Paralytic"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 13,
+    "type": "heading",
+    "text": "Jesus Calls Levi"
+  },
+  {
+    "ch": 2,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "heading",
+    "text": "The Question about Fasting"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "heading",
+    "text": "Pronouncement about the Sabbath"
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Man with a Withered Hand"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 7,
+    "type": "heading",
+    "text": "A Multitude at the Seaside"
+  },
+  {
+    "ch": 3,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "heading",
+    "text": "Jesus Appoints the Twelve"
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "heading",
+    "text": "Jesus and Beelzebul"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 31,
+    "type": "heading",
+    "text": "The True Kindred of Jesus"
+  },
+  {
+    "ch": 3,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Parable of the Sower"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 10,
+    "type": "heading",
+    "text": "The Purpose of the Parables"
+  },
+  {
+    "ch": 4,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 21,
+    "type": "heading",
+    "text": "A Lamp under a Bushel Basket"
+  },
+  {
+    "ch": 4,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 26,
+    "type": "heading",
+    "text": "The Parable of the Growing Seed"
+  },
+  {
+    "ch": 4,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 30,
+    "type": "heading",
+    "text": "The Parable of the Mustard Seed"
+  },
+  {
+    "ch": 4,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 33,
+    "type": "heading",
+    "text": "The Use of Parables"
+  },
+  {
+    "ch": 4,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 35,
+    "type": "heading",
+    "text": "Jesus Stills a Storm"
+  },
+  {
+    "ch": 4,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Jesus Heals a Man Possessed by Demons"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 21,
+    "type": "heading",
+    "text": "A Girl Restored to Life and a Woman Healed"
+  },
+  {
+    "ch": 5,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "The Rejection of Jesus at Nazareth"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 7,
+    "type": "heading",
+    "text": "The Mission of the Twelve"
+  },
+  {
+    "ch": 6,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "heading",
+    "text": "The Death of John the Baptist"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 30,
+    "type": "heading",
+    "text": "Feeding the Five Thousand"
+  },
+  {
+    "ch": 6,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 45,
+    "type": "heading",
+    "text": "Jesus Walks on the Water"
+  },
+  {
+    "ch": 6,
+    "v": 45,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 53,
+    "type": "heading",
+    "text": "Healing the Sick in Gennesaret"
+  },
+  {
+    "ch": 6,
+    "v": 53,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "The Tradition of the Elders"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "heading",
+    "text": "The Syrophoenician Woman’s Faith"
+  },
+  {
+    "ch": 7,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 31,
+    "type": "heading",
+    "text": "Jesus Cures a Deaf Man"
+  },
+  {
+    "ch": 7,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Feeding the Four Thousand"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 11,
+    "type": "heading",
+    "text": "The Demand for a Sign"
+  },
+  {
+    "ch": 8,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 14,
+    "type": "heading",
+    "text": "The Yeast of the Pharisees and of Herod"
+  },
+  {
+    "ch": 8,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 22,
+    "type": "heading",
+    "text": "Jesus Cures a Blind Man at Bethsaida"
+  },
+  {
+    "ch": 8,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 27,
+    "type": "heading",
+    "text": "Peter’s Declaration about Jesus"
+  },
+  {
+    "ch": 8,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 31,
+    "type": "heading",
+    "text": "Jesus Foretells His Death and Resurrection"
+  },
+  {
+    "ch": 8,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 2,
+    "type": "heading",
+    "text": "The Transfiguration"
+  },
+  {
+    "ch": 9,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 9,
+    "type": "heading",
+    "text": "The Coming of Elijah"
+  },
+  {
+    "ch": 9,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "heading",
+    "text": "The Healing of a Boy with a Spirit"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "heading",
+    "text": "Jesus Again Foretells His Death and Resurrection"
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 33,
+    "type": "heading",
+    "text": "Who Is the Greatest?"
+  },
+  {
+    "ch": 9,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 38,
+    "type": "heading",
+    "text": "Another Exorcist"
+  },
+  {
+    "ch": 9,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 42,
+    "type": "heading",
+    "text": "Temptations to Sin"
+  },
+  {
+    "ch": 9,
+    "v": 42,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "Teaching about Divorce"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "heading",
+    "text": "Jesus Blesses Little Children"
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 17,
+    "type": "heading",
+    "text": "The Rich Man"
+  },
+  {
+    "ch": 10,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 32,
+    "type": "heading",
+    "text": "A Third Time Jesus Foretells His Death and Resurrection"
+  },
+  {
+    "ch": 10,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 35,
+    "type": "heading",
+    "text": "The Request of James and John"
+  },
+  {
+    "ch": 10,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 46,
+    "type": "heading",
+    "text": "The Healing of Blind Bartimaeus"
+  },
+  {
+    "ch": 10,
+    "v": 46,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Jesus’s Triumphal Entry into Jerusalem"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 12,
+    "type": "heading",
+    "text": "Jesus Curses the Fig Tree"
+  },
+  {
+    "ch": 11,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 15,
+    "type": "heading",
+    "text": "Jesus Cleanses the Temple"
+  },
+  {
+    "ch": 11,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 18,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 18,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 20,
+    "type": "heading",
+    "text": "The Lesson from the Withered Fig Tree"
+  },
+  {
+    "ch": 11,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "heading",
+    "text": "Jesus’s Authority Is Questioned"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The Parable of the Wicked Tenants"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 13,
+    "type": "heading",
+    "text": "The Question about Paying Taxes"
+  },
+  {
+    "ch": 12,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 18,
+    "type": "heading",
+    "text": "The Question about the Resurrection"
+  },
+  {
+    "ch": 12,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 28,
+    "type": "heading",
+    "text": "The First Commandment"
+  },
+  {
+    "ch": 12,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 35,
+    "type": "heading",
+    "text": "The Question about David’s Son"
+  },
+  {
+    "ch": 12,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 37,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 12,
+    "v": 37,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 12,
+    "v": 37,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 12,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 38,
+    "type": "heading",
+    "text": "Jesus Denounces the Scribes"
+  },
+  {
+    "ch": 12,
+    "v": 38,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 41,
+    "type": "heading",
+    "text": "The Widow’s Offering"
+  },
+  {
+    "ch": 12,
+    "v": 41,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "The Destruction of the Temple Foretold"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 9,
+    "type": "heading",
+    "text": "Persecution Foretold"
+  },
+  {
+    "ch": 13,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 14,
+    "type": "heading",
+    "text": "The Desolating Sacrilege"
+  },
+  {
+    "ch": 13,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 24,
+    "type": "heading",
+    "text": "The Coming of the Son of Man"
+  },
+  {
+    "ch": 13,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 25,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 13,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 13,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 13,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 13,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 28,
+    "type": "heading",
+    "text": "The Lesson of the Fig Tree"
+  },
+  {
+    "ch": 13,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 32,
+    "type": "heading",
+    "text": "The Necessity for Watchfulness"
+  },
+  {
+    "ch": 13,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "The Plot to Kill Jesus"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 3,
+    "type": "heading",
+    "text": "The Anointing at Bethany"
+  },
+  {
+    "ch": 14,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 10,
+    "type": "heading",
+    "text": "Judas Agrees to Betray Jesus"
+  },
+  {
+    "ch": 14,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "heading",
+    "text": "The Passover with the Disciples"
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "heading",
+    "text": "The Institution of the Lord’s Supper"
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "heading",
+    "text": "Peter’s Denial Foretold"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 28,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 14,
+    "v": 28,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 14,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 32,
+    "type": "heading",
+    "text": "Jesus Prays in Gethsemane"
+  },
+  {
+    "ch": 14,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 43,
+    "type": "heading",
+    "text": "The Betrayal and Arrest of Jesus"
+  },
+  {
+    "ch": 14,
+    "v": 43,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 53,
+    "type": "heading",
+    "text": "Jesus before the Council"
+  },
+  {
+    "ch": 14,
+    "v": 53,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 63,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 14,
+    "v": 63,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 63,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 66,
+    "type": "heading",
+    "text": "Peter Denies Jesus"
+  },
+  {
+    "ch": 14,
+    "v": 66,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "Jesus before Pilate"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 6,
+    "type": "heading",
+    "text": "Pilate Hands Jesus Over to Be Crucified"
+  },
+  {
+    "ch": 15,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 16,
+    "type": "heading",
+    "text": "The Soldiers Mock Jesus"
+  },
+  {
+    "ch": 15,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 21,
+    "type": "heading",
+    "text": "The Crucifixion of Jesus"
+  },
+  {
+    "ch": 15,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "heading",
+    "text": "The Death of Jesus"
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 42,
+    "type": "heading",
+    "text": "The Burial of Jesus"
+  },
+  {
+    "ch": 15,
+    "v": 42,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "The Resurrection of Jesus"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 9,
+    "type": "heading_minor",
+    "text": "The Intermediate Ending of Mark"
+  },
+  {
+    "ch": 16,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 9,
+    "type": "heading_minor",
+    "text": "The Long Ending of Mark"
+  },
+  {
+    "ch": 16,
+    "v": 9,
+    "type": "heading",
+    "text": "Jesus Appears to Mary Magdalene"
+  },
+  {
+    "ch": 16,
+    "v": 12,
+    "type": "heading",
+    "text": "Jesus Appears to Two Disciples"
+  },
+  {
+    "ch": 16,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 14,
+    "type": "heading",
+    "text": "Jesus Commissions the Disciples"
+  },
+  {
+    "ch": 16,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 19,
+    "type": "heading",
+    "text": "The Ascension of Jesus"
+  },
+  {
+    "ch": 16,
+    "v": 19,
+    "type": "para_break"
+  }
+]
