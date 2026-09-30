@@ -1,0 +1,707 @@
+/* ================================
+   8. INTERACTIVE STATES & EFFECTS
+   ================================ */
+
+html,
+body,
+#topChrome,
+.main-content,
+.passage-container,
+.passage-text,
+.verse,
+.selected-verse-glow,
+button,
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+[role="button"],
+.verse-tools-trigger,
+.verse-tool-btn {
+  -webkit-touch-callout: none;
+}
+
+/* Eliminate 300ms tap delay on verses; scroll is unaffected. */
+.verse {
+  touch-action: pan-y pinch-zoom;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.verse-number,
+.verse-tools-trigger,
+.verse-tool-btn,
+.verse-tool-letter {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.selected-verse-glow {
+  display: block;
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 215, 0, 0.1),
+    rgba(255, 215, 0, 0.05)
+  );
+  border-left: 4px solid rgba(255, 215, 0, 0.6);
+  border-radius: 8px;
+  padding: 12px;
+  padding-bottom: 0;
+  margin: 8px 0;
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.3),
+    inset 0 0 10px rgba(255, 215, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: verseGlowPulse 0.5s ease-out;
+}
+
+.selected-verse-glow + h2,
+.selected-verse-glow + h3,
+.selected-verse-glow + h4 {
+  margin-top: 0.25rem;
+}
+
+body.light-mode .selected-verse-glow {
+  box-shadow:
+    0 0 12px rgba(255, 165, 0, 0.4),
+    0 0 20px rgba(255, 165, 0, 0.2);
+  background-color: rgba(255, 165, 0, 0.08);
+  border-left: 3px solid rgba(255, 165, 0, 0.8);
+  animation: verse-highlight-light 0.6s ease;
+}
+
+/* ── Verse tools trigger (chevron) ── */
+
+.verse-tools-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 6px 0 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(255, 215, 0, 0.55);
+  transition: color 0.2s ease;
+}
+
+.verse-tools-trigger:hover,
+.verse-tools-trigger:focus-visible {
+  color: rgba(255, 215, 0, 0.9);
+  outline: none;
+}
+
+.verse-tools-trigger svg {
+  transition: transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  flex-shrink: 0;
+}
+
+.verse-tools-trigger--open svg {
+  transform: rotate(180deg);
+}
+
+/* "or press Enter" hint — desktop pointer devices only */
+@media (hover: hover) and (pointer: fine) {
+  .verse-tools-trigger::after {
+    content: "or press Enter";
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    opacity: 0.5;
+    white-space: nowrap;
+  }
+
+  .verse-tools-trigger--open::after {
+    content: "or press Enter";
+  }
+}
+
+body.light-mode .verse-tools-trigger {
+  color: rgba(255, 140, 0, 0.5);
+}
+
+body.light-mode .verse-tools-trigger:hover,
+body.light-mode .verse-tools-trigger:focus-visible {
+  color: rgba(255, 140, 0, 0.9);
+}
+
+/* ── Verse tools tray ── */
+
+.verse-tools-tray {
+  overflow: visible;
+  max-height: 0;
+  opacity: 0;
+  transition:
+    max-height 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    opacity 0.25s ease;
+  border-top: 1px solid rgba(255, 215, 0, 0.15);
+  margin: 0 -12px;
+  padding: 0 12px;
+}
+
+.verse-tools-tray--open {
+  max-height: 400px;
+  opacity: 1;
+}
+
+body.light-mode .verse-tools-tray {
+  border-top-color: rgba(255, 140, 0, 0.2);
+}
+
+/* ── Tool action rows ── */
+
+.verse-tools-actions {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  justify-items: center;
+  padding: 10px 0 12px;
+  gap: 4px;
+}
+
+.verse-tools-actions--top {
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+  margin-bottom: 2px;
+}
+
+body.light-mode .verse-tools-actions--top {
+  border-bottom-color: rgba(255, 140, 0, 0.15);
+}
+
+.verse-tool-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 215, 0, 0.08);
+  border: 1px solid rgba(255, 215, 0, 0.2);
+  cursor: pointer;
+  transition:
+    background 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.15s ease;
+  touch-action: manipulation;
+}
+
+.verse-tool-btn--square {
+  border-radius: 6px;
+}
+
+.verse-tool-btn:hover,
+.verse-tool-btn:focus-visible {
+  background: rgba(255, 215, 0, 0.18);
+  border-color: rgba(255, 215, 0, 0.5);
+  outline: none;
+}
+
+.verse-tool-btn:active {
+  transform: scale(0.92);
+}
+
+.verse-tool-letter {
+  font-family: var(--font-ui, system-ui, sans-serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255, 215, 0, 0.75);
+  line-height: 1;
+}
+
+.verse-tool-icon {
+  display: block;
+  color: rgba(255, 215, 0, 0.75);
+}
+
+body.light-mode .verse-tool-btn {
+  background: rgba(255, 140, 0, 0.08);
+  border-color: rgba(255, 140, 0, 0.25);
+}
+
+body.light-mode .verse-tool-btn:hover,
+body.light-mode .verse-tool-btn:focus-visible {
+  background: rgba(255, 140, 0, 0.18);
+  border-color: rgba(255, 140, 0, 0.5);
+}
+
+body.light-mode .verse-tool-letter {
+  color: rgba(200, 100, 0, 0.8);
+}
+
+body.light-mode .verse-tool-icon {
+  color: rgba(200, 100, 0, 0.8);
+}
+
+.has-tooltip {
+  position: relative;
+}
+
+.has-tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  padding: 0.35rem 0.5rem;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  border-radius: 0.4rem;
+  background: #222;
+  color: #fff;
+  font-family: var(--font-ui, system-ui, sans-serif);
+  font-size: 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.has-tooltip:hover::after,
+.has-tooltip:focus-visible::after {
+  opacity: 1;
+}
+
+/* ================================
+   9. ANIMATIONS
+   ================================ */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpFromBottom {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDownToBottom {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes verseGlowPulse {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 215, 0, 0);
+  }
+
+  50% {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+  }
+
+  100% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+}
+
+@keyframes verse-highlight {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 215, 0, 0);
+    background-color: transparent;
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    background-color: rgba(255, 215, 0, 0.1);
+  }
+
+  100% {
+    box-shadow:
+      0 0 12px rgba(255, 215, 0, 0.35),
+      0 0 24px rgba(255, 215, 0, 0.15);
+    background-color: rgba(255, 215, 0, 0.05);
+  }
+}
+
+@keyframes verse-highlight-light {
+  0% {
+    box-shadow: 0 0 0 rgba(255, 165, 0, 0);
+    background-color: transparent;
+  }
+
+  50% {
+    box-shadow: 0 0 24px rgba(255, 165, 0, 0.6);
+    background-color: rgba(255, 165, 0, 0.15);
+  }
+
+  100% {
+    box-shadow:
+      0 0 12px rgba(255, 165, 0, 0.4),
+      0 0 20px rgba(255, 165, 0, 0.2);
+    background-color: rgba(255, 165, 0, 0.08);
+  }
+}
+
+/* Colored verse bookmarks */
+
+.verse-tools-tray {
+  position: relative;
+}
+
+.verse-bookmark-ribbon {
+  display: inline-block;
+  width: 0.75em;
+  height: 1.1em;
+  margin-right: 0.35em;
+  vertical-align: -0.12em;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.45));
+}
+
+.verse-bookmark-ribbon--red,
+.bookmark-choice-ribbon--red,
+.bookmark-card__ribbon--red {
+  background: #d43b35;
+}
+
+.verse-bookmark-ribbon--green,
+.bookmark-choice-ribbon--green,
+.bookmark-card__ribbon--green {
+  background: #5fad3f;
+}
+
+.verse-bookmark-ribbon--blue,
+.bookmark-choice-ribbon--blue,
+.bookmark-card__ribbon--blue {
+  background: #4b83e6;
+}
+
+.verse[data-bookmark-color="red"] .verse-num {
+  color: #e36f66;
+}
+
+.verse[data-bookmark-color="green"] .verse-num {
+  color: #8dcc6b;
+}
+
+.verse[data-bookmark-color="blue"] .verse-num {
+  color: #78a6ff;
+}
+
+.verse-tool-btn--bookmarked[data-bookmark-color="red"] {
+  border-color: rgba(212, 59, 53, 0.8);
+  box-shadow: 0 0 12px rgba(212, 59, 53, 0.25);
+}
+
+.verse-tool-btn--bookmarked[data-bookmark-color="green"] {
+  border-color: rgba(95, 173, 63, 0.8);
+  box-shadow: 0 0 12px rgba(95, 173, 63, 0.25);
+}
+
+.verse-tool-btn--bookmarked[data-bookmark-color="blue"] {
+  border-color: rgba(75, 131, 230, 0.8);
+  box-shadow: 0 0 12px rgba(75, 131, 230, 0.25);
+}
+
+.verse-tool-icon--bookmark-add {
+  display: block;
+  width: 21px;
+  height: 21px;
+  overflow: visible;
+}
+
+.verse-tool-btn--bookmark-menu-open {
+  z-index: 6;
+}
+
+.verse-tool-btn--bookmark-menu-open::after {
+  display: none;
+}
+
+.bookmark-color-menu {
+  position: absolute;
+  left: 50%;
+  bottom: 68px;
+  z-index: 5;
+  display: grid;
+  gap: 2px;
+  min-width: 160px;
+  padding: 10px;
+  background: rgba(28, 28, 26, 0.96);
+  border: 1px solid rgba(207, 178, 42, 0.45);
+  border-radius: 10px;
+  box-shadow:
+    0 12px 30px rgba(0, 0, 0, 0.45),
+    0 0 18px rgba(207, 178, 42, 0.18);
+  transform: translateX(-50%);
+}
+
+.bookmark-color-menu::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 14px;
+  height: 14px;
+  background: rgba(28, 28, 26, 0.96);
+  border-right: 1px solid rgba(207, 178, 42, 0.45);
+  border-bottom: 1px solid rgba(207, 178, 42, 0.45);
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.bookmark-color-choice {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 10px;
+  color: var(--text-primary);
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.bookmark-color-choice:hover,
+.bookmark-color-choice:focus-visible {
+  background: rgba(207, 178, 42, 0.12);
+  outline: none;
+}
+
+.bookmark-color-choice--remove {
+  margin-top: 4px;
+  padding-top: 11px;
+  border-top: 1px solid rgba(207, 178, 42, 0.22);
+}
+
+.bookmark-choice-ribbon {
+  display: inline-block;
+  width: 16px;
+  height: 22px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
+}
+
+.bookmark-choice-trash {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Bookmark overview sheet */
+
+.bookmarks-sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  pointer-events: none;
+}
+
+.bookmarks-sheet__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.2s ease;
+}
+
+.bookmarks-sheet__panel {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: min(72vh, 620px);
+  padding: 0.75rem 1rem max(1rem, env(safe-area-inset-bottom));
+  overflow: auto;
+  color: var(--text-primary);
+  background: rgba(28, 28, 26, 0.98);
+  border-top: 1px solid rgba(207, 178, 42, 0.24);
+  border-radius: 18px 18px 0 0;
+  box-shadow: 0 -18px 36px rgba(0, 0, 0, 0.42);
+  transform: translateY(105%);
+  transition: transform 0.24s ease;
+}
+
+.bookmarks-sheet--open {
+  pointer-events: auto;
+}
+
+.bookmarks-sheet--open .bookmarks-sheet__scrim {
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.bookmarks-sheet--open .bookmarks-sheet__panel {
+  transform: translateY(0);
+}
+
+.bookmarks-sheet__handle {
+  width: 44px;
+  height: 4px;
+  margin: 0 auto 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.bookmarks-sheet__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.bookmarks-sheet__header h2 {
+  margin: 0;
+  color: var(--accent-color);
+  font-size: 1.25rem;
+}
+
+.bookmarks-sync-status {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.bookmarks-sheet__list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.bookmarks-empty {
+  margin: 0;
+  padding: 1rem;
+  color: var(--text-muted);
+  border: 1px solid rgba(207, 178, 42, 0.18);
+  border-radius: 10px;
+}
+
+.bookmark-card {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.7rem;
+  border: 1px solid rgba(207, 178, 42, 0.18);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.bookmark-card:hover,
+.bookmark-card:focus-visible {
+  border-color: rgba(207, 178, 42, 0.38);
+  background: rgba(207, 178, 42, 0.06);
+  outline: none;
+}
+
+.bookmark-card__ribbon {
+  width: 20px;
+  height: 32px;
+  align-self: start;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 76%, 0 100%);
+}
+
+.bookmark-card__body {
+  display: grid;
+  min-width: 0;
+  gap: 0.18rem;
+}
+
+.bookmark-card__body strong {
+  color: var(--accent-color);
+  font-size: 0.95rem;
+}
+
+.bookmark-card__body span {
+  overflow: hidden;
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bookmark-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bookmark-card__remove {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 0;
+  border-radius: 999px;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.bookmark-card__remove:focus-visible,
+.bookmark-card__remove:hover {
+  color: var(--accent-color);
+  background: rgba(207, 178, 42, 0.1);
+  outline: none;
+}
+
+.bookmarks-add-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.85rem 1rem;
+  color: var(--accent-color);
+  background: transparent;
+  border: 1px solid rgba(207, 178, 42, 0.45);
+  border-radius: 10px;
+  font: inherit;
+  cursor: pointer;
+}
