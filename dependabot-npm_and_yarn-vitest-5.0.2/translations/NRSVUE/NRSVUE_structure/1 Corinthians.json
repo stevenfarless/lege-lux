@@ -1,0 +1,572 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 4,
+    "type": "blockquote"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "heading",
+    "text": "Divisions in the Church"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "heading",
+    "text": "Christ the Power and Wisdom of God"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Proclaiming Christ Crucified"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "heading",
+    "text": "The True Wisdom of God"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 16,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "On Divisions in the Corinthian Church"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Ministry of the Apostles"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 14,
+    "type": "heading",
+    "text": "Fatherly Admonition"
+  },
+  {
+    "ch": 4,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Sexual Immorality Defiles the Church"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 9,
+    "type": "heading",
+    "text": "Sexual Immorality Must Be Judged"
+  },
+  {
+    "ch": 5,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Lawsuits among Believers"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 12,
+    "type": "heading",
+    "text": "Glorify God in Body and Spirit"
+  },
+  {
+    "ch": 6,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "Directions concerning Marriage"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 17,
+    "type": "heading",
+    "text": "The Life that the Lord Has Assigned"
+  },
+  {
+    "ch": 7,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "heading",
+    "text": "The Unmarried and the Widows"
+  },
+  {
+    "ch": 7,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Food Offered to Idols"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Rights of an Apostle"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "Warnings from Israel’s History"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 23,
+    "type": "heading",
+    "text": "Do All to the Glory of God"
+  },
+  {
+    "ch": 10,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 2,
+    "type": "heading",
+    "text": "Head Coverings"
+  },
+  {
+    "ch": 11,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 17,
+    "type": "heading",
+    "text": "Abuses at the Lord’s Supper"
+  },
+  {
+    "ch": 11,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 23,
+    "type": "heading",
+    "text": "The Institution of the Lord’s Supper"
+  },
+  {
+    "ch": 11,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "heading",
+    "text": "Partaking of the Supper Unworthily"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "Spiritual Gifts"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 12,
+    "type": "heading",
+    "text": "One Body with Many Members"
+  },
+  {
+    "ch": 12,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "The Gift of Love"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "Gifts of Prophecy and Tongues"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 14,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "heading",
+    "text": "Orderly Worship"
+  },
+  {
+    "ch": 14,
+    "v": 26,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "The Resurrection of Christ"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "heading",
+    "text": "The Resurrection of the Dead"
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 33,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 34,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 35,
+    "type": "heading",
+    "text": "The Resurrection Body"
+  },
+  {
+    "ch": 15,
+    "v": 35,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 55,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 55,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 56,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 56,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "The Collection for the Saints"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 5,
+    "type": "heading",
+    "text": "Plans for Travel"
+  },
+  {
+    "ch": 16,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 13,
+    "type": "heading",
+    "text": "Final Messages and Greetings"
+  },
+  {
+    "ch": 16,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 21,
+    "type": "blockquote"
+  }
+]

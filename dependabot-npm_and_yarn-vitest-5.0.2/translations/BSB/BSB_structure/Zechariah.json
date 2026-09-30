@@ -1,0 +1,732 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "A Call to Repentance"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 7,
+    "type": "heading",
+    "text": "The Vision of the Horses"
+  },
+  {
+    "ch": 1,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "heading",
+    "text": "The Vision of the Horns and the Craftsmen"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Measuring Line"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "heading",
+    "text": "The Redemption of Zion"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of Joshua the High Priest"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Lampstand and Olive Trees"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Flying Scroll"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "heading",
+    "text": "The Vision of the Woman in a Basket"
+  },
+  {
+    "ch": 5,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "The Vision of the Four Chariots"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 9,
+    "type": "heading",
+    "text": "The Crown and the Temple"
+  },
+  {
+    "ch": 6,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "A Call to Justice and Mercy"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "The Restoration of Jerusalem"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Burden against Israel’s Enemies"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 9,
+    "type": "heading",
+    "text": "Zion’s Coming King"
+  },
+  {
+    "ch": 9,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "heading",
+    "text": "The LORD Will Save His People"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "Judah and Israel Will Be Restored"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "The Doomed Flock"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "heading",
+    "text": "Thirty Pieces of Silver"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The Coming Deliverance of Jerusalem"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 10,
+    "type": "heading",
+    "text": "Mourning the One They Pierced"
+  },
+  {
+    "ch": 12,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "An End to Idolatry"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 4,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 7,
+    "type": "heading",
+    "text": "The Shepherd Struck, the Sheep Scattered"
+  },
+  {
+    "ch": 13,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "The Destroyers of Jerusalem Destroyed"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 16,
+    "type": "heading",
+    "text": "All Nations Will Worship the King"
+  },
+  {
+    "ch": 14,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 20,
+    "type": "para_break"
+  }
+]

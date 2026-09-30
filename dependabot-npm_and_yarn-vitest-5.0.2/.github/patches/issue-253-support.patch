@@ -1,0 +1,566 @@
+diff --git a/bible-api.js b/bible-api.js
+--- a/bible-api.js
++++ b/bible-api.js
+@@ -1,5 +1,5 @@
+ // bible-api.js
+-import { FIREBASE_DB_URL } from './config/firebase-config.js';
++import { FIREBASE_DB_URL } from './firebase-config.js';
+ import { normaliseBookAlias } from './book-aliases.js';
+ import {
+     idbGetBook, idbPutBook,
+diff --git a/config/firebase-config.js b/config/firebase-config.js
+--- a/config/firebase-config.js
++++ b/config/firebase-config.js
+@@ -1,119 +1,158 @@
+-// ================================
+-// Firebase Configuration — modular SDK v9 with compat shim
+-// app.js uses compat-style .ref().once()/.set() and auth.signIn* methods.
+-// We wrap the modular SDK to preserve that contract without loading compat.
+-// ================================
+-
+-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js';
+-import {
+-    getAuth,
+-    onAuthStateChanged,
+-    signInWithEmailAndPassword,
+-    createUserWithEmailAndPassword,
+-    signOut,
+-    setPersistence,
+-    indexedDBLocalPersistence,
+-    browserLocalPersistence,
+-    browserSessionPersistence,
+-} from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js';
+-import {
+-    getDatabase,
+-    ref,
+-    get,
+-    set,
+-    onValue,
+-} from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js';
+-import {
+-    initializeAppCheck,
+-    ReCaptchaV3Provider,
+-} from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-app-check.js';
++// Firebase configuration and lazy initialization.
++// Auth loads after the reader is visible. Database and App Check load only for
++// authenticated synchronization or an explicit account operation.
++
++import {
++    getApp,
++    getApps,
++    initializeApp,
++} from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js';
++import {
++    EmailAuthProvider,
++    browserLocalPersistence,
++    browserSessionPersistence,
++    createUserWithEmailAndPassword,
++    getAuth,
++    indexedDBLocalPersistence,
++    onAuthStateChanged,
++    reauthenticateWithCredential,
++    sendPasswordResetEmail,
++    setPersistence,
++    signInWithEmailAndPassword,
++    signOut,
++    updatePassword,
++    verifyBeforeUpdateEmail,
++} from 'https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js';
+ 
+ const firebaseConfig = {
+     apiKey: "__FIREBASE_API_KEY__",
+@@ -41,79 +80,117 @@ const firebaseConfig = {
+ };
+ 
+ export const FIREBASE_DB_URL = firebaseConfig.databaseURL;
+ 
+-const app = initializeApp(firebaseConfig);
+-
+-initializeAppCheck(app, {
+-    provider: new ReCaptchaV3Provider('6Lf8bAAtAAAAALvK77sjk7750S7XVUQR7Ai2cXXV'),
+-    isTokenAutoRefreshEnabled: true,
+-});
+-
+-const _auth = getAuth(app);
+-const _db   = getDatabase(app);
+-
+-// Try IndexedDB first (most robust), fall back to localStorage, then
+-// sessionStorage. Expose completion so auth-state consumers do not infer
+-// readiness from timing or show signed-out UI before persistence settles.
+-const authPersistenceReady = setPersistence(_auth, indexedDBLocalPersistence)
+-    .catch(() => setPersistence(_auth, browserLocalPersistence))
+-    .catch(() => setPersistence(_auth, browserSessionPersistence))
+-    .catch((error) => {
+-        console.warn('Firebase auth persistence unavailable', error);
+-    });
+-
+-// ── Database shim ──────────────────────────────────────────────────────────
+-// Returns a ref-like object whose .once() and .set() match the compat API.
+-function makeRef(path) {
+-    const dbRef = ref(_db, path);
+-    return {
+-        once: (_event) => get(dbRef).then((snap) => snap),
+-        set:  (value)  => set(dbRef, value),
+-        ref:  (subpath) => makeRef(path ? `${path}/${subpath}` : subpath),
+-    };
++let firebaseApp = null;
++let authInitializationPromise = null;
++let appCheckInitializationPromise = null;
++let databaseInitializationPromise = null;
++
++function getFirebaseApp() {
++    if (firebaseApp) return firebaseApp;
++
++    firebaseApp = getApps().length > 0
++        ? getApp()
++        : initializeApp(firebaseConfig);
++
++    return firebaseApp;
+ }
+ 
+-const dbShim = {
+-    ref: (path) => makeRef(path),
+-};
+-
+-// ── Auth shim ──────────────────────────────────────────────────────────────
+-const authShim = {
+-    ready: authPersistenceReady,
+-    onAuthStateChanged: (cb)           => onAuthStateChanged(_auth, cb),
+-    signInWithEmailAndPassword: (e, p) => signInWithEmailAndPassword(_auth, e, p),
+-    createUserWithEmailAndPassword: (e, p) => createUserWithEmailAndPassword(_auth, e, p),
+-    signOut: ()                        => signOut(_auth),
+-    get currentUser()                  { return _auth.currentUser; },
+-};
+-
+-// Expose on window so app.js reads window.firebaseAuth / window.firebaseDatabase
+-window.firebaseAuth     = authShim;
+-window.firebaseDatabase = dbShim;
+-
+-// ── loadUserData export ────────────────────────────────────────────────────
+-export async function loadUserData(userId) {
+-    try {
+-        const snap = await get(ref(_db, `users/${userId}`));
+-        const userData = snap.val();
+-        if (!userData) return null;
+-
+-        const s = userData.settings || {};
++export function initializeFirebaseAuth() {
++    if (authInitializationPromise) return authInitializationPromise;
++
++    authInitializationPromise = (async () => {
++        const app = getFirebaseApp();
++        const auth = getAuth(app);
++
++        const ready = setPersistence(auth, indexedDBLocalPersistence)
++            .catch(() => setPersistence(auth, browserLocalPersistence))
++            .catch(() => setPersistence(auth, browserSessionPersistence))
++            .catch((error) => {
++                console.warn('Firebase auth persistence unavailable', error);
++            });
++
++        await ready;
++
+         return {
+-            settings: {
+-                fontSize:            s.fontSize            ?? 18,
+-                showVerseNumbers:    s.showVerseNumbers     !== false,
+-                showHeadings:        s.showHeadings         !== false,
+-                showFootnotes:       s.showFootnotes        === true,
+-                showCrossReferences: s.showCrossReferences  === true,
+-                verseByVerse:        s.verseByVerse         === true,
+-                colorTheme:          s.colorTheme           || 'dracula',
+-                lightMode:           s.lightMode            ?? 'system',
+-                translation:         s.translation          || 'KJV',
+-            },
++            ready,
++            onAuthStateChanged: (callback) =>
++                onAuthStateChanged(auth, callback),
++            signInWithEmailAndPassword: (email, password) =>
++                signInWithEmailAndPassword(auth, email, password),
++            createUserWithEmailAndPassword: (email, password) =>
++                createUserWithEmailAndPassword(auth, email, password),
++            signOut: () => signOut(auth),
++            createCredential: (email, password) =>
++                EmailAuthProvider.credential(email, password),
++            reauthenticateWithCredential: (user, credential) =>
++                reauthenticateWithCredential(user, credential),
++            verifyBeforeUpdateEmail: (user, email) =>
++                verifyBeforeUpdateEmail(user, email),
++            updatePassword: (user, password) =>
++                updatePassword(user, password),
++            sendPasswordResetEmail: (email) =>
++                sendPasswordResetEmail(auth, email),
++            get currentUser() {
++                return auth.currentUser;
++            },
+         };
+-    } catch (err) {
+-        console.error('loadUserData error:', err);
+-        return null;
+-    }
++    })();
++
++    return authInitializationPromise;
++}
++
++function initializeFirebaseAppCheck(app) {
++    if (appCheckInitializationPromise) return appCheckInitializationPromise;
++
++    appCheckInitializationPromise = import(
++        'https://www.gstatic.com/firebasejs/9.23.0/firebase-app-check.js'
++    ).then(({ initializeAppCheck, ReCaptchaV3Provider }) => (
++        initializeAppCheck(app, {
++            provider: new ReCaptchaV3Provider(
++                '6Lf8bAAtAAAAALvK77sjk7750S7XVUQR7Ai2cXXV'
++            ),
++            isTokenAutoRefreshEnabled: true,
++        })
++    ));
++
++    return appCheckInitializationPromise;
++}
++
++export function initializeFirebaseDatabase() {
++    if (databaseInitializationPromise) return databaseInitializationPromise;
++
++    databaseInitializationPromise = (async () => {
++        const app = getFirebaseApp();
++        await initializeFirebaseAppCheck(app);
++
++        const {
++            get,
++            getDatabase,
++            onValue,
++            ref,
++            set,
++        } = await import(
++            'https://www.gstatic.com/firebasejs/9.23.0/firebase-database.js'
++        );
++
++        const database = getDatabase(app);
++
++        function makeRef(path) {
++            const databaseRef = ref(database, path);
++            return {
++                once: () => get(databaseRef),
++                set: (value) => set(databaseRef, value),
++                ref: (subpath) =>
++                    makeRef(path ? `${path}/${subpath}` : subpath),
++            };
++        }
++
++        return {
++            ref: (path) => makeRef(path),
++            onConnected: (callback) => onValue(
++                ref(database, '.info/connected'),
++                (snapshot) => callback(Boolean(snapshot.val()))
++            ),
++        };
++    })();
++
++    return databaseInitializationPromise;
+ }
+diff --git a/auth.js b/auth.js
+--- a/auth.js
++++ b/auth.js
+@@ -1,9 +1,6 @@
+ // auth.js
+ // Firebase auth, user data, and reading-position persistence for BibleApp.
+ 
+-import { loadUserData as loadUserDataFromFirebase } from './config/firebase-config.js';
+-
+ function lsSet(key, value) {
+     try { localStorage.setItem(key, String(value)); } catch (_) {}
+ }
+@@ -93,7 +90,7 @@ export function saveReadingPosition(app) {
+     // miss because their localStorage position is stale.
+     lsSetJSON('readingPosition', pos);
+ 
+-    if (app.currentUser && app.database) {
++    if (app.canWriteRemoteState()) {
+         app.database
+             .ref(`users/${app.currentUser.uid}/readingPosition`)
+             .set(pos)
+@@ -136,6 +133,7 @@ export async function handleLogin(app) {
+     }
+ 
+     try {
++        await app.ensureInteractiveAuth();
+         await app.auth.signInWithEmailAndPassword(email, password);
+         app.showToast('Signed in successfully!');
+         app.closeModal(app.loginModal);
+@@ -173,9 +171,11 @@ export async function handleSignup(app) {
+     }
+ 
+     try {
++        await app.ensureInteractiveAuth();
+         const userCredential = await app.auth.createUserWithEmailAndPassword(email, password);
+         const user = userCredential.user;
+ 
++        await app.ensureInteractiveDatabase();
+         await app.database.ref(`users/${user.uid}/settings`).set({
+             fontSize: app.state.fontSize,
+             showVerseNumbers: app.state.showVerseNumbers,
+@@ -183,9 +183,14 @@ export async function handleSignup(app) {
+             showFootnotes: app.state.showFootnotes,
+             showCrossReferences: app.state.showCrossReferences,
+             verseByVerse: app.state.verseByVerse,
++            showChapterArrows: app.state.showChapterArrows,
++            hapticsEnabled: app.state.hapticsEnabled,
+             colorTheme: app.state.colorTheme,
+             lightMode: app.state.lightMode ?? 'system',
+             translation: app.preferredTranslation || app.state.translation || 'KJV',
++            readingFont: app.state.readingFont,
++            verseSelectionGesture: app.state.verseSelectionGesture,
+         });
+ 
+         app.showToast('Account created successfully!');
+@@ -211,44 +216,74 @@ export async function handleLogout(app) {
+     }
+ }
+ 
+ export async function loadUserData(app, normalizeTranslation) {
+-    if (!app.currentUser) return;
+-    const data = await loadUserDataFromFirebase(app.currentUser.uid);
+-    if (!data) return;
+-    const s = data.settings;
+-
+-    app.state.fontSize             = s.fontSize;
+-    app.state.showVerseNumbers     = s.showVerseNumbers;
+-    app.state.showHeadings         = s.showHeadings;
+-    app.state.showFootnotes        = s.showFootnotes;
+-    app.state.showCrossReferences  = s.showCrossReferences;
+-    app.state.verseByVerse         = s.verseByVerse;
+-    app.state.colorTheme           = s.colorTheme;
+-    // Migrate old boolean values from Firebase to string enum
+-    app.state.lightMode =
+-        s.lightMode === 'light' || s.lightMode === 'dark' || s.lightMode === 'system'
+-            ? s.lightMode
+-            : s.lightMode === true ? 'light'
+-            : s.lightMode === false ? 'dark'
+-            : 'system';
+-    app.preferredTranslation = normalizeTranslation(
+-        s.translation || app.preferredTranslation || 'KJV'
+-    );
+-
+-    if (s.fontSize            != null) lsSet('fontSize',             s.fontSize);
+-    if (s.showVerseNumbers    != null) lsSet('showVerseNumbers',     s.showVerseNumbers);
+-    if (s.showHeadings        != null) lsSet('showHeadings',         s.showHeadings);
+-    if (s.showFootnotes       != null) lsSet('showFootnotes',        s.showFootnotes);
+-    if (s.showCrossReferences != null) lsSet('showCrossReferences',  s.showCrossReferences);
+-    if (s.verseByVerse        != null) lsSet('verseByVerse',         s.verseByVerse);
+-    if (s.colorTheme          != null) lsSet('colorTheme',           s.colorTheme);
+-    if (s.lightMode           != null) lsSet('lightMode',            app.state.lightMode);
++    if (!app.currentUser || !app.database) return;
++
++    let data;
++    try {
++        const snapshot = await app.database
++            .ref(`users/${app.currentUser.uid}`)
++            .once('value');
++        data = snapshot?.val();
++    } catch (error) {
++        console.error('loadUserData error:', error);
++        return;
++    }
++
++    const s = data?.settings;
++    if (!s) return;
++
++    const applySetting = (key, value) => {
++        if (value == null) return;
++        app.state[key] = value;
++        lsSet(key, value);
++    };
++
++    applySetting('fontSize', s.fontSize);
++    applySetting('showVerseNumbers', s.showVerseNumbers);
++    applySetting('coloredVerseNumbers', s.coloredVerseNumbers);
++    applySetting('showHeadings', s.showHeadings);
++    applySetting('showFootnotes', s.showFootnotes);
++    applySetting('showCrossReferences', s.showCrossReferences);
++    applySetting('verseByVerse', s.verseByVerse);
++    applySetting('showChapterArrows', s.showChapterArrows);
++    applySetting('hapticsEnabled', s.hapticsEnabled);
++    applySetting('colorTheme', s.colorTheme);
++    applySetting('readingFont', s.readingFont);
++    applySetting('verseSelectionGesture', s.verseSelectionGesture);
++
++    if (s.lightMode != null) {
++        app.state.lightMode =
++            s.lightMode === 'light' ||
++            s.lightMode === 'dark' ||
++            s.lightMode === 'system'
++                ? s.lightMode
++                : s.lightMode === true
++                    ? 'light'
++                    : s.lightMode === false
++                        ? 'dark'
++                        : 'system';
++        lsSet('lightMode', app.state.lightMode);
++    }
++
+     if (s.translation != null) {
+-        lsSet(
+-            'preferredTranslation',
+-            normalizeTranslation(s.translation || 'KJV')
++        app.preferredTranslation = normalizeTranslation(
++            s.translation || app.preferredTranslation || 'KJV'
+         );
++        lsSet('preferredTranslation', app.preferredTranslation);
+     }
+ }
+@@ -317,6 +352,7 @@ export async function handleForgotPassword(app) {
+     }
+ 
+     try {
++        await app.ensureInteractiveAuth();
+         await app.auth.sendPasswordResetEmail(email);
+         app.showToast('Reset link sent — check your inbox');
+         app.closeModal(document.getElementById('forgotPasswordModal'));
+diff --git a/settings.js b/settings.js
+--- a/settings.js
++++ b/settings.js
+@@ -195,7 +195,7 @@ export async function toggleSetting(app, setting) {
+ 
+     lsSet(setting, el.checked);
+ 
+-    if (app.currentUser) {
++    if (app.canWriteRemoteState()) {
+         await app.database
+             .ref(`users/${app.currentUser.uid}/settings/${setting}`)
+             .set(el.checked);
+@@ -227,7 +227,7 @@ export async function toggleVerseByVerse(app) {
+ 
+     lsSet('verseByVerse', app.state.verseByVerse);
+ 
+-    if (app.currentUser) {
++    if (app.canWriteRemoteState()) {
+         await app.database
+             .ref(`users/${app.currentUser.uid}/settings/verseByVerse`)
+             .set(app.state.verseByVerse);
+@@ -290,7 +290,7 @@ export async function updateFontSize(app, size) {
+ 
+     lsSet('fontSize', size);
+ 
+-    if (app.currentUser) {
++    if (app.canWriteRemoteState()) {
+         await app.database
+             .ref(`users/${app.currentUser.uid}/settings/fontSize`)
+             .set(parseInt(size, 10));
+@@ -349,7 +349,7 @@ export async function changeTranslation(
+         lsSet('preferredTranslation', translation);
+         await app.recordTranslationInstalled(translation);
+ 
+-        if (app.currentUser) {
++        if (app.canWriteRemoteState()) {
+             await app.database
+                 .ref(`users/${app.currentUser.uid}/settings/translation`)
+                 .set(translation);
+diff --git a/ui.js b/ui.js
+--- a/ui.js
++++ b/ui.js
+@@ -209,7 +209,7 @@ export async function setLightMode(app, mode) {
+ 	applyLightMode(normalized);
+ 	const sel = document.getElementById('lightModeSelect');
+ 	if (sel) sel.value = normalized;
+-	if (app.currentUser) {
++	if (app.canWriteRemoteState()) {
+ 		await app.database.ref(`users/${app.currentUser.uid}/settings/lightMode`).set(normalized);
+ 	}
+ }
+@@ -305,7 +305,7 @@ export async function changeColorTheme(app, theme) {
+ 
+ 	try { localStorage.setItem('colorTheme', resolved); } catch (_) {}
+ 
+-	if (app.currentUser) {
++	if (app.canWriteRemoteState()) {
+ 		await app.database
+ 			.ref(`users/${app.currentUser.uid}/settings/colorTheme`)
+ 			.set(resolved);
+diff --git a/events.js b/events.js
+--- a/events.js
++++ b/events.js
+@@ -319,8 +319,7 @@ export function attachEventListeners(app) {
+         app.openModal(app.settingsModal);
+ 
+         const canOfferSync = Boolean(
+-            app.auth &&
+-            app.database &&
++            app.authAvailable === true &&
+             app.authStateResolved &&
+             !app.currentUser
+         );
+@@ -390,7 +389,7 @@ export function attachEventListeners(app) {
+         app.state.verseSelectionGesture = gesture;
+         localStorage.setItem('verseSelectionGesture', gesture);
+ 
+-        if (app.currentUser) {
++        if (app.canWriteRemoteState()) {
+             await app.database
+                 .ref(`users/${app.currentUser.uid}/settings/verseSelectionGesture`)
+                 .set(gesture);
+@@ -405,7 +404,7 @@ export function attachEventListeners(app) {
+             app.state.readingFont = font;
+             localStorage.setItem('readingFont', font);
+ 
+-            if (app.currentUser) {
++            if (app.canWriteRemoteState()) {
+                 await app.database
+                     .ref(`users/${app.currentUser.uid}/settings/readingFont`)
+                     .set(font);
+diff --git a/translation-sync.js b/translation-sync.js
+--- a/translation-sync.js
++++ b/translation-sync.js
+@@ -386,7 +386,7 @@ export async function recordTranslationInstalled(app, translation) {
+     app.missingSyncedTranslations = (app.missingSyncedTranslations || [])
+         .filter((item) => item !== normalized);
+ 
+-    if (!app.currentUser || !app.database) {
++    if (!app.canWriteRemoteState()) {
+         rememberPendingAdd(normalized);
+         return true;
+     }
+@@ -415,7 +415,7 @@ export async function removeTranslationFromSyncedLibrary(app, translation) {
+     app.missingSyncedTranslations = (app.missingSyncedTranslations || [])
+         .filter((item) => item !== normalized);
+     forgetPendingAdd(normalized);
+ 
+-    if (app.currentUser && app.database) {
++    if (app.canWriteRemoteState()) {
+         await app.database
+             .ref(
+                 `users/${app.currentUser.uid}` +
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -46,10 +46,6 @@
+ 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+ 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+ 	<link rel="icon" href="./favicon.ico" />
+-	<link rel="preconnect" href="https://esv-bible-6dffb-default-rtdb.firebaseio.com" />
+-	<link rel="preconnect" href="https://www.gstatic.com" />
+-	<link rel="preconnect" href="https://www.google.com" />
+-	<link rel="preconnect" href="https://apis.google.com" />
+ 	<link rel="preconnect" href="https://fonts.googleapis.com" />
+ 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ 	<!-- Preload all ES modules so the browser fetches them in parallel
+diff --git a/scripts/prepare-offline-build.mjs b/scripts/prepare-offline-build.mjs
+--- a/scripts/prepare-offline-build.mjs
++++ b/scripts/prepare-offline-build.mjs
+@@ -154,7 +154,7 @@ async function bundleFirebase() {
+         source = source.replaceAll(remote, local);
+     }
+ 
+-    const outputPath = path.join(outputRoot, 'config/firebase-config.js');
++    const outputPath = path.join(outputRoot, 'config/firebase-config.bundle.js');
+     await fs.mkdir(path.dirname(outputPath), { recursive: true });
+     await build({
+         stdin: {
+@@ -169,8 +169,6 @@ async function bundleFirebase() {
+         platform: 'browser',
+         target: ['chrome109', 'firefox115', 'safari16.4'],
+     });
+-
+-    await fs.rm(path.join(outputRoot, 'config/firebase-config.bundle.js'), { force: true });
+ }

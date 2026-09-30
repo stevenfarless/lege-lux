@@ -1,0 +1,17 @@
+/* Startup font faces required for the default reading path. */
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../fonts/Cinzel-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gentium Book Plus';
+    src: url('../fonts/GentiumBookPlus-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
