@@ -1,0 +1,95 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "blockquote"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "Thanksgiving"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 5,
+    "type": "heading",
+    "text": "The Judgment at Christ’s Coming"
+  },
+  {
+    "ch": 1,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Man of Lawlessness"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 13,
+    "type": "heading",
+    "text": "Chosen for Salvation"
+  },
+  {
+    "ch": 2,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Request for Prayer"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 6,
+    "type": "heading",
+    "text": "Warning against Idleness"
+  },
+  {
+    "ch": 3,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 16,
+    "type": "heading",
+    "text": "Final Greetings and Benediction"
+  },
+  {
+    "ch": 3,
+    "v": 16,
+    "type": "para_break"
+  }
+]

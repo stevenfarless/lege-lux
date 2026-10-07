@@ -1,0 +1,13 @@
+{
+  "id": "ASV",
+  "label": "American Standard Version",
+  "abbreviation": "ASV",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 1901,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "manuscriptTradition": ["Masoretic Text", "Westcott-Hort"],
+  "textualBasis": "OT based on the Masoretic Text with reference to the Septuagint. NT based primarily on the Westcott-Hort Greek text, with some influence from the Textus Receptus. Revision of the 1885 English Revised Version adapted for American usage.",
+  "copyright": "American Standard Version (ASV). Public domain."
+}

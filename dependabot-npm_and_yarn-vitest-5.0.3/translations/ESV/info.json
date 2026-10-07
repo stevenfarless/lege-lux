@@ -1,0 +1,18 @@
+{
+  "id": "ESV",
+  "label": "English Standard Version",
+  "abbreviation": "ESV",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2001,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "manuscriptTradition": [
+    "Masoretic Text",
+    "Dead Sea Scrolls",
+    "Septuagint",
+    "Critical Text"
+  ],
+  "textualBasis": "OT from the Masoretic Text with reference to the Dead Sea Scrolls and Septuagint. NT from the critical Greek text. A revision of the RSV aiming for word-for-word accuracy with literary excellence.",
+  "copyright": "The Holy Bible, English Standard Version. ESV® Text Edition: 2016. Copyright © 2001 by Crossway Bibles, a publishing ministry of Good News Publishers. Verify distribution rights before publishing."
+}

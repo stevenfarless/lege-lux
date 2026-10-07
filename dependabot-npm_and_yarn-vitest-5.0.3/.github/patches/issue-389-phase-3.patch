@@ -1,0 +1,216 @@
+diff --git a/index.html b/index.html
+--- a/index.html
++++ b/index.html
+@@ -80,7 +80,6 @@
+ 	<link rel="stylesheet" href="css/pericope.css" />
+ 	<link rel="stylesheet" href="css/geek95.css">
+ 	<!-- Firebase App Check loads reCAPTCHA v3 through ReCaptchaV3Provider. -->
+-    <script src="https://cdn.jsdelivr.net/npm/marked@9/marked.min.js"></script>
+ </head>
+ 
+ <body class="initializing">
+diff --git a/settings.js b/settings.js
+--- a/settings.js
++++ b/settings.js
+@@ -469,6 +469,42 @@ export function initSubAccordions() {
+  *
+  * Falls back to the build-info SHA if the API request fails.
+  */
++let markedLoadPromise = null;
++
++function loadMarked() {
++    if (typeof window.marked !== 'undefined') {
++        return Promise.resolve(window.marked);
++    }
++
++    if (markedLoadPromise) {
++        return markedLoadPromise;
++    }
++
++    markedLoadPromise = new Promise((resolve, reject) => {
++        const script = document.createElement('script');
++
++        script.src =
++            'https://cdn.jsdelivr.net/npm/marked@9/marked.min.js';
++        script.async = true;
++
++        script.addEventListener('load', () => {
++            if (typeof window.marked !== 'undefined') {
++                resolve(window.marked);
++                return;
++            }
++
++            reject(new Error('marked.js loaded without exposing marked'));
++        });
++
++        script.addEventListener('error', () => {
++            reject(new Error('marked.js failed to load'));
++        });
++
++        document.head.appendChild(script);
++    });
++
++    return markedLoadPromise;
++}
++
+ let aboutVersionScheduled = false;
+ 
+ export function populateAboutVersion() {
+@@ -516,12 +552,16 @@ async function loadAboutVersion() {
+         }
+ 
+         if (contentEl && release.body) {
+-            // marked is loaded via CDN in index.html before this runs
+-            if (typeof marked !== 'undefined') {
++            try {
++                const marked = await loadMarked();
+                 contentEl.innerHTML = marked.parse(release.body);
+-            } else {
++            } catch (_) {
+                 contentEl.textContent = release.body;
+             }
+-            if (whatsNewBtn) whatsNewBtn.closest('.sub-accordion-section').removeAttribute('hidden');
++
++            if (whatsNewBtn) {
++                whatsNewBtn
++                    .closest('.sub-accordion-section')
++                    .removeAttribute('hidden');
++            }
+         }
+ 
+         // Fetch the latest prerelease for the Coming Soon section
+@@ -542,10 +582,10 @@ async function _populateComingSoon() {
+         const pre = releases.find(r => r.prerelease === true);
+         if (!pre || !pre.body) return;
+ 
+-        if (typeof marked !== 'undefined') {
++        try {
++            const marked = await loadMarked();
+             el.innerHTML = marked.parse(pre.body);
+-        } else {
++        } catch (_) {
+             el.textContent = pre.body;
+         }
+ 
+diff --git a/scripts/prepare-offline-build.mjs b/scripts/prepare-offline-build.mjs
+--- a/scripts/prepare-offline-build.mjs
++++ b/scripts/prepare-offline-build.mjs
+@@ -191,12 +191,12 @@ async function localizeMarked() {
+     await fs.copyFile(resolvedSource, destination);
+ }
+ 
+-function rewriteIndex(sourceIndex) {
++function rewriteMarkedLoader(source) {
+     const markedPattern = /https:\/\/cdn\.jsdelivr\.net\/npm\/marked@9\/marked\.min\.js(?:\?[^\"]*)?/;
+-    if (!markedPattern.test(sourceIndex)) {
+-        throw new Error('Could not find the hosted Marked script in index.html.');
++    if (!markedPattern.test(source)) {
++        throw new Error('Could not find the hosted Marked URL in settings.js.');
+     }
+-    return sourceIndex.replace(markedPattern, 'vendor/marked/marked.min.js');
++    return source.replace(markedPattern, './vendor/marked/marked.min.js');
+ }
+ 
+ async function validateInitialTranslations() {
+@@ -269,10 +269,15 @@ async function verifyOutput(assets) {
+         throw new Error('Built index still loads Marked from jsDelivr.');
+     }
++    const outputSettings = await fs.readFile(path.join(outputRoot, 'settings.js'), 'utf8');
++    if (outputSettings.includes('cdn.jsdelivr.net/npm/marked')) {
++        throw new Error('Built settings.js still loads Marked from jsDelivr.');
++    }
++    if (!outputSettings.includes("'./vendor/marked/marked.min.js'")) {
++        throw new Error('Built settings.js does not load the local Marked bundle.');
++    }
+     if (assets.length < 150) {
+         throw new Error(`Offline manifest contains only ${assets.length} assets; expected the full shell and two translations.`);
+     }
+ }
+@@ -282,10 +287,13 @@ async function main() {
+     if (!initialTranslations.length) throw new Error('INITIAL_OFFLINE_TRANSLATIONS cannot be empty.');
+ 
+     const sourceIndex = await fs.readFile(path.join(root, 'index.html'), 'utf8');
++    const sourceSettings = await fs.readFile(path.join(root, 'settings.js'), 'utf8');
+     await copyRuntimeTree();
+     await validateCssSources(sourceIndex);
+     await bundleFirebase();
+     await localizeMarked();
+-    await fs.writeFile(path.join(outputRoot, 'index.html'), rewriteIndex(sourceIndex));
++    await fs.writeFile(
++        path.join(outputRoot, 'settings.js'),
++        rewriteMarkedLoader(sourceSettings)
++    );
+     await validateInitialTranslations();
+     const assets = await writeOfflineManifest();
+     await verifyOutput(assets);
+diff --git a/tests/smoke.spec.js b/tests/smoke.spec.js
+--- a/tests/smoke.spec.js
++++ b/tests/smoke.spec.js
+@@ -895,3 +895,60 @@ test('startup: GitHub release checks wait for browser idle time', async ({ page }) => {
+         expect(releaseRequests[0]).toContain('/releases/latest');
+         expect(releaseRequests[1]).toContain('/releases?per_page=10');
+ });
++
++test('startup: marked loads only after delayed release metadata', async ({ page }) => {
++        const markedRequests = [];
++
++        await page.addInitScript(() => {
++                window.__idleCallbacks = [];
++                window.requestIdleCallback = (callback) => {
++                        window.__idleCallbacks.push(callback);
++                        return window.__idleCallbacks.length;
++                };
++        });
++
++        await page.route(
++                'https://api.github.com/repos/stevenfarless/lege-lux/releases/latest',
++                route => route.fulfill({
++                        status: 200,
++                        contentType: 'application/json',
++                        body: JSON.stringify({
++                                tag_name: 'v-test',
++                                body: '**Test release notes**',
++                        }),
++                })
++        );
++
++        await page.route(
++                'https://api.github.com/repos/stevenfarless/lege-lux/releases?per_page=10',
++                route => route.fulfill({
++                        status: 200,
++                        contentType: 'application/json',
++                        body: '[]',
++                })
++        );
++
++        await page.route('**/marked@9/marked.min.js', async route => {
++                markedRequests.push(route.request().url());
++                await route.fulfill({
++                        status: 200,
++                        contentType: 'text/javascript',
++                        body: `
++                                window.marked = {
++                                        parse(value) {
++                                                return '<strong>' + value + '</strong>';
++                                        }
++                                };
++                        `,
++                });
++        });
++
++        await page.goto('/');
++        await waitForPassage(page);
++
++        expect(markedRequests).toHaveLength(0);
++
++        await page.evaluate(() => {
++                for (const callback of window.__idleCallbacks.splice(0)) {
++                        callback({ didTimeout: false, timeRemaining: () => 50 });
++                }
++        });
++
++        await expect.poll(() => markedRequests.length).toBe(1);
++        await expect(page.locator('#whatsNewContent')).toContainText(
++                'Test release notes'
++        );
++});

@@ -1,0 +1,13 @@
+{
+  "id": "NET",
+  "label": "New English Translation",
+  "abbreviation": "NET",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 1996,
+  "canon": "protestant",
+  "philosophy": "dynamic",
+  "manuscriptTradition": ["Masoretic Text", "Dead Sea Scrolls", "Septuagint", "Critical Text"],
+  "textualBasis": "OT translated from the Masoretic Text with significant reference to the Dead Sea Scrolls and Septuagint where they provide textual clarity. NT translated from the eclectic critical Greek text (NA27/UBS4). Notable for its extensive translator footnotes documenting textual decisions.",
+  "copyright": "Scripture quoted by permission. Quotations designated (NET) are from the NET Bible\u00ae copyright \u00a91996, 2019 by Biblical Studies Press, L.L.C. http://netbible.com All rights reserved."
+}
