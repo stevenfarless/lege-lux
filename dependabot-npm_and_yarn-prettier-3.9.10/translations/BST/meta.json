@@ -1,0 +1,1456 @@
+{
+  "translation": "BST",
+  "books": [
+    {
+      "name": "Genesis",
+      "testament": "Old Testament",
+      "chapters": 50
+    },
+    {
+      "name": "Exodus",
+      "testament": "Old Testament",
+      "chapters": 40
+    },
+    {
+      "name": "Leviticus",
+      "testament": "Old Testament",
+      "chapters": 27
+    },
+    {
+      "name": "Numbers",
+      "testament": "Old Testament",
+      "chapters": 36
+    },
+    {
+      "name": "Deuteronomy",
+      "testament": "Old Testament",
+      "chapters": 34
+    },
+    {
+      "name": "Joshua",
+      "testament": "Old Testament",
+      "chapters": 24
+    },
+    {
+      "name": "Judges",
+      "testament": "Old Testament",
+      "chapters": 21
+    },
+    {
+      "name": "Ruth",
+      "testament": "Old Testament",
+      "chapters": 4
+    },
+    {
+      "name": "1 Samuel",
+      "testament": "Old Testament",
+      "chapters": 31
+    },
+    {
+      "name": "2 Samuel",
+      "testament": "Old Testament",
+      "chapters": 24
+    },
+    {
+      "name": "1 Kings",
+      "testament": "Old Testament",
+      "chapters": 22
+    },
+    {
+      "name": "2 Kings",
+      "testament": "Old Testament",
+      "chapters": 25
+    },
+    {
+      "name": "1 Chronicles",
+      "testament": "Old Testament",
+      "chapters": 29
+    },
+    {
+      "name": "2 Chronicles",
+      "testament": "Old Testament",
+      "chapters": 36
+    },
+    {
+      "name": "Ezra",
+      "testament": "Old Testament",
+      "chapters": 23
+    },
+    {
+      "name": "Nehemiah",
+      "testament": "Old Testament",
+      "chapters": 13
+    },
+    {
+      "name": "Esther",
+      "testament": "Old Testament",
+      "chapters": 10
+    },
+    {
+      "name": "Job",
+      "testament": "Old Testament",
+      "chapters": 42
+    },
+    {
+      "name": "Psalm",
+      "testament": "Old Testament",
+      "chapters": 151
+    },
+    {
+      "name": "Proverbs",
+      "testament": "Old Testament",
+      "chapters": 31
+    },
+    {
+      "name": "Ecclesiastes",
+      "testament": "Old Testament",
+      "chapters": 12
+    },
+    {
+      "name": "Song of Solomon",
+      "testament": "Old Testament",
+      "chapters": 8
+    },
+    {
+      "name": "Isaiah",
+      "testament": "Old Testament",
+      "chapters": 66
+    },
+    {
+      "name": "Jeremiah",
+      "testament": "Old Testament",
+      "chapters": 52
+    },
+    {
+      "name": "Lamentations",
+      "testament": "Old Testament",
+      "chapters": 5
+    },
+    {
+      "name": "Ezekiel",
+      "testament": "Old Testament",
+      "chapters": 48
+    },
+    {
+      "name": "Daniel",
+      "testament": "Old Testament",
+      "chapters": 12
+    },
+    {
+      "name": "Hosea",
+      "testament": "Old Testament",
+      "chapters": 14
+    },
+    {
+      "name": "Joel",
+      "testament": "Old Testament",
+      "chapters": 4
+    },
+    {
+      "name": "Amos",
+      "testament": "Old Testament",
+      "chapters": 9
+    },
+    {
+      "name": "Obadiah",
+      "testament": "Old Testament",
+      "chapters": 1
+    },
+    {
+      "name": "Jonah",
+      "testament": "Old Testament",
+      "chapters": 4
+    },
+    {
+      "name": "Micah",
+      "testament": "Old Testament",
+      "chapters": 7
+    },
+    {
+      "name": "Nahum",
+      "testament": "Old Testament",
+      "chapters": 3
+    },
+    {
+      "name": "Habakkuk",
+      "testament": "Old Testament",
+      "chapters": 3
+    },
+    {
+      "name": "Zephaniah",
+      "testament": "Old Testament",
+      "chapters": 3
+    },
+    {
+      "name": "Haggai",
+      "testament": "Old Testament",
+      "chapters": 2
+    },
+    {
+      "name": "Zechariah",
+      "testament": "Old Testament",
+      "chapters": 14
+    },
+    {
+      "name": "Malachi",
+      "testament": "Old Testament",
+      "chapters": 3
+    },
+    {
+      "name": "1 Esdras",
+      "testament": "Deuterocanon",
+      "chapters": 9
+    },
+    {
+      "name": "Tobit",
+      "testament": "Deuterocanon",
+      "chapters": 14
+    },
+    {
+      "name": "Judith",
+      "testament": "Deuterocanon",
+      "chapters": 16
+    },
+    {
+      "name": "Wisdom of Solomon",
+      "testament": "Deuterocanon",
+      "chapters": 19
+    },
+    {
+      "name": "Sirach",
+      "testament": "Deuterocanon",
+      "chapters": 51
+    },
+    {
+      "name": "Baruch",
+      "testament": "Deuterocanon",
+      "chapters": 5
+    },
+    {
+      "name": "Letter of Jeremiah",
+      "testament": "Deuterocanon",
+      "chapters": 1
+    },
+    {
+      "name": "Susanna",
+      "testament": "Deuterocanon",
+      "chapters": 1
+    },
+    {
+      "name": "Bel and the Dragon",
+      "testament": "Deuterocanon",
+      "chapters": 1
+    },
+    {
+      "name": "1 Maccabees",
+      "testament": "Deuterocanon",
+      "chapters": 16
+    },
+    {
+      "name": "2 Maccabees",
+      "testament": "Deuterocanon",
+      "chapters": 15
+    },
+    {
+      "name": "Prayer of Manasseh",
+      "testament": "Deuterocanon",
+      "chapters": 1
+    },
+    {
+      "name": "3 Maccabees",
+      "testament": "Deuterocanon",
+      "chapters": 7
+    },
+    {
+      "name": "4 Maccabees",
+      "testament": "Deuterocanon",
+      "chapters": 18
+    }
+  ],
+  "versification": {
+    "scheme": "brenton-lxx",
+    "baselineScheme": "protestant",
+    "books": {
+      "Psalm": {
+        "chapters": {
+          "9": {
+            "label": "MT 9–10",
+            "baselineChapters": [
+              9,
+              10
+            ],
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 1,
+                "baselineChapter": 9,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 1,
+                "verseOffsetToBaseline": 0
+              },
+              {
+                "nativeVerseStart": 2,
+                "nativeVerseEnd": 21,
+                "baselineChapter": 9,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 20,
+                "verseOffsetToBaseline": -1
+              },
+              {
+                "nativeVerseStart": 22,
+                "nativeVerseEnd": 39,
+                "baselineChapter": 10,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 18,
+                "verseOffsetToBaseline": -21
+              }
+            ]
+          },
+          "10": {
+            "label": "MT 11",
+            "baselineChapters": [
+              11
+            ]
+          },
+          "11": {
+            "label": "MT 12",
+            "baselineChapters": [
+              12
+            ]
+          },
+          "12": {
+            "label": "MT 13",
+            "baselineChapters": [
+              13
+            ]
+          },
+          "13": {
+            "label": "MT 14",
+            "baselineChapters": [
+              14
+            ]
+          },
+          "14": {
+            "label": "MT 15",
+            "baselineChapters": [
+              15
+            ]
+          },
+          "15": {
+            "label": "MT 16",
+            "baselineChapters": [
+              16
+            ]
+          },
+          "16": {
+            "label": "MT 17",
+            "baselineChapters": [
+              17
+            ]
+          },
+          "17": {
+            "label": "MT 18",
+            "baselineChapters": [
+              18
+            ]
+          },
+          "18": {
+            "label": "MT 19",
+            "baselineChapters": [
+              19
+            ]
+          },
+          "19": {
+            "label": "MT 20",
+            "baselineChapters": [
+              20
+            ]
+          },
+          "20": {
+            "label": "MT 21",
+            "baselineChapters": [
+              21
+            ]
+          },
+          "21": {
+            "label": "MT 22",
+            "baselineChapters": [
+              22
+            ]
+          },
+          "22": {
+            "label": "MT 23",
+            "baselineChapters": [
+              23
+            ]
+          },
+          "23": {
+            "label": "MT 24",
+            "baselineChapters": [
+              24
+            ]
+          },
+          "24": {
+            "label": "MT 25",
+            "baselineChapters": [
+              25
+            ]
+          },
+          "25": {
+            "label": "MT 26",
+            "baselineChapters": [
+              26
+            ]
+          },
+          "26": {
+            "label": "MT 27",
+            "baselineChapters": [
+              27
+            ]
+          },
+          "27": {
+            "label": "MT 28",
+            "baselineChapters": [
+              28
+            ]
+          },
+          "28": {
+            "label": "MT 29",
+            "baselineChapters": [
+              29
+            ]
+          },
+          "29": {
+            "label": "MT 30",
+            "baselineChapters": [
+              30
+            ]
+          },
+          "30": {
+            "label": "MT 31",
+            "baselineChapters": [
+              31
+            ]
+          },
+          "31": {
+            "label": "MT 32",
+            "baselineChapters": [
+              32
+            ]
+          },
+          "32": {
+            "label": "MT 33",
+            "baselineChapters": [
+              33
+            ]
+          },
+          "33": {
+            "label": "MT 34",
+            "baselineChapters": [
+              34
+            ]
+          },
+          "34": {
+            "label": "MT 35",
+            "baselineChapters": [
+              35
+            ]
+          },
+          "35": {
+            "label": "MT 36",
+            "baselineChapters": [
+              36
+            ]
+          },
+          "36": {
+            "label": "MT 37",
+            "baselineChapters": [
+              37
+            ]
+          },
+          "37": {
+            "label": "MT 38",
+            "baselineChapters": [
+              38
+            ]
+          },
+          "38": {
+            "label": "MT 39",
+            "baselineChapters": [
+              39
+            ]
+          },
+          "39": {
+            "label": "MT 40",
+            "baselineChapters": [
+              40
+            ]
+          },
+          "40": {
+            "label": "MT 41",
+            "baselineChapters": [
+              41
+            ]
+          },
+          "41": {
+            "label": "MT 42",
+            "baselineChapters": [
+              42
+            ]
+          },
+          "42": {
+            "label": "MT 43",
+            "baselineChapters": [
+              43
+            ]
+          },
+          "43": {
+            "label": "MT 44",
+            "baselineChapters": [
+              44
+            ]
+          },
+          "44": {
+            "label": "MT 45",
+            "baselineChapters": [
+              45
+            ]
+          },
+          "45": {
+            "label": "MT 46",
+            "baselineChapters": [
+              46
+            ]
+          },
+          "46": {
+            "label": "MT 47",
+            "baselineChapters": [
+              47
+            ]
+          },
+          "47": {
+            "label": "MT 48",
+            "baselineChapters": [
+              48
+            ]
+          },
+          "48": {
+            "label": "MT 49",
+            "baselineChapters": [
+              49
+            ]
+          },
+          "49": {
+            "label": "MT 50",
+            "baselineChapters": [
+              50
+            ]
+          },
+          "50": {
+            "label": "MT 51",
+            "baselineChapters": [
+              51
+            ]
+          },
+          "51": {
+            "label": "MT 52",
+            "baselineChapters": [
+              52
+            ]
+          },
+          "52": {
+            "label": "MT 53",
+            "baselineChapters": [
+              53
+            ]
+          },
+          "53": {
+            "label": "MT 54",
+            "baselineChapters": [
+              54
+            ]
+          },
+          "54": {
+            "label": "MT 55",
+            "baselineChapters": [
+              55
+            ]
+          },
+          "55": {
+            "label": "MT 56",
+            "baselineChapters": [
+              56
+            ]
+          },
+          "56": {
+            "label": "MT 57",
+            "baselineChapters": [
+              57
+            ]
+          },
+          "57": {
+            "label": "MT 58",
+            "baselineChapters": [
+              58
+            ]
+          },
+          "58": {
+            "label": "MT 59",
+            "baselineChapters": [
+              59
+            ]
+          },
+          "59": {
+            "label": "MT 60",
+            "baselineChapters": [
+              60
+            ]
+          },
+          "60": {
+            "label": "MT 61",
+            "baselineChapters": [
+              61
+            ]
+          },
+          "61": {
+            "label": "MT 62",
+            "baselineChapters": [
+              62
+            ]
+          },
+          "62": {
+            "label": "MT 63",
+            "baselineChapters": [
+              63
+            ]
+          },
+          "63": {
+            "label": "MT 64",
+            "baselineChapters": [
+              64
+            ]
+          },
+          "64": {
+            "label": "MT 65",
+            "baselineChapters": [
+              65
+            ]
+          },
+          "65": {
+            "label": "MT 66",
+            "baselineChapters": [
+              66
+            ]
+          },
+          "66": {
+            "label": "MT 67",
+            "baselineChapters": [
+              67
+            ]
+          },
+          "67": {
+            "label": "MT 68",
+            "baselineChapters": [
+              68
+            ]
+          },
+          "68": {
+            "label": "MT 69",
+            "baselineChapters": [
+              69
+            ]
+          },
+          "69": {
+            "label": "MT 70",
+            "baselineChapters": [
+              70
+            ]
+          },
+          "70": {
+            "label": "MT 71",
+            "baselineChapters": [
+              71
+            ]
+          },
+          "71": {
+            "label": "MT 72",
+            "baselineChapters": [
+              72
+            ]
+          },
+          "72": {
+            "label": "MT 73",
+            "baselineChapters": [
+              73
+            ]
+          },
+          "73": {
+            "label": "MT 74",
+            "baselineChapters": [
+              74
+            ]
+          },
+          "74": {
+            "label": "MT 75",
+            "baselineChapters": [
+              75
+            ]
+          },
+          "75": {
+            "label": "MT 76",
+            "baselineChapters": [
+              76
+            ]
+          },
+          "76": {
+            "label": "MT 77",
+            "baselineChapters": [
+              77
+            ]
+          },
+          "77": {
+            "label": "MT 78",
+            "baselineChapters": [
+              78
+            ]
+          },
+          "78": {
+            "label": "MT 79",
+            "baselineChapters": [
+              79
+            ]
+          },
+          "79": {
+            "label": "MT 80",
+            "baselineChapters": [
+              80
+            ]
+          },
+          "80": {
+            "label": "MT 81",
+            "baselineChapters": [
+              81
+            ]
+          },
+          "81": {
+            "label": "MT 82",
+            "baselineChapters": [
+              82
+            ]
+          },
+          "82": {
+            "label": "MT 83",
+            "baselineChapters": [
+              83
+            ]
+          },
+          "83": {
+            "label": "MT 84",
+            "baselineChapters": [
+              84
+            ]
+          },
+          "84": {
+            "label": "MT 85",
+            "baselineChapters": [
+              85
+            ]
+          },
+          "85": {
+            "label": "MT 86",
+            "baselineChapters": [
+              86
+            ]
+          },
+          "86": {
+            "label": "MT 87",
+            "baselineChapters": [
+              87
+            ]
+          },
+          "87": {
+            "label": "MT 88",
+            "baselineChapters": [
+              88
+            ]
+          },
+          "88": {
+            "label": "MT 89",
+            "baselineChapters": [
+              89
+            ]
+          },
+          "89": {
+            "label": "MT 90",
+            "baselineChapters": [
+              90
+            ]
+          },
+          "90": {
+            "label": "MT 91",
+            "baselineChapters": [
+              91
+            ]
+          },
+          "91": {
+            "label": "MT 92",
+            "baselineChapters": [
+              92
+            ]
+          },
+          "92": {
+            "label": "MT 93",
+            "baselineChapters": [
+              93
+            ]
+          },
+          "93": {
+            "label": "MT 94",
+            "baselineChapters": [
+              94
+            ]
+          },
+          "94": {
+            "label": "MT 95",
+            "baselineChapters": [
+              95
+            ]
+          },
+          "95": {
+            "label": "MT 96",
+            "baselineChapters": [
+              96
+            ]
+          },
+          "96": {
+            "label": "MT 97",
+            "baselineChapters": [
+              97
+            ]
+          },
+          "97": {
+            "label": "MT 98",
+            "baselineChapters": [
+              98
+            ]
+          },
+          "98": {
+            "label": "MT 99",
+            "baselineChapters": [
+              99
+            ]
+          },
+          "99": {
+            "label": "MT 100",
+            "baselineChapters": [
+              100
+            ]
+          },
+          "100": {
+            "label": "MT 101",
+            "baselineChapters": [
+              101
+            ]
+          },
+          "101": {
+            "label": "MT 102",
+            "baselineChapters": [
+              102
+            ]
+          },
+          "102": {
+            "label": "MT 103",
+            "baselineChapters": [
+              103
+            ]
+          },
+          "103": {
+            "label": "MT 104",
+            "baselineChapters": [
+              104
+            ]
+          },
+          "104": {
+            "label": "MT 105",
+            "baselineChapters": [
+              105
+            ]
+          },
+          "105": {
+            "label": "MT 106",
+            "baselineChapters": [
+              106
+            ]
+          },
+          "106": {
+            "label": "MT 107",
+            "baselineChapters": [
+              107
+            ]
+          },
+          "107": {
+            "label": "MT 108",
+            "baselineChapters": [
+              108
+            ]
+          },
+          "108": {
+            "label": "MT 109",
+            "baselineChapters": [
+              109
+            ]
+          },
+          "109": {
+            "label": "MT 110",
+            "baselineChapters": [
+              110
+            ]
+          },
+          "110": {
+            "label": "MT 111",
+            "baselineChapters": [
+              111
+            ]
+          },
+          "111": {
+            "label": "MT 112",
+            "baselineChapters": [
+              112
+            ]
+          },
+          "112": {
+            "label": "MT 113",
+            "baselineChapters": [
+              113
+            ]
+          },
+          "113": {
+            "label": "MT 114–115",
+            "baselineChapters": [
+              114,
+              115
+            ],
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 8,
+                "baselineChapter": 114,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 8,
+                "verseOffsetToBaseline": 0
+              },
+              {
+                "nativeVerseStart": 9,
+                "nativeVerseEnd": 26,
+                "baselineChapter": 115,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 18,
+                "verseOffsetToBaseline": -8
+              }
+            ]
+          },
+          "114": {
+            "label": "MT 116:1–9",
+            "baselineChapters": [
+              116
+            ],
+            "reversePriority": 0,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 9,
+                "baselineChapter": 116,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 9,
+                "verseOffsetToBaseline": 0
+              }
+            ]
+          },
+          "115": {
+            "label": "MT 116:10–19",
+            "baselineChapters": [
+              116
+            ],
+            "reversePriority": 1,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 10,
+                "baselineChapter": 116,
+                "baselineVerseStart": 10,
+                "baselineVerseEnd": 19,
+                "verseOffsetToBaseline": 9
+              }
+            ]
+          },
+          "116": {
+            "label": "MT 117",
+            "baselineChapters": [
+              117
+            ]
+          },
+          "117": {
+            "label": "MT 118",
+            "baselineChapters": [
+              118
+            ]
+          },
+          "118": {
+            "label": "MT 119",
+            "baselineChapters": [
+              119
+            ]
+          },
+          "119": {
+            "label": "MT 120",
+            "baselineChapters": [
+              120
+            ]
+          },
+          "120": {
+            "label": "MT 121",
+            "baselineChapters": [
+              121
+            ]
+          },
+          "121": {
+            "label": "MT 122",
+            "baselineChapters": [
+              122
+            ]
+          },
+          "122": {
+            "label": "MT 123",
+            "baselineChapters": [
+              123
+            ]
+          },
+          "123": {
+            "label": "MT 124",
+            "baselineChapters": [
+              124
+            ]
+          },
+          "124": {
+            "label": "MT 125",
+            "baselineChapters": [
+              125
+            ]
+          },
+          "125": {
+            "label": "MT 126",
+            "baselineChapters": [
+              126
+            ]
+          },
+          "126": {
+            "label": "MT 127",
+            "baselineChapters": [
+              127
+            ]
+          },
+          "127": {
+            "label": "MT 128",
+            "baselineChapters": [
+              128
+            ]
+          },
+          "128": {
+            "label": "MT 129",
+            "baselineChapters": [
+              129
+            ]
+          },
+          "129": {
+            "label": "MT 130",
+            "baselineChapters": [
+              130
+            ]
+          },
+          "130": {
+            "label": "MT 131",
+            "baselineChapters": [
+              131
+            ]
+          },
+          "131": {
+            "label": "MT 132",
+            "baselineChapters": [
+              132
+            ]
+          },
+          "132": {
+            "label": "MT 133",
+            "baselineChapters": [
+              133
+            ]
+          },
+          "133": {
+            "label": "MT 134",
+            "baselineChapters": [
+              134
+            ]
+          },
+          "134": {
+            "label": "MT 135",
+            "baselineChapters": [
+              135
+            ]
+          },
+          "135": {
+            "label": "MT 136",
+            "baselineChapters": [
+              136
+            ]
+          },
+          "136": {
+            "label": "MT 137",
+            "baselineChapters": [
+              137
+            ]
+          },
+          "137": {
+            "label": "MT 138",
+            "baselineChapters": [
+              138
+            ]
+          },
+          "138": {
+            "label": "MT 139",
+            "baselineChapters": [
+              139
+            ]
+          },
+          "139": {
+            "label": "MT 140",
+            "baselineChapters": [
+              140
+            ]
+          },
+          "140": {
+            "label": "MT 141",
+            "baselineChapters": [
+              141
+            ]
+          },
+          "141": {
+            "label": "MT 142",
+            "baselineChapters": [
+              142
+            ]
+          },
+          "142": {
+            "label": "MT 143",
+            "baselineChapters": [
+              143
+            ]
+          },
+          "143": {
+            "label": "MT 144",
+            "baselineChapters": [
+              144
+            ]
+          },
+          "144": {
+            "label": "MT 145",
+            "baselineChapters": [
+              145
+            ]
+          },
+          "145": {
+            "label": "MT 146",
+            "baselineChapters": [
+              146
+            ]
+          },
+          "146": {
+            "label": "MT 147:1–11",
+            "baselineChapters": [
+              147
+            ],
+            "reversePriority": 0,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 11,
+                "baselineChapter": 147,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 11,
+                "verseOffsetToBaseline": 0
+              }
+            ]
+          },
+          "147": {
+            "label": "MT 147:12–20",
+            "baselineChapters": [
+              147
+            ],
+            "reversePriority": 1,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 9,
+                "baselineChapter": 147,
+                "baselineVerseStart": 12,
+                "baselineVerseEnd": 20,
+                "verseOffsetToBaseline": 11
+              }
+            ]
+          },
+          "151": {
+            "label": "no MT equivalent",
+            "baselineChapters": []
+          }
+        }
+      },
+      "Joel": {
+        "chapters": {
+          "2": {
+            "label": "Protestant 2:1–27",
+            "baselineChapters": [
+              2
+            ],
+            "reversePriority": 0,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 27,
+                "baselineChapter": 2,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 27,
+                "verseOffsetToBaseline": 0
+              }
+            ]
+          },
+          "3": {
+            "label": "Protestant 2:28–32",
+            "baselineChapters": [
+              2
+            ],
+            "reversePriority": 1,
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 5,
+                "baselineChapter": 2,
+                "baselineVerseStart": 28,
+                "baselineVerseEnd": 32,
+                "verseOffsetToBaseline": 27
+              }
+            ]
+          },
+          "4": {
+            "label": "Protestant 3",
+            "baselineChapters": [
+              3
+            ]
+          }
+        }
+      },
+      "Malachi": {
+        "chapters": {
+          "3": {
+            "label": "Protestant 3–4",
+            "baselineChapters": [
+              3,
+              4
+            ],
+            "segments": [
+              {
+                "nativeVerseStart": 1,
+                "nativeVerseEnd": 18,
+                "baselineChapter": 3,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 18,
+                "verseOffsetToBaseline": 0
+              },
+              {
+                "nativeVerseStart": 19,
+                "nativeVerseEnd": 24,
+                "baselineChapter": 4,
+                "baselineVerseStart": 1,
+                "baselineVerseEnd": 6,
+                "verseOffsetToBaseline": -18
+              }
+            ]
+          }
+        }
+      },
+      "Jeremiah": {
+        "chapters": {
+          "25": {
+            "label": "Hebrew/English 25 & 49",
+            "baselineChapters": [
+              25,
+              49
+            ]
+          },
+          "26": {
+            "label": "Hebrew/English 46",
+            "baselineChapters": [
+              46
+            ]
+          },
+          "27": {
+            "label": "Hebrew/English 50",
+            "baselineChapters": [
+              50
+            ]
+          },
+          "28": {
+            "label": "Hebrew/English 51",
+            "baselineChapters": [
+              51
+            ]
+          },
+          "29": {
+            "label": "Hebrew/English 47 & 49",
+            "baselineChapters": [
+              47,
+              49
+            ]
+          },
+          "30": {
+            "label": "Hebrew/English 49",
+            "baselineChapters": [
+              49
+            ]
+          },
+          "31": {
+            "label": "Hebrew/English 48",
+            "baselineChapters": [
+              48
+            ]
+          },
+          "32": {
+            "label": "Hebrew/English 25",
+            "baselineChapters": [
+              25
+            ]
+          },
+          "33": {
+            "label": "Hebrew/English 26",
+            "baselineChapters": [
+              26
+            ]
+          },
+          "34": {
+            "label": "Hebrew/English 27",
+            "baselineChapters": [
+              27
+            ]
+          },
+          "35": {
+            "label": "Hebrew/English 28",
+            "baselineChapters": [
+              28
+            ]
+          },
+          "36": {
+            "label": "Hebrew/English 29",
+            "baselineChapters": [
+              29
+            ]
+          },
+          "37": {
+            "label": "Hebrew/English 30",
+            "baselineChapters": [
+              30
+            ]
+          },
+          "38": {
+            "label": "Hebrew/English 31",
+            "baselineChapters": [
+              31
+            ]
+          },
+          "39": {
+            "label": "Hebrew/English 32",
+            "baselineChapters": [
+              32
+            ]
+          },
+          "40": {
+            "label": "Hebrew/English 33",
+            "baselineChapters": [
+              33
+            ]
+          },
+          "41": {
+            "label": "Hebrew/English 34",
+            "baselineChapters": [
+              34
+            ]
+          },
+          "42": {
+            "label": "Hebrew/English 35",
+            "baselineChapters": [
+              35
+            ]
+          },
+          "43": {
+            "label": "Hebrew/English 36",
+            "baselineChapters": [
+              36
+            ]
+          },
+          "44": {
+            "label": "Hebrew/English 37",
+            "baselineChapters": [
+              37
+            ]
+          },
+          "45": {
+            "label": "Hebrew/English 38",
+            "baselineChapters": [
+              38
+            ]
+          },
+          "46": {
+            "label": "Hebrew/English 39",
+            "baselineChapters": [
+              39
+            ]
+          },
+          "47": {
+            "label": "Hebrew/English 40",
+            "baselineChapters": [
+              40
+            ]
+          },
+          "48": {
+            "label": "Hebrew/English 41",
+            "baselineChapters": [
+              41
+            ]
+          },
+          "49": {
+            "label": "Hebrew/English 42",
+            "baselineChapters": [
+              42
+            ]
+          },
+          "50": {
+            "label": "Hebrew/English 43",
+            "baselineChapters": [
+              43
+            ]
+          },
+          "51": {
+            "label": "Hebrew/English 44 & 45",
+            "baselineChapters": [
+              44,
+              45
+            ]
+          },
+          "52": {
+            "label": "Hebrew/English 52",
+            "baselineChapters": [
+              52
+            ]
+          }
+        }
+      }
+    }
+  }
+}

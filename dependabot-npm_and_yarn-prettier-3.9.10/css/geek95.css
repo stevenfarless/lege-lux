@@ -1,0 +1,383 @@
+@font-face {
+    font-family: 'IBM_CGAThin-2y';
+    src: url('../fonts/Web437_IBM_CGAthin-2y.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root.geek-theme.light-mode,
+html.geek-theme.light-mode,
+body.geek-theme.light-mode {
+    --bg-base: #000055;
+    --bg-card: #000055;
+    --bg-raised: #394dcd;
+    --text-heading: #ffffff;
+    --text-body: #ffffff;
+    --text-muted: #c0c0c0;
+    --border-neutral: #c0c0c0;
+    --highlight-border: #ffffff;
+    --primary-color: #dfe300;
+    --primary-dark: #b5b900;
+    --primary-light: #ffff66;
+    --brand-secondary: #dfe300;
+    --section-heading-color: #208c71;
+    --accent-color: #208c71;
+    --success-color: #208c71;
+    --warning-color: #dfe300;
+    --error-color: #e35f5f;
+    --footnote-hover-bg: rgba(223, 227, 0, 0.18);
+    --font-sans: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    --font-serif: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    --border-radius: 0;
+    --border-radius-lg: 0;
+    --shadow-sm: 1px 1px 0 #000000;
+    --shadow-md: 2px 2px 0 #000000;
+    --shadow-lg: 4px 4px 0 #000000;
+}
+
+html.geek-theme.light-mode,
+body.geek-theme.light-mode {
+    background: #000055;
+}
+
+body.geek-theme.light-mode {
+    color: #ffffff;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.geek-theme.light-mode ::selection {
+    background: #dfe300;
+    color: #000055;
+}
+
+.geek-theme.light-mode .header,
+.geek-theme.light-mode .navigation,
+.geek-theme.light-mode .search-container,
+.geek-theme.light-mode .main-content {
+    background: #000055;
+    border-color: #c0c0c0;
+    box-shadow: none;
+}
+
+.geek-theme.light-mode .header,
+.geek-theme.light-mode .navigation {
+    border-bottom: 2px solid #c0c0c0;
+}
+
+.geek-theme.light-mode .logo,
+.geek-theme.light-mode .passage-title,
+.geek-theme.light-mode .modal-header h2,
+.geek-theme.light-mode .accordion-title {
+    color: #dfe300;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.geek-theme.light-mode .logo {
+    text-shadow: 1px 1px 0 #000000;
+}
+
+.geek-theme.light-mode .icon-btn,
+.geek-theme.light-mode .close-btn,
+.geek-theme.light-mode .selector-btn,
+.geek-theme.light-mode .nav-btn,
+.geek-theme.light-mode .primary-btn,
+.geek-theme.light-mode .secondary-btn,
+.geek-theme.light-mode .book-item,
+.geek-theme.light-mode .chapter-item,
+.geek-theme.light-mode .book-testament-filter,
+.geek-theme.light-mode .toast-action,
+.geek-theme.light-mode .input-field {
+    border-radius: 0;
+    border: 2px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    background: #394dcd;
+    color: #ffffff;
+    box-shadow: 1px 1px 0 #000000;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+}
+
+.geek-theme.light-mode .icon-btn,
+.geek-theme.light-mode .close-btn {
+    background: transparent;
+    color: #dfe300;
+}
+
+.geek-theme.light-mode .icon-btn:hover,
+.geek-theme.light-mode .close-btn:hover,
+.geek-theme.light-mode .selector-btn:hover,
+.geek-theme.light-mode .nav-btn:hover:not(:disabled),
+.geek-theme.light-mode .book-item:hover,
+.geek-theme.light-mode .chapter-item:hover,
+.geek-theme.light-mode .book-testament-filter:hover,
+.geek-theme.light-mode .primary-btn:hover,
+.geek-theme.light-mode .secondary-btn:hover {
+    background: #dfe300;
+    color: #000055;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    transform: none;
+}
+
+.geek-theme.light-mode .icon-btn:active,
+.geek-theme.light-mode .close-btn:active,
+.geek-theme.light-mode .selector-btn:active,
+.geek-theme.light-mode .nav-btn:active,
+.geek-theme.light-mode .book-item:active,
+.geek-theme.light-mode .chapter-item:active,
+.geek-theme.light-mode .book-testament-filter:active,
+.geek-theme.light-mode .primary-btn:active,
+.geek-theme.light-mode .secondary-btn:active {
+    border-color: #6c6c6c #ffffff #ffffff #6c6c6c;
+    box-shadow: none;
+    transform: translate(1px, 1px);
+}
+
+.geek-theme.light-mode .book-testament-filter--active,
+.geek-theme.light-mode .book-testament-filter--active:hover {
+    background: #dfe300;
+    color: #000055;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+}
+
+.geek-theme.light-mode .selector-btn svg,
+.geek-theme.light-mode .nav-btn svg,
+.geek-theme.light-mode .icon-btn svg {
+    stroke: currentColor;
+}
+
+.geek-theme.light-mode .passage-container {
+    background: #000055;
+    border: 3px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    border-radius: 0;
+    box-shadow: 3px 3px 0 #000000;
+}
+
+.geek-theme.light-mode .passage-header {
+    background: #394dcd;
+    border-bottom: 2px solid #c0c0c0;
+    padding: 0.5rem 0.75rem;
+    margin: calc(-1 * var(--spacing-xl)) calc(-1 * var(--spacing-xl)) var(--spacing-lg);
+}
+
+.geek-theme.light-mode .passage-title {
+    color: #ffffff;
+}
+
+.geek-theme.light-mode .passage-text,
+.geek-theme.light-mode .passage {
+    color: #ffffff;
+    background: #000055;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    transform: none;
+    width: auto;
+    /* font-size: 18px !important; */
+    line-height: 1.55;
+    letter-spacing: 0;
+}
+
+.geek-theme.light-mode .passage-text p,
+.geek-theme.light-mode .verse {
+    color: #ffffff;
+    background: #000055;
+    font-family: inherit;
+}
+
+.geek-theme.light-mode .passage-text h2,
+.geek-theme.light-mode .passage-text h3,
+.geek-theme.light-mode .passage-text h4,
+.geek-theme.light-mode .pericope-heading {
+    color: #208c71;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    font-style: normal;
+    text-transform: none;
+    transform: none;
+    width: auto;
+    letter-spacing: 0;
+}
+
+.geek-theme.light-mode .passage-text .verse-num,
+.geek-theme.light-mode .verse .verse-num {
+    color: #dfe300;
+}
+
+.geek-theme.light-mode .passage-footer {
+    border-top: 1px dashed #c0c0c0;
+}
+
+.geek-theme.light-mode .copyright,
+.geek-theme.light-mode .help-text,
+.geek-theme.light-mode .text-muted {
+    color: #c0c0c0;
+}
+
+.geek-theme.light-mode .modal {
+    background: rgba(0, 0, 0, 0.78);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+}
+
+.geek-theme.light-mode .modal-content,
+.geek-theme.light-mode #settingsModal .modal-content {
+    background: #000055;
+    color: #ffffff;
+    border: 3px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    border-radius: 0;
+    box-shadow: 4px 4px 0 #000000;
+}
+
+.geek-theme.light-mode .modal-header,
+.geek-theme.light-mode #settingsModal .modal-header {
+    background: #394dcd;
+    border-bottom: 2px solid #c0c0c0;
+    padding: 0.5rem 0.75rem;
+}
+
+.geek-theme.light-mode #settingsModal .modal-header::before {
+    display: none;
+}
+
+.geek-theme.light-mode .modal-body {
+    background: #000055;
+    scrollbar-color: #c0c0c0 #000055;
+}
+
+.geek-theme.light-mode .modal-body::-webkit-scrollbar {
+    width: 16px;
+}
+
+.geek-theme.light-mode .modal-body::-webkit-scrollbar-track {
+    background: #000055;
+    border-left: 1px solid #6c6c6c;
+}
+
+.geek-theme.light-mode .modal-body::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border: 2px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+}
+
+.geek-theme.light-mode .book-category h3,
+.geek-theme.light-mode .passage-extras-heading,
+.geek-theme.light-mode .translation-modal-section-heading {
+    color: #208c71;
+    border-color: #dfe300;
+    font-family: 'IBM_CGAThin-2y', 'Courier New', monospace;
+    text-transform: uppercase;
+}
+
+.geek-theme.light-mode .book-grid,
+.geek-theme.light-mode .chapter-grid {
+    gap: 0.5rem;
+}
+
+.geek-theme.light-mode .book-item,
+.geek-theme.light-mode .chapter-item {
+    min-height: 3rem;
+    background: #000055;
+    color: #ffffff;
+}
+
+.geek-theme.light-mode .accordion-section {
+    background: #000055;
+    border: 2px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    border-radius: 0;
+}
+
+.geek-theme.light-mode .accordion-header,
+.geek-theme.light-mode .accordion-panel .settings-group {
+    background: #000055;
+    color: #ffffff;
+}
+
+.geek-theme.light-mode .accordion-header {
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.geek-theme.light-mode .accordion-header:hover {
+    background: #394dcd;
+}
+
+.geek-theme.light-mode .setting-item label,
+.geek-theme.light-mode .checkbox-label,
+.geek-theme.light-mode .shortcut-item span,
+.geek-theme.light-mode .footnote-text,
+.geek-theme.light-mode .crossref-reference {
+    color: #ffffff;
+}
+
+.geek-theme.light-mode .input-field {
+    background: #000055;
+    color: #ffffff;
+    appearance: auto;
+}
+
+.geek-theme.light-mode .input-field:focus,
+.geek-theme.light-mode .selector-btn:focus-visible,
+.geek-theme.light-mode .nav-btn:focus-visible,
+.geek-theme.light-mode .book-item:focus-visible,
+.geek-theme.light-mode .chapter-item:focus-visible {
+    outline: 1px dotted #dfe300;
+    outline-offset: 2px;
+}
+
+.geek-theme.light-mode input[type='checkbox'],
+.geek-theme.light-mode input[type='range'] {
+    accent-color: #dfe300;
+}
+
+.geek-theme.light-mode .setting-item--disabled,
+.geek-theme.light-mode .nav-btn:disabled {
+    color: #6c6c6c;
+    opacity: 1;
+}
+
+.geek-theme.light-mode .error {
+    background: #e35f5f;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.geek-theme.light-mode .success,
+.geek-theme.light-mode .toast.success {
+    background: #208c71;
+    color: #ffffff;
+}
+
+.geek-theme.light-mode #build-info {
+    background: #e35f5f;
+    color: #ffffff;
+    border-radius: 0;
+    border: 2px solid;
+    border-color: #ffffff #6c6c6c #6c6c6c #ffffff;
+    box-shadow: 1px 1px 0 #000000;
+}
+
+@media (max-width: 600px) {
+    .geek-theme.light-mode .passage-container {
+        border-left-width: 2px;
+        border-right-width: 2px;
+        box-shadow: 2px 2px 0 #000000;
+    }
+
+    .geek-theme.light-mode .passage-header {
+        margin-left: calc(-1 * var(--spacing-lg));
+        margin-right: calc(-1 * var(--spacing-lg));
+    }
+
+    .geek-theme.light-mode .book-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+.geek-theme.light-mode .logo {
+    font-size: 0.55em;
+    line-height: 1;
+}
