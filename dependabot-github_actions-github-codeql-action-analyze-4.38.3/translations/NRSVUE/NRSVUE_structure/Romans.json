@@ -1,0 +1,1025 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 8,
+    "type": "heading",
+    "text": "Prayer of Thanksgiving"
+  },
+  {
+    "ch": 1,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "heading",
+    "text": "The Power of the Gospel"
+  },
+  {
+    "ch": 1,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "heading",
+    "text": "The Guilt of Humankind"
+  },
+  {
+    "ch": 1,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Righteous Judgment of God"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 17,
+    "type": "heading",
+    "text": "The Jews and the Law"
+  },
+  {
+    "ch": 2,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 9,
+    "type": "heading",
+    "text": "None Is Righteous"
+  },
+  {
+    "ch": 3,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "poetry",
+    "indent": 3
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "poetry",
+    "indent": 3
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 15,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 17,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 18,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "heading",
+    "text": "Righteousness through Faith"
+  },
+  {
+    "ch": 3,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "The Example of Abraham"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "heading",
+    "text": "God’s Promise Realized through Faith"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Results of Justification"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 12,
+    "type": "heading",
+    "text": "Adam and Christ"
+  },
+  {
+    "ch": 5,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Dying and Rising with Christ"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 15,
+    "type": "heading",
+    "text": "Slaves of Righteousness"
+  },
+  {
+    "ch": 6,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "An Analogy from Marriage"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "heading",
+    "text": "The Law and Sin"
+  },
+  {
+    "ch": 7,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "heading",
+    "text": "The Inner Conflict"
+  },
+  {
+    "ch": 7,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Life in the Spirit"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 18,
+    "type": "heading",
+    "text": "Future Glory"
+  },
+  {
+    "ch": 8,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 31,
+    "type": "heading",
+    "text": "God’s Love in Christ Jesus"
+  },
+  {
+    "ch": 8,
+    "v": 31,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 37,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 8,
+    "v": 37,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 8,
+    "v": 37,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 8,
+    "v": 37,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Election of Israel"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 9,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 16,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 9,
+    "v": 16,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 9,
+    "v": 16,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 19,
+    "type": "heading",
+    "text": "God’s Wrath and Mercy"
+  },
+  {
+    "ch": 9,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 26,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 9,
+    "v": 26,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 9,
+    "v": 26,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "heading",
+    "text": "Israel’s Unbelief"
+  },
+  {
+    "ch": 9,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 5,
+    "type": "heading",
+    "text": "Salvation Is for All"
+  },
+  {
+    "ch": 10,
+    "v": 5,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 19,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 20,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 20,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 20,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 21,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel’s Rejection Is Not Final"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 9,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 11,
+    "type": "heading",
+    "text": "The Salvation of the Gentiles"
+  },
+  {
+    "ch": 11,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 25,
+    "type": "heading",
+    "text": "All Israel Will Be Saved"
+  },
+  {
+    "ch": 11,
+    "v": 25,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 28,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 28,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 34,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 11,
+    "v": 34,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 35,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 35,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 11,
+    "v": 36,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 11,
+    "v": 36,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The New Life in Christ"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "heading",
+    "text": "Marks of the True Christian"
+  },
+  {
+    "ch": 12,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "Being Subject to Authorities"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 8,
+    "type": "heading",
+    "text": "Love for One Another"
+  },
+  {
+    "ch": 13,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 11,
+    "type": "heading",
+    "text": "An Urgent Appeal"
+  },
+  {
+    "ch": 13,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "Do Not Judge Another"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 14,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "heading",
+    "text": "Do Not Make Another Stumble"
+  },
+  {
+    "ch": 14,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "Please Others, Not Yourselves"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 7,
+    "type": "heading",
+    "text": "The Gospel for Jews and Gentiles Alike"
+  },
+  {
+    "ch": 15,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 11,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 14,
+    "type": "heading",
+    "text": "Paul’s Reason for Writing So Boldly"
+  },
+  {
+    "ch": 15,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 22,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 15,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 15,
+    "v": 22,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 15,
+    "v": 22,
+    "type": "heading",
+    "text": "Paul’s Plan to Visit Rome"
+  },
+  {
+    "ch": 15,
+    "v": 22,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "Personal Greetings"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 17,
+    "type": "heading",
+    "text": "Final Instructions"
+  },
+  {
+    "ch": 16,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 25,
+    "type": "heading",
+    "text": "Final Doxology"
+  },
+  {
+    "ch": 16,
+    "v": 25,
+    "type": "para_break"
+  }
+]

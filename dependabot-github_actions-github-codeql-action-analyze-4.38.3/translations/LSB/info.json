@@ -1,0 +1,12 @@
+{
+  "id": "LSB",
+  "label": "Legacy Standard Bible",
+  "abbreviation": "LSB",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2021,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "edition": "2021",
+  "copyright": "Legacy Standard Bible® (LSB®), copyright © 2021 by The Lockman Foundation. Used by permission. All rights reserved. Managed in partnership with Three Sixteen Publishing, Inc."
+}

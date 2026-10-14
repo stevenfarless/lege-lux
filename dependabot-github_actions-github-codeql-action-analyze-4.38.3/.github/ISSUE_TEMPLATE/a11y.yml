@@ -1,0 +1,43 @@
+name: Accessibility Issue
+description: Report a barrier that affects users relying on assistive technology or keyboard navigation.
+labels: ["accessibility"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Accessibility issue description
+      description: Describe the barrier clearly.
+    validations:
+      required: true
+
+  - type: input
+    id: wcag
+    attributes:
+      label: WCAG criterion affected
+      description: e.g. 1.4.3 Contrast Minimum, 2.1.1 Keyboard, 4.1.2 Name, Role, Value
+    validations:
+      required: false
+
+  - type: input
+    id: at
+    attributes:
+      label: Assistive technology used
+      description: e.g. NVDA 2024.1 on Firefox, VoiceOver on iOS 17, keyboard-only
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Exact steps to encounter the barrier.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should an accessible experience look like here?
+    validations:
+      required: true
