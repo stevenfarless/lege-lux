@@ -1,0 +1,92 @@
+name: Bookshift Licensed Translation Migration
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Use full-migration for the one-step upload, verify, cleanup, and commit path'
+        required: true
+        default: 'full-migration'
+        type: choice
+        options:
+          - full-migration
+          - plan
+          - verify-only
+      keep_meta:
+        description: 'Keep licensed meta.json files in GitHub after cleanup'
+        required: true
+        default: true
+        type: boolean
+
+jobs:
+  migrate:
+    name: Migrate licensed translations
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Guard branch
+        run: |
+          if [ "${GITHUB_REF_NAME}" != "bookshift" ]; then
+            echo "This workflow is only intended to run from the bookshift branch."
+            exit 1
+          fi
+
+      - name: Checkout bookshift
+        uses: actions/checkout@v7
+        with:
+          ref: bookshift
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install firebase-admin
+
+      - name: Validate migration helper syntax
+        run: python -m py_compile .github/scripts/bookshift_migrate_licensed_translations.py
+
+      - name: Write service account key
+        if: ${{ inputs.mode != 'plan' }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT" ]; then
+            echo "Missing FIREBASE_SERVICE_ACCOUNT secret."
+            exit 1
+          fi
+          echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/service_account.json
+
+      - name: Run Bookshift migration
+        env:
+          BOOKSHIFT_MODE: ${{ inputs.mode }}
+          BOOKSHIFT_KEEP_META: ${{ inputs.keep_meta }}
+          BOOKSHIFT_MAX_NODE_BYTES: ${{ secrets.BOOKSHIFT_MAX_NODE_BYTES }}
+          GOOGLE_APPLICATION_CREDENTIALS: /tmp/service_account.json
+        run: python .github/scripts/bookshift_migrate_licensed_translations.py
+
+      - name: Validate generated changes
+        if: ${{ inputs.mode == 'full-migration' }}
+        run: git diff --check
+
+      - name: Commit repository cleanup
+        if: ${{ inputs.mode == 'full-migration' }}
+        run: |
+          git config user.name "stevenfarless"
+          git config user.email "125781365+stevenfarless@users.noreply.github.com"
+          git add bible-api.js translations/index.json translations
+          if git diff --cached --quiet; then
+            echo "No repository cleanup changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: migrate licensed translations to Firebase" \
+            -m "Route licensed translations away from GitHub Pages, tag translation access in the catalog, and remove text-bearing licensed JSON files after Firebase upload verification."
+          git push origin bookshift
+
+      - name: Clean up key
+        if: always()
+        run: rm -f /tmp/service_account.json
