@@ -1,0 +1,18 @@
+# Local Firebase config with real credentials (never commit)
+config/firebase-config.local.js
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Test output
+test-results/
+playwright-report/

@@ -1,0 +1,43 @@
+name: Upload Bundles to Firebase Storage
+
+on:
+  workflow_dispatch:
+    inputs:
+      translation:
+        description: 'Translation to upload (e.g. BSB, KJV) — leave blank to upload all'
+        required: false
+        default: ''
+
+jobs:
+  upload:
+    name: Upload to Firebase Storage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout exp
+        uses: actions/checkout@v7
+        with:
+          ref: exp
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install firebase-admin
+
+      - name: Write service account key
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/service_account.json
+
+      - name: Upload bundles
+        env:
+          TARGET_TRANSLATION: ${{ github.event.inputs.translation }}
+        run: python .github/scripts/upload_bundles.py
+
+      - name: Clean up key
+        if: always()
+        run: rm -f /tmp/service_account.json

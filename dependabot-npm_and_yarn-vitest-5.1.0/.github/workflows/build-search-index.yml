@@ -1,0 +1,71 @@
+name: Build Search Index
+
+on:
+  workflow_dispatch:
+    inputs:
+      translation:
+        description: 'Translation abbreviation to index (e.g. BSB, ESV, KJV)'
+        required: true
+        default: 'BSB'
+  workflow_run:
+    workflows: ['Upload All to Firebase']
+    types:
+      - completed
+
+jobs:
+  build-index:
+    name: Build and upload search index
+    runs-on: ubuntu-latest
+    # For workflow_run triggers, only run if the upstream workflow succeeded.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install firebase-admin
+
+      - name: Write service account key
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: echo "$FIREBASE_SERVICE_ACCOUNT" > /tmp/service_account.json
+
+      - name: Resolve translation target
+        id: resolve
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "translation=${{ github.event.inputs.translation }}" >> $GITHUB_OUTPUT
+          else
+            # workflow_run: re-index all translations that have data.
+            # Pass a sentinel value; the script will handle it.
+            echo "translation=ALL" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build search index
+        env:
+          TARGET_TRANSLATION: ${{ steps.resolve.outputs.translation }}
+        run: |
+          if [ "$TARGET_TRANSLATION" = "ALL" ]; then
+            # Discover translations from the translations/ directory and index each.
+            for dir in translations/*/; do
+              abbr=$(basename "$dir")
+              echo "Indexing $abbr..."
+              python scripts/build-search-index.py --translation "$abbr" || echo "WARN: $abbr failed, continuing"
+              # Re-initialize firebase app between runs requires a fresh process;
+              # each python invocation is its own process so this is safe.
+            done
+          else
+            python scripts/build-search-index.py --translation "$TARGET_TRANSLATION"
+          fi
+
+      - name: Clean up key
+        if: always()
+        run: rm -f /tmp/service_account.json

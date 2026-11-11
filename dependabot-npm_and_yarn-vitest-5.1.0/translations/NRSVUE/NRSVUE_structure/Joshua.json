@@ -1,0 +1,575 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "God’s Commission to Joshua"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "heading",
+    "text": "Preparations for the Invasion"
+  },
+  {
+    "ch": 1,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Spies Sent to Jericho"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Israel Crosses the Jordan"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Twelve Stones Set Up at Gilgal"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "The New Generation Circumcised"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 10,
+    "type": "heading",
+    "text": "The Passover at Gilgal"
+  },
+  {
+    "ch": 5,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "heading",
+    "text": "Joshua’s Vision"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "heading",
+    "text": "Jericho Taken and Destroyed"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 6,
+    "v": 27,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "heading",
+    "text": "The Sin of Achan and Its Punishment"
+  },
+  {
+    "ch": 7,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "heading",
+    "text": "Ai Captured by a Stratagem and Destroyed"
+  },
+  {
+    "ch": 8,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 8,
+    "v": 30,
+    "type": "heading",
+    "text": "Joshua Renews the Covenant"
+  },
+  {
+    "ch": 8,
+    "v": 30,
+    "type": "para_break"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "heading",
+    "text": "The Gibeonites Save Themselves by Trickery"
+  },
+  {
+    "ch": 9,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "heading",
+    "text": "The Sun Stands Still"
+  },
+  {
+    "ch": 10,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 10,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 14,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 10,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 10,
+    "v": 16,
+    "type": "heading",
+    "text": "Five Kings Defeated"
+  },
+  {
+    "ch": 10,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "heading",
+    "text": "The United Kings of Northern Canaan Defeated"
+  },
+  {
+    "ch": 11,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "heading",
+    "text": "Summary of Joshua’s Conquests"
+  },
+  {
+    "ch": 11,
+    "v": 16,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "heading",
+    "text": "The Kings Conquered by Moses"
+  },
+  {
+    "ch": 12,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "heading",
+    "text": "The Kings Conquered by Joshua"
+  },
+  {
+    "ch": 12,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 1,
+    "type": "heading",
+    "text": "The Parts of Canaan Still Unconquered"
+  },
+  {
+    "ch": 13,
+    "v": 8,
+    "type": "heading",
+    "text": "The Territory East of the Jordan"
+  },
+  {
+    "ch": 13,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 15,
+    "type": "heading",
+    "text": "The Territory of Reuben"
+  },
+  {
+    "ch": 13,
+    "v": 15,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 24,
+    "type": "heading",
+    "text": "The Territory of Gad"
+  },
+  {
+    "ch": 13,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 13,
+    "v": 29,
+    "type": "heading",
+    "text": "The Territory of the Half-Tribe of Manasseh (East)"
+  },
+  {
+    "ch": 13,
+    "v": 29,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "heading",
+    "text": "The Distribution of Territory West of the Jordan"
+  },
+  {
+    "ch": 14,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 14,
+    "v": 6,
+    "type": "heading",
+    "text": "Hebron Allotted to Caleb"
+  },
+  {
+    "ch": 14,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "heading",
+    "text": "The Territory of Judah"
+  },
+  {
+    "ch": 15,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "heading",
+    "text": "Caleb Occupies His Portion"
+  },
+  {
+    "ch": 15,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 15,
+    "v": 20,
+    "type": "heading",
+    "text": "The Towns of Judah"
+  },
+  {
+    "ch": 15,
+    "v": 20,
+    "type": "para_break"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "heading",
+    "text": "The Territory of Ephraim"
+  },
+  {
+    "ch": 16,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "heading",
+    "text": "The Other Half-Tribe of Manasseh (West)"
+  },
+  {
+    "ch": 17,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 17,
+    "v": 14,
+    "type": "heading",
+    "text": "The Tribe of Joseph Protests"
+  },
+  {
+    "ch": 17,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "heading",
+    "text": "The Territories of the Remaining Tribes"
+  },
+  {
+    "ch": 18,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 18,
+    "v": 11,
+    "type": "heading",
+    "text": "The Territory of Benjamin"
+  },
+  {
+    "ch": 18,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "heading",
+    "text": "The Territory of Simeon"
+  },
+  {
+    "ch": 19,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 10,
+    "type": "heading",
+    "text": "The Territory of Zebulun"
+  },
+  {
+    "ch": 19,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 17,
+    "type": "heading",
+    "text": "The Territory of Issachar"
+  },
+  {
+    "ch": 19,
+    "v": 17,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 24,
+    "type": "heading",
+    "text": "The Territory of Asher"
+  },
+  {
+    "ch": 19,
+    "v": 24,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 32,
+    "type": "heading",
+    "text": "The Territory of Naphtali"
+  },
+  {
+    "ch": 19,
+    "v": 32,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 40,
+    "type": "heading",
+    "text": "The Territory of Dan"
+  },
+  {
+    "ch": 19,
+    "v": 40,
+    "type": "para_break"
+  },
+  {
+    "ch": 19,
+    "v": 49,
+    "type": "heading",
+    "text": "Joshua’s Inheritance"
+  },
+  {
+    "ch": 19,
+    "v": 49,
+    "type": "para_break"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "heading",
+    "text": "The Cities of Refuge"
+  },
+  {
+    "ch": 20,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "heading",
+    "text": "Cities Allotted to the Levites"
+  },
+  {
+    "ch": 21,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "heading",
+    "text": "The Eastern Tribes Return to Their Territory"
+  },
+  {
+    "ch": 22,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 22,
+    "v": 10,
+    "type": "heading",
+    "text": "A Memorial Altar East of the Jordan"
+  },
+  {
+    "ch": 22,
+    "v": 10,
+    "type": "para_break"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "heading",
+    "text": "Joshua Exhorts the People"
+  },
+  {
+    "ch": 23,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "heading",
+    "text": "The Tribes Renew the Covenant"
+  },
+  {
+    "ch": 24,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 24,
+    "v": 29,
+    "type": "heading",
+    "text": "Death of Joshua and Eleazar"
+  },
+  {
+    "ch": 24,
+    "v": 29,
+    "type": "para_break"
+  }
+]

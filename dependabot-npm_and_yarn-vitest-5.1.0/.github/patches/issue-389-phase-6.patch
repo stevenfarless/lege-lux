@@ -1,0 +1,40 @@
+diff --git a/app.js b/app.js
+index 47265f4..0000000 100644
+--- a/app.js
++++ b/app.js
+@@ -74,6 +74,8 @@ import { getHapticsDebugState, hapticFirm } from './haptics.js';
+ const TRANSLATION_ALIASES = { NRSVue: 'NRSVUE' };
+ function normalizeTranslation(t) { return TRANSLATION_ALIASES[t] || t; }
+ 
++const AUTH_RESTORE_IDLE_TIMEOUT_MS = 4000;
++const AUTH_RESTORE_FALLBACK_DELAY_MS = 2500;
+ const PASSAGE_CACHE_KEY = 'passageCache';
+ 
+ function withTimeout(promise, ms, fallback = null) {
+@@ -1040,13 +1042,21 @@ class BibleApp {
+         this._dbg.t_auth_restore_scheduled = ms();
+         this._dbgEvent('auth restoration: scheduled after reader reveal');
+ 
++        const restore = () => {
++            void this._restoreAuthSession();
++        };
++
++        const scheduleIdleRestore = () => {
++            if ('requestIdleCallback' in window) {
++                window.requestIdleCallback(restore, { timeout: AUTH_RESTORE_IDLE_TIMEOUT_MS });
++                return;
++            }
++
++            setTimeout(restore, AUTH_RESTORE_FALLBACK_DELAY_MS);
++        };
++
+         requestAnimationFrame(() => {
+-            requestAnimationFrame(() => {
+-                setTimeout(() => {
+-                    void this._restoreAuthSession();
+-                }, 0);
+-            });
++            requestAnimationFrame(scheduleIdleRestore);
+         });
+     }
+ 

@@ -1,0 +1,18 @@
+{
+  "id": "NRSVUE",
+  "label": "New Revised Standard Version Updated Edition",
+  "abbreviation": "NRSVUE",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 2021,
+  "canon": "protestant",
+  "philosophy": "formal",
+  "manuscriptTradition": [
+    "Masoretic Text",
+    "Dead Sea Scrolls",
+    "Septuagint",
+    "Critical Text"
+  ],
+  "textualBasis": "OT from the Masoretic Text with significant use of the Dead Sea Scrolls and Septuagint. NT from the critical Greek text (NA28). Updated 2021 revision of the NRSV with gender-inclusive language and updated scholarship.",
+  "copyright": "New Revised Standard Version, Updated Edition. Copyright © 2021 National Council of Churches of Christ in the United States of America. Verify distribution rights before publishing."
+}
