@@ -1,0 +1,16 @@
+{
+  "id": "BST",
+  "label": "Brenton Septuagint Translation",
+  "abbreviation": "BST",
+  "language": "en",
+  "textDirection": "ltr",
+  "year": 1851,
+  "canon": "septuagint",
+  "philosophy": "formal",
+  "copyright": "Brenton Septuagint Translation (1851). Public domain.",
+  "manuscriptTradition": [
+    "Septuagint"
+  ],
+  "textualBasis": "Sir Lancelot C. L. Brenton's English translation of the Greek Septuagint. Imported from the eBible.org eng-Brenton USFM edition with native LXX chapter/verse numbering and lettered LXX verses preserved. The eBible EZR file repeats Nehemiah as chapters 11–23 while also supplying a standalone NEH file; Lege Lux retains Ezra 1–10 and the standalone Nehemiah copy to avoid duplicating the same text in the book picker.",
+  "source": "https://ebible.org/Scriptures/eng-Brenton_usfm.zip"
+}

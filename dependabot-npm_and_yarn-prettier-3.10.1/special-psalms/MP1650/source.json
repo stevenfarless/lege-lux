@@ -1,0 +1,12 @@
+{
+  "id": "MP1650",
+  "name": "Scottish Psalter (1650)",
+  "scope": "Psalms 1-150, primary versions",
+  "historicTextRights": "Public domain",
+  "source": {
+    "repository": "dieuwedeboer/scottishmetricalpsalter",
+    "commit": "de33907d723fe7b4a17d93cd3ba165883f0119d6",
+    "path": "docs/psalms/psalms.txt",
+    "gitBlobSha1": "68fcb8aa6b02ec8411ae4a61b0b646f9ffcf641c"
+  }
+}

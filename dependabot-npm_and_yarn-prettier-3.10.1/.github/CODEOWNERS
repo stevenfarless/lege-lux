@@ -1,0 +1,33 @@
+# CODEOWNERS
+# GitHub uses this file to auto-request reviews when a PR touches
+# the listed paths. Paths are evaluated top-to-bottom; last match wins.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global fallback — all files not matched below
+* @stevenfarless
+
+# Core application logic
+/app.js @stevenfarless
+/bible-api.js @stevenfarless
+/reading-state.js @stevenfarless
+/ui.js @stevenfarless
+/bsb-structure.js @stevenfarless
+
+# Entry point and styles
+/index.html @stevenfarless
+/styles.css @stevenfarless
+
+# Service worker (cache logic — changes here affect all users immediately)
+/sw.js @stevenfarless
+
+# Firebase configuration (contains project credentials)
+/firebase-config.js @stevenfarless
+
+# Translation data
+/translations/ @stevenfarless
+
+# CI/CD workflows
+/.github/workflows/ @stevenfarless
+
+# This file
+/.github/CODEOWNERS @stevenfarless
