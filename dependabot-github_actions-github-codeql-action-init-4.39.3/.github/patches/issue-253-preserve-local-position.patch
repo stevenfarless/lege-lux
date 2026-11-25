@@ -1,0 +1,122 @@
+diff --git a/app.js b/app.js
+--- a/app.js
++++ b/app.js
+@@ -659,6 +659,7 @@ class BibleApp {
+         this._firebaseConnectedUnsubscribe = null;
+         this._syncWritesEnabled = false;
++        this._authRestorePositionBaseline = null;
+         this.preferredTranslation = 'KJV';
+@@ -973,6 +974,12 @@ class BibleApp {
+             this._syncWritesEnabled = true;
++            if (this.hasLocalPositionChangedSinceAuthStart()) {
++                saveReadingPosition(this);
++                this._dbgEvent('auth restoration: saved newer local position');
++            }
+             this.maybeShowTranslationSyncModal();
+@@ -989,6 +996,11 @@ class BibleApp {
+             return this._authRestorationPromise;
+         }
++        this._authRestorePositionBaseline = {
++            book: this.state.currentBook,
++            chapter: this.state.currentChapter,
++            scrollY: window.scrollY || 0,
++        };
+ 
+         this._dbg.t_auth_restore_start = ms();
+@@ -1067,6 +1079,17 @@ class BibleApp {
+         );
+     }
++
++    hasLocalPositionChangedSinceAuthStart() {
++        const baseline = this._authRestorePositionBaseline;
++        if (!baseline) return false;
++
++        return (
++            this.state.currentBook !== baseline.book ||
++            this.state.currentChapter !== baseline.chapter ||
++            Math.abs((window.scrollY || 0) - baseline.scrollY) > 2
++        );
++    }
+ 
+     getAllBooks()          { return getAllBooks(this); }
+diff --git a/auth.js b/auth.js
+--- a/auth.js
++++ b/auth.js
+@@ -13,6 +13,13 @@ function lsSetJSON(key, value) {
+ export async function loadSavedPositionIfChanged(app, withTimeout) {
+     if (!app.currentUser || !app.database) return;
++    if (app.hasLocalPositionChangedSinceAuthStart()) {
++        app._dbgEvent(
++            'auth restoration: skipped remote position after local interaction'
++        );
++        return;
++    }
+ 
+     let targetBook = app.state.currentBook;
+@@ -38,6 +45,13 @@ export async function loadSavedPositionIfChanged(app, withTimeout) {
+         console.error('_loadSavedPositionIfChanged: Firebase read failed', err);
+     }
++
++    if (app.hasLocalPositionChangedSinceAuthStart()) {
++        app._dbgEvent(
++            'auth restoration: discarded remote position changed during read'
++        );
++        return;
++    }
+ 
+     if (targetBook !== app.state.currentBook || targetChapter !== app.state.currentChapter) {
+diff --git a/tests/smoke.spec.js b/tests/smoke.spec.js
+--- a/tests/smoke.spec.js
++++ b/tests/smoke.spec.js
+@@ -753,3 +753,49 @@ test('modal focus: closing login does not leave focus in an aria-hidden modal', async ({ page }) => {
+         })).toBe(false);
+ });
++
++test('auth restoration: delayed remote position cannot overwrite local navigation', async ({ page }) => {
++        await page.goto('/');
++        await waitForPassage(page);
++
++        const result = await page.evaluate(async () => {
++                const app = window._bibleApp;
++                let releaseRemote;
++                const gate = new Promise(resolve => { releaseRemote = resolve; });
++
++                app._authRestorePositionBaseline = {
++                        book: 'Genesis',
++                        chapter: 1,
++                        scrollY: 0,
++                };
++                app.currentUser = { uid: 'position-test' };
++                app.database = {
++                        ref() {
++                                return {
++                                        async once() {
++                                                await gate;
++                                                return {
++                                                        val: () => ({
++                                                                book: 'Genesis',
++                                                                chapter: 1,
++                                                                scrollY: 0,
++                                                        }),
++                                                };
++                                        },
++                                };
++                        },
++                };
++
++                const restoration = app._loadSavedPositionIfChanged();
++                app.state.currentChapter = 2;
++                releaseRemote();
++                await restoration;
++
++                return {
++                        chapter: app.state.currentChapter,
++                        events: app._dbg.events.map(event => event.msg),
++                };
++        });
++
++        expect(result.chapter).toBe(2);
++        expect(result.events).toContain(
++                'auth restoration: discarded remote position changed during read'
++        );
++});

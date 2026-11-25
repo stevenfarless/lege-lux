@@ -1,0 +1,189 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "heading",
+    "text": "Faith and Wisdom"
+  },
+  {
+    "ch": 1,
+    "v": 2,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "heading",
+    "text": "Poverty and Riches"
+  },
+  {
+    "ch": 1,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "heading",
+    "text": "Trial and Temptation"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 19,
+    "type": "heading",
+    "text": "Hearing and Doing the Word"
+  },
+  {
+    "ch": 1,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Warning against Partiality"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 14,
+    "type": "heading",
+    "text": "Faith without Works Is Dead"
+  },
+  {
+    "ch": 2,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Taming the Tongue"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "heading",
+    "text": "Two Kinds of Wisdom"
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Friendship with the World"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "heading",
+    "text": "Warning against Judging Another"
+  },
+  {
+    "ch": 4,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "heading",
+    "text": "Boasting about Tomorrow"
+  },
+  {
+    "ch": 4,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Warning to Rich Oppressors"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 7,
+    "type": "heading",
+    "text": "Patience in Suffering"
+  },
+  {
+    "ch": 5,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "heading",
+    "text": "The Prayer of Faith"
+  },
+  {
+    "ch": 5,
+    "v": 13,
+    "type": "para_break"
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "A Living Hope"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "heading",
+    "text": "A Call to Holy Living"
+  },
+  {
+    "ch": 1,
+    "v": 13,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 25,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 1,
+    "v": 25,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 1,
+    "v": 25,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "The Living Stone and a Chosen People"
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 9,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 10,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "heading",
+    "text": "Live as Servants of God"
+  },
+  {
+    "ch": 2,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "heading",
+    "text": "The Example of Christ’s Suffering"
+  },
+  {
+    "ch": 2,
+    "v": 18,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 22,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 23,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Wives and Husbands"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "heading",
+    "text": "Suffering for Doing Right"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 11,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 12,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 3,
+    "v": 13,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "Good Stewards of God’s Grace"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "heading",
+    "text": "Suffering as a Christian"
+  },
+  {
+    "ch": 4,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 19,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Tending the Flock of God"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 5,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 5,
+    "v": 12,
+    "type": "heading",
+    "text": "Final Greetings and Benediction"
+  },
+  {
+    "ch": 5,
+    "v": 12,
+    "type": "para_break"
+  }
+]
