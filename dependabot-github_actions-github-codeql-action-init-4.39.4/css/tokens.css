@@ -1,0 +1,176 @@
+/* ================================
+   2. CSS CUSTOM PROPERTIES (VARIABLES)
+   Official Dracula colors from https://spec.draculatheme.com
+   ================================ */
+
+:root {
+   /* ================================
+       Core tokens
+       - Dracula palette constants are the only theme-specific constants.
+       - Semantic tokens are the single source of truth.
+       ================================ */
+
+   /* Dracula Classic palette — official spec (draculatheme.com/spec) */
+   --dracula-bg: #282A36;
+   --dracula-current-line: #6272A4;
+   /* spec: Current Line = same hex as Comment */
+   --dracula-selection: #44475A;
+   --dracula-fg: #F8F8F2;
+   --dracula-comment: #6272A4;
+   --dracula-red: #FF5555;
+   --dracula-orange: #FFB86C;
+   --dracula-yellow: #F1FA8C;
+   --dracula-green: #50FA7B;
+   --dracula-cyan: #8BE9FD;
+   --dracula-purple: #BD93F9;
+   --dracula-pink: #FF79C6;
+
+   /* Dracula UI surface stack — spec UI palette */
+   --dracula-floating: #343746;
+   /* Floating interactive elements */
+   --dracula-bg-lighter: #424450;
+   /* Background Lighter */
+   --dracula-bg-light: #343746;
+   /* Background Light */
+   --dracula-bg: #282A36;
+   /* Background (redeclare for clarity) */
+   --dracula-bg-dark: #21222C;
+   /* Background Dark  (AnsiBlack) */
+   --dracula-bg-darker: #191A21;
+   /* Background Darker */
+
+   /* Dracula Functional colors — UI only, not syntax */
+   --dracula-func-red: #DE5735;
+   --dracula-func-orange: #A39514;
+   --dracula-func-green: #089108;
+   --dracula-func-cyan: #0081D6;
+   --dracula-func-purple: #815CD6;
+
+   /* Alucard Classic palette — official spec (draculatheme.com/spec) */
+   --alucard-bg: #FFFBEB;
+   --alucard-current-line: #6C664B;
+   /* spec: Current Line = same hex as Comment */
+   --alucard-selection: #CFCFDE;
+   --alucard-fg: #1F1F1F;
+   --alucard-comment: #6C664B;
+   --alucard-red: #CB3A2A;
+   --alucard-orange: #A34D14;
+   --alucard-yellow: #846E15;
+   --alucard-green: #14710A;
+   --alucard-cyan: #036A96;
+   --alucard-purple: #644AC9;
+   --alucard-pink: #A3144D;
+
+   /* Alucard UI surface stack — spec UI palette */
+   --alucard-floating: #EFEDDC;
+   /* Floating interactive elements */
+   --alucard-bg-lighter: #ECE9DF;
+   /* Background Lighter */
+   --alucard-bg-light: #DEDCCF;
+   /* Background Light */
+   --alucard-bg-dark: #CECCC0;
+   /* Background Dark */
+   --alucard-bg-darker: #BCBAB3;
+   /* Background Darker */
+
+   /* Alucard Functional colors — same set as Dracula, UI only */
+   --alucard-func-red: #DE5735;
+   --alucard-func-orange: #A39514;
+   --alucard-func-green: #089108;
+   --alucard-func-cyan: #0081D6;
+   --alucard-func-purple: #815CD6;
+
+   /* Typography */
+   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+   --font-serif: 'Gentium Book Plus', Georgia, serif;
+   --font-size-base: 18px;
+
+   /* Spacing */
+   --spacing-xs: 0.25rem;
+   --spacing-sm: 0.5rem;
+   --spacing-md: 1rem;
+   --spacing-lg: 1.5rem;
+   --spacing-xl: 2rem;
+   --spacing-xxl: 3rem;
+
+   /* Layout */
+   --max-width: 800px;
+   --header-height: 45px;
+   --nav-height: 56px;
+   --chrome-height: calc(var(--header-height) + var(--nav-height));
+
+   /* Transitions */
+   --transition-fast: 150ms ease;
+   --transition-normal: 250ms ease;
+
+   /* Border Radius */
+   --border-radius: 6px;
+   --border-radius-lg: 12px;
+
+   /* Shadows (defaults tuned for dark UI) */
+   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+   --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.5);
+   --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.55);
+
+   /* ================================
+       Semantic tokens — the single source of truth.
+       All components and themes use these names directly.
+       Default = Basic (black & white).
+       Theme overrides in themes.css.
+
+       Theming guide for custom themes:
+         Surfaces  : --bg-base, --bg-card, --bg-raised
+         Text      : --text-heading, --text-body, --text-muted
+         Borders   : --border-neutral, --highlight-border
+         Brand     : --primary-color, --brand-secondary, --accent-color
+         Section   : --section-heading-color  (book/category label text)
+         Functional: --success-color, --warning-color, --error-color
+       ================================ */
+
+   /* Surfaces
+       --bg-base   : outermost page background
+       --bg-card   : cards, panels, modal backgrounds
+       --bg-raised : elevated items — dropdowns, active rows, hover states */
+   --bg-base: hsl(0, 0%, 0%);
+   --bg-card: hsl(0, 0%, 4%);
+   --bg-raised: hsl(0, 0%, 9%);
+
+   /* Text
+       --text-heading : primary heading text (h1–h3, passage titles, modal titles)
+       --text-body    : body copy, list items, nav items, button labels
+       --text-muted   : secondary labels, captions, placeholder text */
+   --text-heading: hsl(0, 0%, 100%);
+   --text-body: hsl(0, 0%, 100%);
+   --text-muted: hsl(0, 0%, 65%);
+
+   /* Borders
+       --border-neutral  : standard dividers and outlines
+       --highlight-border: emphasized borders (active states, focus rings) */
+   --border-neutral: hsl(0, 0%, 20%);
+   --highlight-border: hsl(0, 0%, 30%);
+
+   /* Brand
+       --primary-color   : main interactive color (buttons, links, active states)
+       --brand-secondary : second brand accent (orange, amber, etc. per theme)
+       --accent-color    : tertiary accent for decorative elements */
+   --primary-color: hsl(0, 0%, 90%);
+   --primary-dark: hsl(0, 0%, 75%);
+   --primary-light: hsl(0, 0%, 100%);
+   --brand-secondary: hsl(0, 0%, 80%);
+   --accent-color: hsl(0, 0%, 85%);
+
+   /* Section headings
+       --section-heading-color : color for book/category label h4s in the
+       book & chapter selector. Separate from --brand-secondary so themes
+       can mute these labels without affecting the brand accent. */
+   --section-heading-color: hsl(0, 0%, 65%);
+
+   /* Functional */
+   --success-color: hsl(0, 0%, 80%);
+   --warning-color: hsl(0, 0%, 80%);
+   --error-color: hsl(0, 0%, 80%);
+
+   /* Component tokens */
+   --search-highlight-color: var(--brand-secondary);
+   --footnote-hover-bg: rgba(255, 255, 255, 0.10);
+}

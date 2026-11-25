@@ -1,0 +1,195 @@
+[
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "heading",
+    "text": "Salutation"
+  },
+  {
+    "ch": 1,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "heading",
+    "text": "Warning against False Teachers"
+  },
+  {
+    "ch": 1,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "heading",
+    "text": "Gratitude for Mercy"
+  },
+  {
+    "ch": 1,
+    "v": 12,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "heading",
+    "text": "Instructions concerning Prayer"
+  },
+  {
+    "ch": 2,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 2,
+    "v": 6,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 2,
+    "v": 7,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "heading",
+    "text": "Qualifications of Bishops"
+  },
+  {
+    "ch": 3,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "heading",
+    "text": "Qualifications of Deacons"
+  },
+  {
+    "ch": 3,
+    "v": 8,
+    "type": "para_break"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "heading",
+    "text": "The Mystery of Our Religion"
+  },
+  {
+    "ch": 3,
+    "v": 14,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "stanza_break"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "poetry",
+    "indent": 1
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "poetry",
+    "indent": 2
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "poetry",
+    "indent": 3
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "heading",
+    "text": "False Asceticism"
+  },
+  {
+    "ch": 4,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 4,
+    "v": 6,
+    "type": "heading",
+    "text": "A Good Minister of Jesus Christ"
+  },
+  {
+    "ch": 4,
+    "v": 6,
+    "type": "para_break"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "heading",
+    "text": "Duties toward Believers"
+  },
+  {
+    "ch": 5,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 1,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "heading",
+    "text": "False Teaching and True Riches"
+  },
+  {
+    "ch": 6,
+    "v": 3,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 11,
+    "type": "heading",
+    "text": "The Good Fight of Faith"
+  },
+  {
+    "ch": 6,
+    "v": 11,
+    "type": "para_break"
+  },
+  {
+    "ch": 6,
+    "v": 20,
+    "type": "heading",
+    "text": "Personal Instructions and Benediction"
+  },
+  {
+    "ch": 6,
+    "v": 20,
+    "type": "para_break"
+  }
+]
